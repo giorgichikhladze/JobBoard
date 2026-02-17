@@ -1,10 +1,80 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <title>$Title$</title>
-</head>
-<body>
-$END$
-</body>
-</html>
+{% extends "base.html" %}
+{% block content %}
+
+<div class="search-container" style="margin-bottom: 2rem;">
+    <input type="text" id="jobSearch" placeholder="მოძებნე ვაკანსია დასახელების მიხედვით..."
+           style="width: 100%; padding: 12px 20px; border-radius: 8px; border: 1px solid #cbd5e1; font-family: 'Inter', sans-serif; outline: none; transition: border 0.3s;"
+           onkeyup="filterJobs()">
+</div>
+
+<div class="job-list" id="jobList">
+    {% for job in jobs %}
+        <div class="job-card" style="background: white; padding: 20px; border-radius: 10px; margin-bottom: 20px; border: 1px solid #e2e8f0; box-shadow: 0 2px 4px rgba(0,0,0,0.05);">
+            <div style="display: flex; justify-content: space-between; align-items: flex-start;">
+                <div>
+                    <h2 class="job-title" style="color: #2563eb; margin: 0 0 5px 0; font-size: 1.5rem;">{{ job.title }}</h2>
+                    <h4 style="color: #64748b; margin: 0 0 10px 0;">{{ job.company }}</h4>
+                </div>
+                <span style="background: #eff6ff; color: #2563eb; padding: 4px 12px; border-radius: 15px; font-size: 0.8rem; font-weight: bold; border: 1px solid #dbeafe;">
+                    {{ job.category }}
+                </span>
+            </div>
+
+            <p style="color: #334155; margin-bottom: 15px;">
+                {{ job.description[:150] }}{% if job.description|length > 150 %}...{% endif %}
+            </p>
+
+            <div style="margin-top: 15px; font-size: 0.9rem; color: #64748b; padding-top: 10px; border-top: 1px solid #f1f5f9;">
+                <span style="margin-right: 15px;">📍 {{ job.location }}</span>
+                <span style="margin-right: 15px;">💰 {{ job.salary }}₾</span>
+                <span>👤 გამოაქვეყნა: <strong>{{ job.author.username }}-მ</strong></span>
+            </div>
+
+            <a href="{{ url_for('job_detail', job_id=job.id) }}" style="display: inline-block; margin-top: 15px; color: #2563eb; text-decoration: none; font-weight: bold; font-size: 0.95rem;">ნახვა →</a>
+        </div>
+    {% else %}
+        <p style="text-align: center; color: #64748b;">ვაკანსიები ჯერ არ არის. <a href="{{ url_for('post_job') }}">დაამატე პირველი!</a></p>
+    {% endfor %}
+</div>
+
+<div style="background: #f8fafc; padding: 20px; border-radius: 10px; margin-top: 40px; border: 1px solid #e2e8f0;">
+    <h4 style="margin-top: 0; color: #334155; display: flex; align-items: center; gap: 10px;">
+        <span style="font-size: 1.2rem;">💱</span> ვალუტის კურსი (GEL)
+    </h4>
+    <div style="display: flex; gap: 30px; font-family: 'Inter', sans-serif;">
+        {% if rates %}
+            <div style="display: flex; flex-direction: column;">
+                <span style="color: #94a3b8; font-size: 0.8rem; text-transform: uppercase;">USD</span>
+                <span style="font-weight: bold; color: #1e293b;">{{ rates.get('USD') }}</span>
+            </div>
+            <div style="display: flex; flex-direction: column;">
+                <span style="color: #94a3b8; font-size: 0.8rem; text-transform: uppercase;">EUR</span>
+                <span style="font-weight: bold; color: #1e293b;">{{ rates.get('EUR') }}</span>
+            </div>
+            <div style="display: flex; flex-direction: column;">
+                <span style="color: #94a3b8; font-size: 0.8rem; text-transform: uppercase;">GBP</span>
+                <span style="font-weight: bold; color: #1e293b;">{{ rates.get('GBP') }}</span>
+            </div>
+        {% else %}
+            <p style="color: #ef4444; font-size: 0.9rem;">კურსების ჩატვირთვა ვერ მოხერხდა.</p>
+        {% endif %}
+    </div>
+</div>
+
+<script>
+function filterJobs() {
+    let input = document.getElementById('jobSearch').value.toLowerCase();
+    let jobCards = document.getElementsByClassName('job-card');
+
+    for (let i = 0; i < jobCards.length; i++) {
+        let title = jobCards[i].getElementsByClassName('job-title')[0].innerText.toLowerCase();
+        if (title.includes(input)) {
+            jobCards[i].style.display = "";
+        } else {
+            jobCards[i].style.display = "none";
+        }
+    }
+}
+</script>
+
+{% endblock %}

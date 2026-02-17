@@ -1,8 +1,6 @@
-// main.js - Custom Interactions for JobBoard
-
 document.addEventListener('DOMContentLoaded', () => {
 
-    // 1. Sticky Header Effect
+    // ნავბარისთვის ეფექტი
     const header = document.querySelector('.navbar');
     window.addEventListener('scroll', () => {
         if (window.scrollY > 50) {
@@ -14,8 +12,7 @@ document.addEventListener('DOMContentLoaded', () => {
         }
     });
 
-    // 2. Confirmation for Deleting Actions
-    // Usage: Add class="btn-delete" to your delete links/buttons
+    // 2. კონფირმაცია წაშლისთვის
     const deleteButtons = document.querySelectorAll('.btn-delete');
     deleteButtons.forEach(button => {
         button.addEventListener('click', (e) => {
@@ -26,8 +23,7 @@ document.addEventListener('DOMContentLoaded', () => {
         });
     });
 
-    // 3. Simple Search Filter (Frontend only)
-    // Usage: Add id="jobSearch" to an input field
+// 3. ძიების ფილტრი
     const searchInput = document.getElementById('jobSearch');
     if (searchInput) {
         searchInput.addEventListener('keyup', () => {
@@ -35,18 +31,19 @@ document.addEventListener('DOMContentLoaded', () => {
             const cards = document.querySelectorAll('.job-card');
 
             cards.forEach(card => {
-                const title = card.querySelector('h2').innerText.toLowerCase();
-                if (title.includes(filter)) {
-                    card.style.display = "";
+                const titleElement = card.querySelector('h2');
+                const titleText = titleElement ? titleElement.innerText.toLowerCase() : "";
+
+                if (titleText.includes(filter)) {
+                    card.style.display = "block";
                 } else {
                     card.style.display = "none";
                 }
             });
         });
     }
-});
 
-// Auto-hide Flash Messages
+// flash-ის ავტომატურად გასაქრობად
 const alerts = document.querySelectorAll('.alert');
 alerts.forEach(alert => {
     setTimeout(() => {

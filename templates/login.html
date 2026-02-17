@@ -1,0 +1,20 @@
+{% extends "base.html" %}
+{% block content %}
+<div class="form-container">
+    <h2 style="color: var(--primary-blue); text-align: center; margin-bottom: 30px;">ავტორიზაცია</h2>
+    <form method="POST">
+        {{ form.hidden_tag() }}
+        {{ form.email.label }}
+        {{ form.email() }}
+
+        {{ form.password.label }}
+        {{ form.password() }}
+
+        <div style="margin-bottom: 20px; display: flex; align-items: center; gap: 10px;">
+            {{ form.remember() }} {{ form.remember.label }}
+        </div>
+
+        {{ form.submit(class="btn-primary") }}
+    </form>
+</div>
+{% endblock %}

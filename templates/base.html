@@ -1,10 +1,103 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" style="height: 100%;">
 <head>
-  <meta charset="UTF-8">
-  <title>$Title$</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JobBoard - {{ title }}</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+<style>
+    html, body {
+        height: 100%;
+        margin: 0;
+        padding: 0;
+    }
+
+    body {
+        min-height: 100vh;
+        position: relative;
+        display: block;
+    }
+
+    main.container {
+        min-height: calc(100vh - 450px);
+        padding-bottom: 20px;
+    }
+
+    footer {
+        background-color: #1e293b;
+        color: #f8fafc;
+        padding: 40px 0;
+        width: 100%;
+    }
+</style>
 </head>
 <body>
-$END$
+    <header class="navbar">
+        <div class="container">
+            <a href="{{ url_for('home') }}" class="logo">JobBoard</a>
+            <nav>
+                <ul class="nav-links">
+                    <li><a href="{{ url_for('home') }}">Jobs</a></li>
+                    <li><a href="{{ url_for('about') }}">About</a></li>
+                    {% if current_user.is_authenticated %}
+                        <li><a href="{{ url_for('post_job') }}">Add Job</a></li>
+                        <li><a href="/logout">Logout</a></li>
+                        <li><a href="{{ url_for('profile') }}">Profile</a></li>
+                    {% else %}
+                        <li><a href="{{ url_for('login') }}">Login</a></li>
+                        <li><a href="{{ url_for('register') }}">Register</a></li>
+                    {% endif %}
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main class="container">
+        {% with messages = get_flashed_messages(with_categories=true) %}
+          {% if messages %}
+            {% for category, message in messages %}
+              <div style="padding: 15px; margin-bottom: 20px; border-radius: 5px;
+                          background-color: {{ '#f8d7da' if category == 'danger' else '#d4edda' }};
+                          color: {{ '#721c24' if category == 'danger' else '#155724' }};">
+                {{ message }}
+              </div>
+            {% endfor %}
+          {% endif %}
+        {% endwith %}
+
+        {% block content %}{% endblock %}
+    </main>
+
+    <footer style="background-color: #1e293b; color: #f8fafc; padding: 40px 0; margin-top: 60px; font-family: 'Inter', sans-serif;">
+        <div class="container" style="display: flex; justify-content: space-between; align-items: flex-start; flex-wrap: wrap; gap: 30px;">
+            <div style="flex: 1; min-width: 250px;">
+                <h3 style="color: #3b82f6; margin-bottom: 15px;">JobBoard</h3>
+                <p style="color: #94a3b8; font-size: 0.9rem; line-height: 1.6;">
+                    საუკეთესო პლატფორმა ვაკანსიების მოსაძებნად და განსათავსებლად საქართველოში.
+                </p>
+            </div>
+
+            <div style="flex: 1; min-width: 150px;">
+                <h4 style="margin-bottom: 15px; font-size: 1.1rem;">ნავიგაცია</h4>
+                <ul style="list-style: none; padding: 0; font-size: 0.9rem; line-height: 2;">
+                    <li><a href="{{ url_for('home') }}" style="color: #cbd5e1; text-decoration: none;">მთავარი</a></li>
+                    <li><a href="{{ url_for('post_job') }}" style="color: #cbd5e1; text-decoration: none;">ვაკანსიის დამატება</a></li>
+                    <li><a href="/about" style="color: #cbd5e1; text-decoration: none;">ჩვენს შესახებ</a></li>
+                </ul>
+            </div>
+
+            <div style="flex: 1; min-width: 200px;">
+                <h4 style="margin-bottom: 15px; font-size: 1.1rem;">კონტაქტი</h4>
+                <p style="color: #cbd5e1; font-size: 0.9rem; margin: 5px 0;">📧 info@jobboard.ge</p>
+                <p style="color: #cbd5e1; font-size: 0.9rem; margin: 5px 0;">📞 +995 322 00 00 00</p>
+            </div>
+        </div>
+
+        <div style="text-align: center; margin-top: 40px; padding-top: 20px; border-top: 1px solid #334155; color: #64748b; font-size: 0.85rem;">
+            &copy; 2026 JobBoard Project. ყველა უფლება დაცულია.
+        </div>
+    </footer>
+
+    <script src="{{ url_for('static', filename='js/main.js') }}"></script>
 </body>
 </html>

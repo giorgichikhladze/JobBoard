@@ -1,10 +1,15 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <title>$Title$</title>
-</head>
-<body>
-$END$
-</body>
-</html>
+{% extends "base.html" %}
+
+{% block content %}
+<div style="text-align: center; padding: 100px 20px; font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;">
+    <h1 style="font-size: 120px; color: #ef4444; margin: 0; line-height: 1;">500</h1>
+    <h2 style="color: #1e293b; margin-top: 10px; font-size: 2rem;">სისტემური შეცდომა</h2>
+    <p style="color: #64748b; max-width: 500px; margin: 20px auto 40px; line-height: 1.6;">
+        უკაცრავად, სერვერზე რაღაც არასწორად წავიდა. ჩვენი გუნდი უკვე მუშაობს პრობლემის გამოსასწორებლად. გთხოვთ, სცადოთ გვერდის განახლება მოგვიანებით.
+    </p>
+    <div style="display: flex; justify-content: center; gap: 15px;">
+        <a href="{{ url_for('home') }}" style="background: var(--primary-blue); color: white; padding: 12px 25px; border-radius: 8px; text-decoration: none; font-weight: 600; transition: 0.3s;">მთავარზე დაბრუნება</a>
+        <a href="javascript:location.reload();" style="background: #f1f5f9; color: #1e293b; padding: 12px 25px; border-radius: 8px; text-decoration: none; font-weight: 600; border: 1px solid #e2e8f0;">გვერდის განახლება</a>
+    </div>
+</div>
+{% endblock %}

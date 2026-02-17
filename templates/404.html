@@ -1,10 +1,10 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <title>$Title$</title>
-</head>
-<body>
-$END$
-</body>
-</html>
+{% extends "base.html" %}
+
+{% block content %}
+<div style="text-align: center; padding: 100px 20px;">
+    <h1 style="font-size: 100px; color: var(--primary-blue); margin-bottom: 0;">404</h1>
+    <h2 style="color: #64748b; margin-top: 0;">სამწუხაროდ გვერდი ვერ მოიძებნა :(</h2>
+    <p style="margin-bottom: 30px;">თქვენს მიერ მოთხოვნილი მისამართი არ არსებობს ან დროებით მიუწვდომელია.</p>
+    <a href="{{ url_for('home') }}" class="btn-primary" style="text-decoration: none; padding: 12px 25px; border-radius: 8px;">მთავარ გვერდზე დაბრუნება</a>
+</div>
+{% endblock %}

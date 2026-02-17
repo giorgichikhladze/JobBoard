@@ -1,0 +1,871 @@
+2026-02-15 23:10:57,800:WARNING: * Debugger is active!
+2026-02-15 23:10:57,821:INFO: * Debugger PIN: 500-028-211
+2026-02-15 23:12:23,414:INFO: * Detected change in '/Users/giorgi/PycharmProjects/JobBoard/routes.py', reloading
+2026-02-15 23:12:24,272:WARNING: * Debugger is active!
+2026-02-15 23:12:24,287:INFO: * Debugger PIN: 500-028-211
+2026-02-15 23:13:07,687:INFO: * Detected change in '/Users/giorgi/PycharmProjects/JobBoard/routes.py', reloading
+2026-02-15 23:13:08,625:WARNING: * Debugger is active!
+2026-02-15 23:13:08,650:INFO: * Debugger PIN: 500-028-211
+2026-02-15 23:13:47,980:INFO: * Detected change in '/Users/giorgi/PycharmProjects/JobBoard/routes.py', reloading
+2026-02-15 23:13:48,580:WARNING: * Debugger is active!
+2026-02-15 23:13:48,596:INFO: * Debugger PIN: 500-028-211
+2026-02-15 23:15:37,461:INFO: * Detected change in '/Users/giorgi/PycharmProjects/JobBoard/tests.py', reloading
+2026-02-15 23:15:38,177:WARNING: * Debugger is active!
+2026-02-15 23:15:38,195:INFO: * Debugger PIN: 500-028-211
+2026-02-15 23:15:47,286:INFO: * Detected change in '/Users/giorgi/PycharmProjects/JobBoard/tests.py', reloading
+2026-02-15 23:15:47,988:WARNING: * Debugger is active!
+2026-02-15 23:15:48,006:INFO: * Debugger PIN: 500-028-211
+2026-02-15 23:16:04,211:INFO:წარმატებული ავტორიზაცია: test@test.com
+2026-02-15 23:17:01,593:INFO: * Detected change in '/Users/giorgi/PycharmProjects/JobBoard/tests.py', reloading
+2026-02-15 23:17:02,284:WARNING: * Debugger is active!
+2026-02-15 23:17:02,304:INFO: * Debugger PIN: 500-028-211
+2026-02-15 23:17:17,189:INFO:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2026-02-15 23:17:17,189:INFO:[33mPress CTRL+C to quit[0m
+2026-02-15 23:17:17,189:INFO: * Restarting with stat
+2026-02-15 23:17:17,540:WARNING: * Debugger is active!
+2026-02-15 23:17:17,554:INFO: * Debugger PIN: 500-028-211
+2026-02-15 23:17:25,316:INFO:წარმატებული ავტორიზაცია: test@test.com
+2026-02-15 23:17:59,377:INFO:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2026-02-15 23:17:59,377:INFO:[33mPress CTRL+C to quit[0m
+2026-02-15 23:17:59,378:INFO: * Restarting with stat
+2026-02-15 23:17:59,724:WARNING: * Debugger is active!
+2026-02-15 23:17:59,738:INFO: * Debugger PIN: 500-028-211
+2026-02-15 23:18:11,836:WARNING:წარუმატებელი ავტორიზაცია: test@test.com
+2026-02-15 23:18:36,026:INFO: * Detected change in '/Users/giorgi/PycharmProjects/JobBoard/models.py', reloading
+2026-02-15 23:18:36,131:INFO: * Restarting with stat
+2026-02-15 23:18:36,570:WARNING: * Debugger is active!
+2026-02-15 23:18:36,591:INFO: * Debugger PIN: 500-028-211
+2026-02-15 23:18:43,316:INFO:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2026-02-15 23:18:43,316:INFO:[33mPress CTRL+C to quit[0m
+2026-02-15 23:18:43,317:INFO: * Restarting with stat
+2026-02-15 23:18:43,652:WARNING: * Debugger is active!
+2026-02-15 23:18:43,665:INFO: * Debugger PIN: 500-028-211
+2026-02-15 23:18:49,936:WARNING:წარუმატებელი ავტორიზაცია: test@test.com
+2026-02-15 23:19:54,528:INFO:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2026-02-15 23:19:54,529:INFO:[33mPress CTRL+C to quit[0m
+2026-02-15 23:19:54,529:INFO: * Restarting with stat
+2026-02-15 23:19:55,080:INFO:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2026-02-15 23:19:55,080:INFO:[33mPress CTRL+C to quit[0m
+2026-02-15 23:19:55,081:INFO: * Restarting with stat
+2026-02-15 23:19:55,463:WARNING: * Debugger is active!
+2026-02-15 23:19:55,478:INFO: * Debugger PIN: 500-028-211
+2026-02-15 23:20:06,859:WARNING:წარუმატებელი ავტორიზაცია: test@test.com
+2026-02-16 00:12:33,243:INFO:127.0.0.1 - - [16/Feb/2026 00:12:33] "[35m[1mGET /home HTTP/1.1[0m" 500 -
+2026-02-16 00:12:33,629:INFO:127.0.0.1 - - [16/Feb/2026 00:12:33] "[36mGET /home?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2026-02-16 00:12:33,630:INFO:127.0.0.1 - - [16/Feb/2026 00:12:33] "[36mGET /home?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2026-02-16 00:12:33,635:INFO:127.0.0.1 - - [16/Feb/2026 00:12:33] "GET /home?__debugger__=yes&cmd=resource&f=console.png&s=fut36NlKbto1PRvzmPS7 HTTP/1.1" 200 -
+2026-02-16 00:12:48,559:INFO:127.0.0.1 - - [16/Feb/2026 00:12:48] "[35m[1mGET /home HTTP/1.1[0m" 500 -
+2026-02-16 00:12:48,575:INFO:127.0.0.1 - - [16/Feb/2026 00:12:48] "[36mGET /home?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2026-02-16 00:12:48,576:INFO:127.0.0.1 - - [16/Feb/2026 00:12:48] "[36mGET /home?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2026-02-16 00:12:48,580:INFO:127.0.0.1 - - [16/Feb/2026 00:12:48] "[36mGET /home?__debugger__=yes&cmd=resource&f=console.png&s=fut36NlKbto1PRvzmPS7 HTTP/1.1[0m" 304 -
+2026-02-16 00:13:12,170:INFO:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2026-02-16 00:13:12,170:INFO:[33mPress CTRL+C to quit[0m
+2026-02-16 00:13:12,171:INFO: * Restarting with stat
+2026-02-16 00:13:12,876:WARNING: * Debugger is active!
+2026-02-16 00:13:12,923:INFO: * Debugger PIN: 500-028-211
+2026-02-16 00:13:13,903:INFO:127.0.0.1 - - [16/Feb/2026 00:13:13] "GET /home HTTP/1.1" 200 -
+2026-02-16 00:13:13,919:INFO:127.0.0.1 - - [16/Feb/2026 00:13:13] "GET /static/js/main.js HTTP/1.1" 200 -
+2026-02-16 00:13:13,919:INFO:127.0.0.1 - - [16/Feb/2026 00:13:13] "GET /static/css/style.css HTTP/1.1" 200 -
+2026-02-16 00:13:23,069:INFO:127.0.0.1 - - [16/Feb/2026 00:13:23] "GET /home HTTP/1.1" 200 -
+2026-02-16 00:13:23,083:INFO:127.0.0.1 - - [16/Feb/2026 00:13:23] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-02-16 00:13:23,084:INFO:127.0.0.1 - - [16/Feb/2026 00:13:23] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+2026-02-16 00:13:34,276:INFO:127.0.0.1 - - [16/Feb/2026 00:13:34] "GET /home HTTP/1.1" 200 -
+2026-02-16 00:13:34,290:INFO:127.0.0.1 - - [16/Feb/2026 00:13:34] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-02-16 00:13:34,291:INFO:127.0.0.1 - - [16/Feb/2026 00:13:34] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+2026-02-16 00:13:54,756:INFO:127.0.0.1 - - [16/Feb/2026 00:13:54] "GET /login HTTP/1.1" 200 -
+2026-02-16 00:13:55,054:INFO:127.0.0.1 - - [16/Feb/2026 00:13:55] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+2026-02-16 00:13:55,055:INFO:127.0.0.1 - - [16/Feb/2026 00:13:55] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-02-16 00:13:58,374:WARNING:წარუმატებელი ავტორიზაცია: testest@gmail.com
+2026-02-16 00:13:58,375:INFO:127.0.0.1 - - [16/Feb/2026 00:13:58] "POST /login HTTP/1.1" 200 -
+2026-02-16 00:13:58,382:INFO:127.0.0.1 - - [16/Feb/2026 00:13:58] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-02-16 00:13:58,383:INFO:127.0.0.1 - - [16/Feb/2026 00:13:58] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+2026-02-16 00:14:05,590:WARNING:წარუმატებელი ავტორიზაცია: username@gmail.com
+2026-02-16 00:14:05,592:INFO:127.0.0.1 - - [16/Feb/2026 00:14:05] "POST /login HTTP/1.1" 200 -
+2026-02-16 00:14:05,599:INFO:127.0.0.1 - - [16/Feb/2026 00:14:05] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-02-16 00:14:05,600:INFO:127.0.0.1 - - [16/Feb/2026 00:14:05] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+2026-02-16 00:14:15,033:INFO:127.0.0.1 - - [16/Feb/2026 00:14:15] "GET /home HTTP/1.1" 200 -
+2026-02-16 00:14:15,041:INFO:127.0.0.1 - - [16/Feb/2026 00:14:15] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-02-16 00:14:15,041:INFO:127.0.0.1 - - [16/Feb/2026 00:14:15] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+2026-02-16 00:15:15,805:INFO:127.0.0.1 - - [16/Feb/2026 00:15:15] "GET /home HTTP/1.1" 200 -
+2026-02-16 00:15:15,819:INFO:127.0.0.1 - - [16/Feb/2026 00:15:15] "GET /static/css/style.css HTTP/1.1" 200 -
+2026-02-16 00:15:15,820:INFO:127.0.0.1 - - [16/Feb/2026 00:15:15] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+2026-02-16 00:15:25,967:INFO:127.0.0.1 - - [16/Feb/2026 00:15:25] "GET /home HTTP/1.1" 200 -
+2026-02-16 00:15:25,978:INFO:127.0.0.1 - - [16/Feb/2026 00:15:25] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+2026-02-16 00:15:25,979:INFO:127.0.0.1 - - [16/Feb/2026 00:15:25] "GET /static/css/style.css HTTP/1.1" 200 -
+2026-02-16 00:15:40,563:INFO:127.0.0.1 - - [16/Feb/2026 00:15:40] "GET /home HTTP/1.1" 200 -
+2026-02-16 00:15:40,575:INFO:127.0.0.1 - - [16/Feb/2026 00:15:40] "GET /static/css/style.css HTTP/1.1" 200 -
+2026-02-16 00:15:40,576:INFO:127.0.0.1 - - [16/Feb/2026 00:15:40] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+2026-02-16 00:15:41,418:INFO:127.0.0.1 - - [16/Feb/2026 00:15:41] "GET /home HTTP/1.1" 200 -
+2026-02-16 00:15:41,430:INFO:127.0.0.1 - - [16/Feb/2026 00:15:41] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+2026-02-16 00:15:41,430:INFO:127.0.0.1 - - [16/Feb/2026 00:15:41] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-02-16 00:15:45,483:INFO:127.0.0.1 - - [16/Feb/2026 00:15:45] "GET /home HTTP/1.1" 200 -
+2026-02-16 00:15:45,496:INFO:127.0.0.1 - - [16/Feb/2026 00:15:45] "GET /static/css/style.css HTTP/1.1" 200 -
+2026-02-16 00:15:45,496:INFO:127.0.0.1 - - [16/Feb/2026 00:15:45] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+2026-02-16 00:16:36,163:INFO:127.0.0.1 - - [16/Feb/2026 00:16:36] "GET /home HTTP/1.1" 200 -
+2026-02-16 00:16:36,181:INFO:127.0.0.1 - - [16/Feb/2026 00:16:36] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+2026-02-16 00:16:36,181:INFO:127.0.0.1 - - [16/Feb/2026 00:16:36] "GET /static/css/style.css HTTP/1.1" 200 -
+2026-02-16 00:16:47,723:INFO:127.0.0.1 - - [16/Feb/2026 00:16:47] "GET /home HTTP/1.1" 200 -
+2026-02-16 00:16:47,737:INFO:127.0.0.1 - - [16/Feb/2026 00:16:47] "GET /static/css/style.css HTTP/1.1" 200 -
+2026-02-16 00:16:47,738:INFO:127.0.0.1 - - [16/Feb/2026 00:16:47] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+2026-02-16 00:17:04,716:INFO:127.0.0.1 - - [16/Feb/2026 00:17:04] "GET /home HTTP/1.1" 200 -
+2026-02-16 00:17:04,729:INFO:127.0.0.1 - - [16/Feb/2026 00:17:04] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+2026-02-16 00:17:04,729:INFO:127.0.0.1 - - [16/Feb/2026 00:17:04] "GET /static/css/style.css HTTP/1.1" 200 -
+2026-02-16 00:18:04,584:INFO:127.0.0.1 - - [16/Feb/2026 00:18:04] "GET /home HTTP/1.1" 200 -
+2026-02-16 00:18:05,028:INFO:127.0.0.1 - - [16/Feb/2026 00:18:05] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+2026-02-16 00:18:05,028:INFO:127.0.0.1 - - [16/Feb/2026 00:18:05] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-02-16 00:18:19,445:INFO:127.0.0.1 - - [16/Feb/2026 00:18:19] "GET /home HTTP/1.1" 200 -
+2026-02-16 00:18:19,456:INFO:127.0.0.1 - - [16/Feb/2026 00:18:19] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-02-16 00:18:19,456:INFO:127.0.0.1 - - [16/Feb/2026 00:18:19] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+2026-02-16 00:18:22,929:INFO:127.0.0.1 - - [16/Feb/2026 00:18:22] "GET /login HTTP/1.1" 200 -
+2026-02-16 00:18:22,937:INFO:127.0.0.1 - - [16/Feb/2026 00:18:22] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-02-16 00:18:22,937:INFO:127.0.0.1 - - [16/Feb/2026 00:18:22] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+2026-02-16 00:18:27,374:INFO:127.0.0.1 - - [16/Feb/2026 00:18:27] "GET /register HTTP/1.1" 200 -
+2026-02-16 00:18:27,668:INFO:127.0.0.1 - - [16/Feb/2026 00:18:27] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+2026-02-16 00:18:27,669:INFO:127.0.0.1 - - [16/Feb/2026 00:18:27] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-02-16 00:18:33,454:INFO:127.0.0.1 - - [16/Feb/2026 00:18:33] "GET /register HTTP/1.1" 200 -
+2026-02-16 00:18:33,464:INFO:127.0.0.1 - - [16/Feb/2026 00:18:33] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-02-16 00:18:33,465:INFO:127.0.0.1 - - [16/Feb/2026 00:18:33] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+2026-02-16 00:18:37,133:INFO:127.0.0.1 - - [16/Feb/2026 00:18:37] "GET /home HTTP/1.1" 200 -
+2026-02-16 00:18:37,146:INFO:127.0.0.1 - - [16/Feb/2026 00:18:37] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+2026-02-16 00:18:37,147:INFO:127.0.0.1 - - [16/Feb/2026 00:18:37] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-02-16 00:18:39,463:INFO:127.0.0.1 - - [16/Feb/2026 00:18:39] "GET /login HTTP/1.1" 200 -
+2026-02-16 00:18:39,470:INFO:127.0.0.1 - - [16/Feb/2026 00:18:39] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-02-16 00:18:39,470:INFO:127.0.0.1 - - [16/Feb/2026 00:18:39] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+2026-02-16 00:18:42,343:INFO:127.0.0.1 - - [16/Feb/2026 00:18:42] "GET /register HTTP/1.1" 200 -
+2026-02-16 00:18:42,350:INFO:127.0.0.1 - - [16/Feb/2026 00:18:42] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+2026-02-16 00:18:42,350:INFO:127.0.0.1 - - [16/Feb/2026 00:18:42] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-02-16 00:18:45,162:INFO:127.0.0.1 - - [16/Feb/2026 00:18:45] "GET /about HTTP/1.1" 200 -
+2026-02-16 00:18:45,439:INFO:127.0.0.1 - - [16/Feb/2026 00:18:45] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-02-16 00:18:45,441:INFO:127.0.0.1 - - [16/Feb/2026 00:18:45] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+2026-02-16 00:18:50,082:INFO:127.0.0.1 - - [16/Feb/2026 00:18:50] "GET /home HTTP/1.1" 200 -
+2026-02-16 00:18:50,094:INFO:127.0.0.1 - - [16/Feb/2026 00:18:50] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-02-16 00:18:50,094:INFO:127.0.0.1 - - [16/Feb/2026 00:18:50] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+2026-02-16 00:18:52,271:INFO:127.0.0.1 - - [16/Feb/2026 00:18:52] "GET /home HTTP/1.1" 200 -
+2026-02-16 00:18:52,283:INFO:127.0.0.1 - - [16/Feb/2026 00:18:52] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-02-16 00:18:52,283:INFO:127.0.0.1 - - [16/Feb/2026 00:18:52] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+2026-02-16 00:19:36,993:INFO:127.0.0.1 - - [16/Feb/2026 00:19:36] "GET /home HTTP/1.1" 200 -
+2026-02-16 00:19:37,011:INFO:127.0.0.1 - - [16/Feb/2026 00:19:37] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+2026-02-16 00:19:37,012:INFO:127.0.0.1 - - [16/Feb/2026 00:19:37] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-02-16 00:19:37,640:INFO:127.0.0.1 - - [16/Feb/2026 00:19:37] "GET /home HTTP/1.1" 200 -
+2026-02-16 00:19:37,652:INFO:127.0.0.1 - - [16/Feb/2026 00:19:37] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-02-16 00:19:37,653:INFO:127.0.0.1 - - [16/Feb/2026 00:19:37] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+2026-02-16 00:19:38,927:INFO:127.0.0.1 - - [16/Feb/2026 00:19:38] "GET /about HTTP/1.1" 200 -
+2026-02-16 00:19:38,934:INFO:127.0.0.1 - - [16/Feb/2026 00:19:38] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+2026-02-16 00:19:38,935:INFO:127.0.0.1 - - [16/Feb/2026 00:19:38] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-02-16 00:19:41,750:INFO:127.0.0.1 - - [16/Feb/2026 00:19:41] "GET /home HTTP/1.1" 200 -
+2026-02-16 00:19:41,765:INFO:127.0.0.1 - - [16/Feb/2026 00:19:41] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-02-16 00:19:41,769:INFO:127.0.0.1 - - [16/Feb/2026 00:19:41] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+2026-02-16 00:19:50,670:INFO:127.0.0.1 - - [16/Feb/2026 00:19:50] "GET /home HTTP/1.1" 200 -
+2026-02-16 00:19:50,690:INFO:127.0.0.1 - - [16/Feb/2026 00:19:50] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-02-16 00:19:50,692:INFO:127.0.0.1 - - [16/Feb/2026 00:19:50] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+2026-02-16 00:20:02,968:INFO:127.0.0.1 - - [16/Feb/2026 00:20:02] "GET /home HTTP/1.1" 200 -
+2026-02-16 00:20:02,982:INFO:127.0.0.1 - - [16/Feb/2026 00:20:02] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-02-16 00:20:02,982:INFO:127.0.0.1 - - [16/Feb/2026 00:20:02] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+2026-02-16 00:20:13,116:INFO:127.0.0.1 - - [16/Feb/2026 00:20:13] "GET /home HTTP/1.1" 200 -
+2026-02-16 00:20:13,125:INFO:127.0.0.1 - - [16/Feb/2026 00:20:13] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-02-16 00:20:13,125:INFO:127.0.0.1 - - [16/Feb/2026 00:20:13] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+2026-02-16 00:20:15,047:INFO:127.0.0.1 - - [16/Feb/2026 00:20:15] "GET /login HTTP/1.1" 200 -
+2026-02-16 00:20:15,336:INFO:127.0.0.1 - - [16/Feb/2026 00:20:15] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-02-16 00:20:15,337:INFO:127.0.0.1 - - [16/Feb/2026 00:20:15] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+2026-02-16 00:21:50,591:INFO:127.0.0.1 - - [16/Feb/2026 00:21:50] "GET /login HTTP/1.1" 200 -
+2026-02-16 00:21:50,599:INFO:127.0.0.1 - - [16/Feb/2026 00:21:50] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-02-16 00:21:53,955:INFO:127.0.0.1 - - [16/Feb/2026 00:21:53] "GET /home HTTP/1.1" 200 -
+2026-02-16 00:21:53,967:INFO:127.0.0.1 - - [16/Feb/2026 00:21:53] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-02-16 00:21:56,518:INFO:127.0.0.1 - - [16/Feb/2026 00:21:56] "GET /about HTTP/1.1" 200 -
+2026-02-16 00:21:56,524:INFO:127.0.0.1 - - [16/Feb/2026 00:21:56] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-02-16 00:21:57,603:INFO:127.0.0.1 - - [16/Feb/2026 00:21:57] "GET /login HTTP/1.1" 200 -
+2026-02-16 00:21:57,608:INFO:127.0.0.1 - - [16/Feb/2026 00:21:57] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-02-16 00:21:58,165:INFO:127.0.0.1 - - [16/Feb/2026 00:21:58] "GET /register HTTP/1.1" 200 -
+2026-02-16 00:21:58,171:INFO:127.0.0.1 - - [16/Feb/2026 00:21:58] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-02-16 00:22:10,944:INFO:127.0.0.1 - - [16/Feb/2026 00:22:10] "GET /home HTTP/1.1" 200 -
+2026-02-16 00:22:10,953:INFO:127.0.0.1 - - [16/Feb/2026 00:22:10] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-02-16 00:22:32,229:INFO:127.0.0.1 - - [16/Feb/2026 00:22:32] "GET /home HTTP/1.1" 200 -
+2026-02-16 00:22:32,246:INFO:127.0.0.1 - - [16/Feb/2026 00:22:32] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-02-16 00:22:34,202:INFO:127.0.0.1 - - [16/Feb/2026 00:22:34] "GET /login HTTP/1.1" 200 -
+2026-02-16 00:22:34,209:INFO:127.0.0.1 - - [16/Feb/2026 00:22:34] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-02-16 00:22:46,576:INFO:127.0.0.1 - - [16/Feb/2026 00:22:46] "GET /login HTTP/1.1" 200 -
+2026-02-16 00:22:46,587:INFO:127.0.0.1 - - [16/Feb/2026 00:22:46] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-02-16 00:22:49,611:INFO:127.0.0.1 - - [16/Feb/2026 00:22:49] "GET /home HTTP/1.1" 200 -
+2026-02-16 00:22:49,623:INFO:127.0.0.1 - - [16/Feb/2026 00:22:49] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-02-16 00:22:52,935:INFO:127.0.0.1 - - [16/Feb/2026 00:22:52] "GET /about HTTP/1.1" 200 -
+2026-02-16 00:22:52,941:INFO:127.0.0.1 - - [16/Feb/2026 00:22:52] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-02-16 00:22:53,671:INFO:127.0.0.1 - - [16/Feb/2026 00:22:53] "GET /home HTTP/1.1" 200 -
+2026-02-16 00:22:53,686:INFO:127.0.0.1 - - [16/Feb/2026 00:22:53] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-02-16 00:23:22,153:INFO:127.0.0.1 - - [16/Feb/2026 00:23:22] "GET /home HTTP/1.1" 200 -
+2026-02-16 00:23:22,593:INFO:127.0.0.1 - - [16/Feb/2026 00:23:22] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-02-16 00:23:22,595:INFO:127.0.0.1 - - [16/Feb/2026 00:23:22] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+2026-02-16 00:23:25,847:INFO:127.0.0.1 - - [16/Feb/2026 00:23:25] "GET /about HTTP/1.1" 200 -
+2026-02-16 00:23:25,856:INFO:127.0.0.1 - - [16/Feb/2026 00:23:25] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-02-16 00:23:25,858:INFO:127.0.0.1 - - [16/Feb/2026 00:23:25] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+2026-02-16 00:23:26,431:INFO:127.0.0.1 - - [16/Feb/2026 00:23:26] "GET /login HTTP/1.1" 200 -
+2026-02-16 00:23:26,439:INFO:127.0.0.1 - - [16/Feb/2026 00:23:26] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-02-16 00:23:26,441:INFO:127.0.0.1 - - [16/Feb/2026 00:23:26] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+2026-02-16 00:23:29,849:INFO:127.0.0.1 - - [16/Feb/2026 00:23:29] "GET /register HTTP/1.1" 200 -
+2026-02-16 00:23:30,129:INFO:127.0.0.1 - - [16/Feb/2026 00:23:30] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-02-16 00:23:30,130:INFO:127.0.0.1 - - [16/Feb/2026 00:23:30] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+2026-02-16 00:23:31,170:INFO:127.0.0.1 - - [16/Feb/2026 00:23:31] "GET /home HTTP/1.1" 200 -
+2026-02-16 00:23:31,183:INFO:127.0.0.1 - - [16/Feb/2026 00:23:31] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-02-16 00:23:31,184:INFO:127.0.0.1 - - [16/Feb/2026 00:23:31] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+2026-02-16 00:24:15,171:INFO:127.0.0.1 - - [16/Feb/2026 00:24:15] "GET /home HTTP/1.1" 200 -
+2026-02-16 00:24:15,185:INFO:127.0.0.1 - - [16/Feb/2026 00:24:15] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-02-16 00:24:15,185:INFO:127.0.0.1 - - [16/Feb/2026 00:24:15] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+2026-02-16 00:24:17,742:INFO:127.0.0.1 - - [16/Feb/2026 00:24:17] "GET /about HTTP/1.1" 200 -
+2026-02-16 00:24:18,013:INFO:127.0.0.1 - - [16/Feb/2026 00:24:18] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-02-16 00:24:18,016:INFO:127.0.0.1 - - [16/Feb/2026 00:24:18] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+2026-02-16 00:24:18,411:INFO:127.0.0.1 - - [16/Feb/2026 00:24:18] "GET /login HTTP/1.1" 200 -
+2026-02-16 00:24:18,420:INFO:127.0.0.1 - - [16/Feb/2026 00:24:18] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+2026-02-16 00:24:18,421:INFO:127.0.0.1 - - [16/Feb/2026 00:24:18] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-02-16 00:24:19,426:INFO:127.0.0.1 - - [16/Feb/2026 00:24:19] "GET /register HTTP/1.1" 200 -
+2026-02-16 00:24:19,434:INFO:127.0.0.1 - - [16/Feb/2026 00:24:19] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-02-16 00:24:19,434:INFO:127.0.0.1 - - [16/Feb/2026 00:24:19] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+2026-02-16 00:24:22,747:INFO:127.0.0.1 - - [16/Feb/2026 00:24:22] "GET /home HTTP/1.1" 200 -
+2026-02-16 00:24:22,757:INFO:127.0.0.1 - - [16/Feb/2026 00:24:22] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-02-16 00:24:22,757:INFO:127.0.0.1 - - [16/Feb/2026 00:24:22] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+2026-02-16 00:24:29,233:INFO:127.0.0.1 - - [16/Feb/2026 00:24:29] "GET /login HTTP/1.1" 200 -
+2026-02-16 00:24:29,241:INFO:127.0.0.1 - - [16/Feb/2026 00:24:29] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-02-16 00:24:29,242:INFO:127.0.0.1 - - [16/Feb/2026 00:24:29] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+2026-02-16 00:24:29,607:INFO:127.0.0.1 - - [16/Feb/2026 00:24:29] "GET /register HTTP/1.1" 200 -
+2026-02-16 00:24:29,614:INFO:127.0.0.1 - - [16/Feb/2026 00:24:29] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-02-16 00:24:29,614:INFO:127.0.0.1 - - [16/Feb/2026 00:24:29] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+2026-02-16 00:24:39,847:INFO:127.0.0.1 - - [16/Feb/2026 00:24:39] "[32mPOST /register HTTP/1.1[0m" 302 -
+2026-02-16 00:24:39,856:INFO:127.0.0.1 - - [16/Feb/2026 00:24:39] "GET /login HTTP/1.1" 200 -
+2026-02-16 00:24:39,863:INFO:127.0.0.1 - - [16/Feb/2026 00:24:39] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-02-16 00:24:39,865:INFO:127.0.0.1 - - [16/Feb/2026 00:24:39] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+2026-02-16 00:24:42,079:INFO:127.0.0.1 - - [16/Feb/2026 00:24:42] "GET /login HTTP/1.1" 200 -
+2026-02-16 00:24:42,087:INFO:127.0.0.1 - - [16/Feb/2026 00:24:42] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-02-16 00:24:42,087:INFO:127.0.0.1 - - [16/Feb/2026 00:24:42] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+2026-02-16 00:24:46,549:INFO:წარმატებული ავტორიზაცია: username@gmail.com
+2026-02-16 00:24:46,550:INFO:127.0.0.1 - - [16/Feb/2026 00:24:46] "[32mPOST /login HTTP/1.1[0m" 302 -
+2026-02-16 00:24:46,635:INFO:127.0.0.1 - - [16/Feb/2026 00:24:46] "GET /home HTTP/1.1" 200 -
+2026-02-16 00:24:46,646:INFO:127.0.0.1 - - [16/Feb/2026 00:24:46] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-02-16 00:24:46,646:INFO:127.0.0.1 - - [16/Feb/2026 00:24:46] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+2026-02-16 00:24:50,670:INFO:127.0.0.1 - - [16/Feb/2026 00:24:50] "GET /job/create HTTP/1.1" 200 -
+2026-02-16 00:24:50,961:INFO:127.0.0.1 - - [16/Feb/2026 00:24:50] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-02-16 00:24:50,963:INFO:127.0.0.1 - - [16/Feb/2026 00:24:50] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+2026-02-16 00:25:05,825:INFO:დაემატა ვაკანსია: Python Developer მომხმარებლის მიერ: username@gmail.com
+2026-02-16 00:25:05,827:INFO:127.0.0.1 - - [16/Feb/2026 00:25:05] "[32mPOST /job/create HTTP/1.1[0m" 302 -
+2026-02-16 00:25:05,917:INFO:127.0.0.1 - - [16/Feb/2026 00:25:05] "GET /home HTTP/1.1" 200 -
+2026-02-16 00:25:05,931:INFO:127.0.0.1 - - [16/Feb/2026 00:25:05] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+2026-02-16 00:25:05,933:INFO:127.0.0.1 - - [16/Feb/2026 00:25:05] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-02-16 00:25:10,013:INFO:127.0.0.1 - - [16/Feb/2026 00:25:10] "GET /job/1 HTTP/1.1" 200 -
+2026-02-16 00:25:10,300:INFO:127.0.0.1 - - [16/Feb/2026 00:25:10] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-02-16 00:25:10,300:INFO:127.0.0.1 - - [16/Feb/2026 00:25:10] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+2026-02-16 00:25:13,362:INFO:127.0.0.1 - - [16/Feb/2026 00:25:13] "GET /job/create HTTP/1.1" 200 -
+2026-02-16 00:25:13,371:INFO:127.0.0.1 - - [16/Feb/2026 00:25:13] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-02-16 00:25:13,371:INFO:127.0.0.1 - - [16/Feb/2026 00:25:13] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+2026-02-16 00:25:28,701:INFO:დაემატა ვაკანსია: პრარაბი მომხმარებლის მიერ: username@gmail.com
+2026-02-16 00:25:28,702:INFO:127.0.0.1 - - [16/Feb/2026 00:25:28] "[32mPOST /job/create HTTP/1.1[0m" 302 -
+2026-02-16 00:25:28,796:INFO:127.0.0.1 - - [16/Feb/2026 00:25:28] "GET /home HTTP/1.1" 200 -
+2026-02-16 00:25:28,811:INFO:127.0.0.1 - - [16/Feb/2026 00:25:28] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+2026-02-16 00:25:28,811:INFO:127.0.0.1 - - [16/Feb/2026 00:25:28] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-02-16 00:25:32,108:INFO:127.0.0.1 - - [16/Feb/2026 00:25:32] "[32mGET /logout HTTP/1.1[0m" 302 -
+2026-02-16 00:25:32,197:INFO:127.0.0.1 - - [16/Feb/2026 00:25:32] "GET /home HTTP/1.1" 200 -
+2026-02-16 00:25:32,597:INFO:127.0.0.1 - - [16/Feb/2026 00:25:32] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+2026-02-16 00:25:32,597:INFO:127.0.0.1 - - [16/Feb/2026 00:25:32] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-02-16 00:25:34,424:INFO:127.0.0.1 - - [16/Feb/2026 00:25:34] "GET /register HTTP/1.1" 200 -
+2026-02-16 00:25:34,433:INFO:127.0.0.1 - - [16/Feb/2026 00:25:34] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+2026-02-16 00:25:34,434:INFO:127.0.0.1 - - [16/Feb/2026 00:25:34] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-02-16 00:25:41,176:INFO:127.0.0.1 - - [16/Feb/2026 00:25:41] "POST /register HTTP/1.1" 200 -
+2026-02-16 00:25:41,184:INFO:127.0.0.1 - - [16/Feb/2026 00:25:41] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-02-16 00:25:41,184:INFO:127.0.0.1 - - [16/Feb/2026 00:25:41] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+2026-02-16 00:25:55,680:INFO:127.0.0.1 - - [16/Feb/2026 00:25:55] "[32mPOST /register HTTP/1.1[0m" 302 -
+2026-02-16 00:25:55,691:INFO:127.0.0.1 - - [16/Feb/2026 00:25:55] "GET /login HTTP/1.1" 200 -
+2026-02-16 00:25:55,961:INFO:127.0.0.1 - - [16/Feb/2026 00:25:55] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-02-16 00:25:55,962:INFO:127.0.0.1 - - [16/Feb/2026 00:25:55] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+2026-02-16 00:26:00,870:INFO:წარმატებული ავტორიზაცია: giorgi@gmail.com
+2026-02-16 00:26:00,871:INFO:127.0.0.1 - - [16/Feb/2026 00:26:00] "[32mPOST /login HTTP/1.1[0m" 302 -
+2026-02-16 00:26:00,952:INFO:127.0.0.1 - - [16/Feb/2026 00:26:00] "GET /home HTTP/1.1" 200 -
+2026-02-16 00:26:00,959:INFO:127.0.0.1 - - [16/Feb/2026 00:26:00] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-02-16 00:26:00,960:INFO:127.0.0.1 - - [16/Feb/2026 00:26:00] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+2026-02-16 00:26:03,742:INFO:127.0.0.1 - - [16/Feb/2026 00:26:03] "GET /job/1 HTTP/1.1" 200 -
+2026-02-16 00:26:03,749:INFO:127.0.0.1 - - [16/Feb/2026 00:26:03] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-02-16 00:26:03,749:INFO:127.0.0.1 - - [16/Feb/2026 00:26:03] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+2026-02-16 00:26:06,591:INFO:127.0.0.1 - - [16/Feb/2026 00:26:06] "GET /job/create HTTP/1.1" 200 -
+2026-02-16 00:26:06,599:INFO:127.0.0.1 - - [16/Feb/2026 00:26:06] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-02-16 00:26:06,599:INFO:127.0.0.1 - - [16/Feb/2026 00:26:06] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+2026-02-16 00:26:53,316:INFO:დაემატა ვაკანსია: Social Media Manager მომხმარებლის მიერ: giorgi@gmail.com
+2026-02-16 00:26:53,317:INFO:127.0.0.1 - - [16/Feb/2026 00:26:53] "[32mPOST /job/create HTTP/1.1[0m" 302 -
+2026-02-16 00:26:53,403:INFO:127.0.0.1 - - [16/Feb/2026 00:26:53] "GET /home HTTP/1.1" 200 -
+2026-02-16 00:26:53,415:INFO:127.0.0.1 - - [16/Feb/2026 00:26:53] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-02-16 00:26:53,416:INFO:127.0.0.1 - - [16/Feb/2026 00:26:53] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+2026-02-16 00:26:56,955:INFO:127.0.0.1 - - [16/Feb/2026 00:26:56] "GET /job/1 HTTP/1.1" 200 -
+2026-02-16 00:26:56,961:INFO:127.0.0.1 - - [16/Feb/2026 00:26:56] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+2026-02-16 00:26:56,962:INFO:127.0.0.1 - - [16/Feb/2026 00:26:56] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-02-16 00:27:00,570:INFO:127.0.0.1 - - [16/Feb/2026 00:27:00] "GET /about HTTP/1.1" 200 -
+2026-02-16 00:27:00,577:INFO:127.0.0.1 - - [16/Feb/2026 00:27:00] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-02-16 00:27:00,577:INFO:127.0.0.1 - - [16/Feb/2026 00:27:00] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+2026-02-16 00:27:11,440:INFO:127.0.0.1 - - [16/Feb/2026 00:27:11] "GET /job/create HTTP/1.1" 200 -
+2026-02-16 00:27:11,447:INFO:127.0.0.1 - - [16/Feb/2026 00:27:11] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-02-16 00:27:11,448:INFO:127.0.0.1 - - [16/Feb/2026 00:27:11] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+2026-02-16 00:27:20,094:INFO:127.0.0.1 - - [16/Feb/2026 00:27:20] "GET /home HTTP/1.1" 200 -
+2026-02-16 00:27:20,109:INFO:127.0.0.1 - - [16/Feb/2026 00:27:20] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-02-16 00:27:20,110:INFO:127.0.0.1 - - [16/Feb/2026 00:27:20] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+2026-02-16 00:27:29,498:INFO:127.0.0.1 - - [16/Feb/2026 00:27:29] "GET /profile HTTP/1.1" 200 -
+2026-02-16 00:27:29,796:INFO:127.0.0.1 - - [16/Feb/2026 00:27:29] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-02-16 00:27:29,797:INFO:127.0.0.1 - - [16/Feb/2026 00:27:29] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+2026-02-16 01:36:27,102:INFO:127.0.0.1 - - [16/Feb/2026 01:36:27] "GET /about HTTP/1.1" 200 -
+2026-02-16 01:36:27,486:INFO:127.0.0.1 - - [16/Feb/2026 01:36:27] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-02-16 01:36:27,487:INFO:127.0.0.1 - - [16/Feb/2026 01:36:27] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+2026-02-16 01:36:28,371:INFO:127.0.0.1 - - [16/Feb/2026 01:36:28] "GET /home HTTP/1.1" 200 -
+2026-02-16 01:36:28,384:INFO:127.0.0.1 - - [16/Feb/2026 01:36:28] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-02-16 01:36:28,385:INFO:127.0.0.1 - - [16/Feb/2026 01:36:28] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+2026-02-16 01:36:29,270:INFO:127.0.0.1 - - [16/Feb/2026 01:36:29] "GET /about HTTP/1.1" 200 -
+2026-02-16 01:36:29,278:INFO:127.0.0.1 - - [16/Feb/2026 01:36:29] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-02-16 01:36:29,280:INFO:127.0.0.1 - - [16/Feb/2026 01:36:29] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+2026-02-16 01:36:54,704:INFO:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2026-02-16 01:36:54,704:INFO:[33mPress CTRL+C to quit[0m
+2026-02-16 01:36:54,705:INFO: * Restarting with stat
+2026-02-16 01:36:55,033:WARNING: * Debugger is active!
+2026-02-16 01:36:55,049:INFO: * Debugger PIN: 500-028-211
+2026-02-16 01:37:12,141:INFO:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2026-02-16 01:37:12,141:INFO:[33mPress CTRL+C to quit[0m
+2026-02-16 01:37:12,142:INFO: * Restarting with stat
+2026-02-16 01:37:12,461:WARNING: * Debugger is active!
+2026-02-16 01:37:12,475:INFO: * Debugger PIN: 500-028-211
+2026-02-16 01:40:23,966:INFO: * Detected change in '/Users/giorgi/PycharmProjects/JobBoard/utils.py', reloading
+2026-02-16 01:40:24,079:INFO: * Restarting with stat
+2026-02-16 01:40:24,523:WARNING: * Debugger is active!
+2026-02-16 01:40:24,540:INFO: * Debugger PIN: 500-028-211
+2026-02-16 01:40:25,419:INFO:127.0.0.1 - - [16/Feb/2026 01:40:25] "GET / HTTP/1.1" 200 -
+2026-02-16 01:40:25,437:INFO:127.0.0.1 - - [16/Feb/2026 01:40:25] "GET /static/js/main.js HTTP/1.1" 200 -
+2026-02-16 01:40:25,437:INFO:127.0.0.1 - - [16/Feb/2026 01:40:25] "GET /static/css/style.css HTTP/1.1" 200 -
+2026-02-16 01:41:04,858:INFO: * Detected change in '/Users/giorgi/PycharmProjects/JobBoard/utils.py', reloading
+2026-02-16 01:41:04,979:INFO: * Restarting with stat
+2026-02-16 01:41:05,516:WARNING: * Debugger is active!
+2026-02-16 01:41:05,533:INFO: * Debugger PIN: 500-028-211
+2026-02-16 01:41:07,698:INFO:127.0.0.1 - - [16/Feb/2026 01:41:07] "GET / HTTP/1.1" 200 -
+2026-02-16 01:41:07,714:INFO:127.0.0.1 - - [16/Feb/2026 01:41:07] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+2026-02-16 01:41:07,715:INFO:127.0.0.1 - - [16/Feb/2026 01:41:07] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-02-16 01:41:37,454:INFO:127.0.0.1 - - [16/Feb/2026 01:41:37] "GET /profile HTTP/1.1" 200 -
+2026-02-16 01:41:37,783:INFO:127.0.0.1 - - [16/Feb/2026 01:41:37] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-02-16 01:41:37,784:INFO:127.0.0.1 - - [16/Feb/2026 01:41:37] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+2026-02-16 01:53:41,023:INFO:127.0.0.1 - - [16/Feb/2026 01:53:41] "GET /home HTTP/1.1" 200 -
+2026-02-16 01:53:41,496:INFO:127.0.0.1 - - [16/Feb/2026 01:53:41] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-02-16 01:53:41,499:INFO:127.0.0.1 - - [16/Feb/2026 01:53:41] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+2026-02-16 01:58:34,243:INFO: * Detected change in '/Users/giorgi/PycharmProjects/JobBoard/tests.py', reloading
+2026-02-16 01:58:34,563:INFO: * Restarting with stat
+2026-02-16 01:58:35,197:WARNING: * Debugger is active!
+2026-02-16 01:58:35,212:INFO: * Debugger PIN: 500-028-211
+2026-02-16 02:01:29,699:INFO: * Detected change in '/Users/giorgi/PycharmProjects/JobBoard/tests.py', reloading
+2026-02-16 02:01:29,877:INFO: * Restarting with stat
+2026-02-16 02:01:30,367:WARNING: * Debugger is active!
+2026-02-16 02:01:30,390:INFO: * Debugger PIN: 500-028-211
+2026-02-16 02:02:27,705:INFO:127.0.0.1 - - [16/Feb/2026 02:02:27] "GET /profile HTTP/1.1" 200 -
+2026-02-16 02:02:28,067:INFO:127.0.0.1 - - [16/Feb/2026 02:02:28] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-02-16 02:02:28,068:INFO:127.0.0.1 - - [16/Feb/2026 02:02:28] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+2026-02-16 02:08:13,652:INFO:127.0.0.1 - - [16/Feb/2026 02:08:13] "GET /home HTTP/1.1" 200 -
+2026-02-16 02:08:14,154:INFO:127.0.0.1 - - [16/Feb/2026 02:08:14] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-02-16 02:08:14,154:INFO:127.0.0.1 - - [16/Feb/2026 02:08:14] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+2026-02-16 13:13:09,278:INFO:127.0.0.1 - - [16/Feb/2026 13:13:09] "GET /home HTTP/1.1" 200 -
+2026-02-16 13:13:09,841:INFO:127.0.0.1 - - [16/Feb/2026 13:13:09] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-02-16 13:13:09,842:INFO:127.0.0.1 - - [16/Feb/2026 13:13:09] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+2026-02-16 13:17:16,804:INFO:127.0.0.1 - - [16/Feb/2026 13:17:16] "GET /job/3 HTTP/1.1" 200 -
+2026-02-16 13:17:17,176:INFO:127.0.0.1 - - [16/Feb/2026 13:17:17] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+2026-02-16 13:17:17,176:INFO:127.0.0.1 - - [16/Feb/2026 13:17:17] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-02-16 13:17:18,631:INFO:127.0.0.1 - - [16/Feb/2026 13:17:18] "GET /home HTTP/1.1" 200 -
+2026-02-16 13:17:18,641:INFO:127.0.0.1 - - [16/Feb/2026 13:17:18] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-02-16 13:17:18,641:INFO:127.0.0.1 - - [16/Feb/2026 13:17:18] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+2026-02-16 13:17:45,255:INFO:127.0.0.1 - - [16/Feb/2026 13:17:45] "GET /job/create HTTP/1.1" 200 -
+2026-02-16 13:17:45,552:INFO:127.0.0.1 - - [16/Feb/2026 13:17:45] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+2026-02-16 13:17:45,553:INFO:127.0.0.1 - - [16/Feb/2026 13:17:45] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-02-16 13:18:10,001:INFO:127.0.0.1 - - [16/Feb/2026 13:18:10] "GET /profile HTTP/1.1" 200 -
+2026-02-16 13:18:10,289:INFO:127.0.0.1 - - [16/Feb/2026 13:18:10] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-02-16 13:18:10,289:INFO:127.0.0.1 - - [16/Feb/2026 13:18:10] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+2026-02-16 13:18:15,569:INFO:127.0.0.1 - - [16/Feb/2026 13:18:15] "GET /home HTTP/1.1" 200 -
+2026-02-16 13:18:15,988:INFO:127.0.0.1 - - [16/Feb/2026 13:18:15] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-02-16 13:18:15,989:INFO:127.0.0.1 - - [16/Feb/2026 13:18:15] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+2026-02-16 13:18:23,014:INFO:127.0.0.1 - - [16/Feb/2026 13:18:23] "GET /about HTTP/1.1" 200 -
+2026-02-16 13:18:23,299:INFO:127.0.0.1 - - [16/Feb/2026 13:18:23] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-02-16 13:18:23,299:INFO:127.0.0.1 - - [16/Feb/2026 13:18:23] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+2026-02-16 13:18:38,258:INFO:127.0.0.1 - - [16/Feb/2026 13:18:38] "GET /job/create HTTP/1.1" 200 -
+2026-02-16 13:18:38,265:INFO:127.0.0.1 - - [16/Feb/2026 13:18:38] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+2026-02-16 13:18:38,267:INFO:127.0.0.1 - - [16/Feb/2026 13:18:38] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-02-16 13:18:41,878:INFO:127.0.0.1 - - [16/Feb/2026 13:18:41] "GET /profile HTTP/1.1" 200 -
+2026-02-16 13:18:41,885:INFO:127.0.0.1 - - [16/Feb/2026 13:18:41] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-02-16 13:18:41,885:INFO:127.0.0.1 - - [16/Feb/2026 13:18:41] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+2026-02-16 13:18:44,795:INFO:127.0.0.1 - - [16/Feb/2026 13:18:44] "[32mGET /logout HTTP/1.1[0m" 302 -
+2026-02-16 13:18:44,913:INFO:127.0.0.1 - - [16/Feb/2026 13:18:44] "GET /home HTTP/1.1" 200 -
+2026-02-16 13:18:45,358:INFO:127.0.0.1 - - [16/Feb/2026 13:18:45] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+2026-02-16 13:18:45,359:INFO:127.0.0.1 - - [16/Feb/2026 13:18:45] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-02-16 13:19:21,181:INFO:127.0.0.1 - - [16/Feb/2026 13:19:21] "[33mGET /homed HTTP/1.1[0m" 404 -
+2026-02-16 13:19:21,495:INFO:127.0.0.1 - - [16/Feb/2026 13:19:21] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-02-16 13:19:21,496:INFO:127.0.0.1 - - [16/Feb/2026 13:19:21] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+2026-02-16 13:19:25,199:INFO:127.0.0.1 - - [16/Feb/2026 13:19:25] "GET /home HTTP/1.1" 200 -
+2026-02-16 13:19:25,213:INFO:127.0.0.1 - - [16/Feb/2026 13:19:25] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-02-16 13:19:25,213:INFO:127.0.0.1 - - [16/Feb/2026 13:19:25] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+2026-02-16 13:19:30,303:INFO:127.0.0.1 - - [16/Feb/2026 13:19:30] "GET / HTTP/1.1" 200 -
+2026-02-16 13:19:30,312:INFO:127.0.0.1 - - [16/Feb/2026 13:19:30] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+2026-02-16 13:19:30,312:INFO:127.0.0.1 - - [16/Feb/2026 13:19:30] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-02-16 13:19:30,317:INFO:127.0.0.1 - - [16/Feb/2026 13:19:30] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-02-16 13:19:30,318:INFO:127.0.0.1 - - [16/Feb/2026 13:19:30] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+2026-02-16 13:19:30,327:INFO:127.0.0.1 - - [16/Feb/2026 13:19:30] "[33mGET /apple-touch-icon-precomposed.png HTTP/1.1[0m" 404 -
+2026-02-16 13:19:30,329:INFO:127.0.0.1 - - [16/Feb/2026 13:19:30] "[33mGET /apple-touch-icon.png HTTP/1.1[0m" 404 -
+2026-02-16 13:19:30,329:INFO:127.0.0.1 - - [16/Feb/2026 13:19:30] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2026-02-16 13:19:31,802:INFO:127.0.0.1 - - [16/Feb/2026 13:19:31] "[33mGET /ag HTTP/1.1[0m" 404 -
+2026-02-16 13:19:32,098:INFO:127.0.0.1 - - [16/Feb/2026 13:19:32] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-02-16 13:19:32,099:INFO:127.0.0.1 - - [16/Feb/2026 13:19:32] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+2026-02-16 13:19:34,819:INFO:127.0.0.1 - - [16/Feb/2026 13:19:34] "GET / HTTP/1.1" 200 -
+2026-02-16 13:19:34,825:INFO:127.0.0.1 - - [16/Feb/2026 13:19:34] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-02-16 13:19:34,828:INFO:127.0.0.1 - - [16/Feb/2026 13:19:34] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+2026-02-16 13:19:34,833:INFO:127.0.0.1 - - [16/Feb/2026 13:19:34] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-02-16 13:19:34,833:INFO:127.0.0.1 - - [16/Feb/2026 13:19:34] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+2026-02-16 13:20:08,870:INFO:127.0.0.1 - - [16/Feb/2026 13:20:08] "GET /job/3 HTTP/1.1" 200 -
+2026-02-16 13:20:08,880:INFO:127.0.0.1 - - [16/Feb/2026 13:20:08] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-02-16 13:20:08,880:INFO:127.0.0.1 - - [16/Feb/2026 13:20:08] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+2026-02-16 13:20:18,492:INFO:127.0.0.1 - - [16/Feb/2026 13:20:18] "GET /job/1 HTTP/1.1" 200 -
+2026-02-16 13:20:18,772:INFO:127.0.0.1 - - [16/Feb/2026 13:20:18] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-02-16 13:20:18,772:INFO:127.0.0.1 - - [16/Feb/2026 13:20:18] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+2026-02-16 13:21:05,043:INFO:127.0.0.1 - - [16/Feb/2026 13:21:05] "GET / HTTP/1.1" 200 -
+2026-02-16 13:21:05,061:INFO:127.0.0.1 - - [16/Feb/2026 13:21:05] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-02-16 13:21:05,062:INFO:127.0.0.1 - - [16/Feb/2026 13:21:05] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+2026-02-16 13:21:06,654:INFO:127.0.0.1 - - [16/Feb/2026 13:21:06] "GET /job/2 HTTP/1.1" 200 -
+2026-02-16 13:21:06,964:INFO:127.0.0.1 - - [16/Feb/2026 13:21:06] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+2026-02-16 13:21:06,965:INFO:127.0.0.1 - - [16/Feb/2026 13:21:06] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-02-16 13:21:10,756:INFO:127.0.0.1 - - [16/Feb/2026 13:21:10] "GET /job/3 HTTP/1.1" 200 -
+2026-02-16 13:21:10,764:INFO:127.0.0.1 - - [16/Feb/2026 13:21:10] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-02-16 13:21:10,764:INFO:127.0.0.1 - - [16/Feb/2026 13:21:10] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+2026-02-16 13:21:13,556:INFO:127.0.0.1 - - [16/Feb/2026 13:21:13] "GET /job/1 HTTP/1.1" 200 -
+2026-02-16 13:21:13,562:INFO:127.0.0.1 - - [16/Feb/2026 13:21:13] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-02-16 13:21:13,562:INFO:127.0.0.1 - - [16/Feb/2026 13:21:13] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+2026-02-16 13:21:24,246:INFO:127.0.0.1 - - [16/Feb/2026 13:21:24] "GET /login HTTP/1.1" 200 -
+2026-02-16 13:21:24,540:INFO:127.0.0.1 - - [16/Feb/2026 13:21:24] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+2026-02-16 13:21:24,540:INFO:127.0.0.1 - - [16/Feb/2026 13:21:24] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-02-16 13:21:30,921:INFO:წარმატებული ავტორიზაცია: giorgi@gmail.com
+2026-02-16 13:21:30,922:INFO:127.0.0.1 - - [16/Feb/2026 13:21:30] "[32mPOST /login HTTP/1.1[0m" 302 -
+2026-02-16 13:21:31,217:INFO:127.0.0.1 - - [16/Feb/2026 13:21:31] "GET /home HTTP/1.1" 200 -
+2026-02-16 13:21:31,229:INFO:127.0.0.1 - - [16/Feb/2026 13:21:31] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-02-16 13:21:31,230:INFO:127.0.0.1 - - [16/Feb/2026 13:21:31] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+2026-02-16 13:21:33,489:INFO:127.0.0.1 - - [16/Feb/2026 13:21:33] "GET /profile HTTP/1.1" 200 -
+2026-02-16 13:21:33,497:INFO:127.0.0.1 - - [16/Feb/2026 13:21:33] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-02-16 13:21:33,498:INFO:127.0.0.1 - - [16/Feb/2026 13:21:33] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+2026-02-16 13:21:37,921:INFO:127.0.0.1 - - [16/Feb/2026 13:21:37] "[32mGET /logout HTTP/1.1[0m" 302 -
+2026-02-16 13:21:38,093:INFO:127.0.0.1 - - [16/Feb/2026 13:21:38] "GET /home HTTP/1.1" 200 -
+2026-02-16 13:21:38,107:INFO:127.0.0.1 - - [16/Feb/2026 13:21:38] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+2026-02-16 13:21:38,107:INFO:127.0.0.1 - - [16/Feb/2026 13:21:38] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-02-16 13:24:05,243:INFO:127.0.0.1 - - [16/Feb/2026 13:24:05] "GET /login HTTP/1.1" 200 -
+2026-02-16 13:24:05,541:INFO:127.0.0.1 - - [16/Feb/2026 13:24:05] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+2026-02-16 13:24:05,543:INFO:127.0.0.1 - - [16/Feb/2026 13:24:05] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-02-16 13:24:11,834:INFO:წარმატებული ავტორიზაცია: giorgi@gmail.com
+2026-02-16 13:24:11,835:INFO:127.0.0.1 - - [16/Feb/2026 13:24:11] "[32mPOST /login HTTP/1.1[0m" 302 -
+2026-02-16 13:24:11,960:INFO:127.0.0.1 - - [16/Feb/2026 13:24:11] "GET /home HTTP/1.1" 200 -
+2026-02-16 13:24:12,403:INFO:127.0.0.1 - - [16/Feb/2026 13:24:12] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+2026-02-16 13:24:12,403:INFO:127.0.0.1 - - [16/Feb/2026 13:24:12] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-02-16 13:24:15,250:INFO:127.0.0.1 - - [16/Feb/2026 13:24:15] "GET /job/create HTTP/1.1" 200 -
+2026-02-16 13:24:15,539:INFO:127.0.0.1 - - [16/Feb/2026 13:24:15] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-02-16 13:24:15,542:INFO:127.0.0.1 - - [16/Feb/2026 13:24:15] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+2026-02-16 13:24:48,691:INFO:დაემატა ვაკანსია: Senior Python Developer მომხმარებლის მიერ: giorgi@gmail.com
+2026-02-16 13:24:48,692:INFO:127.0.0.1 - - [16/Feb/2026 13:24:48] "[32mPOST /job/create HTTP/1.1[0m" 302 -
+2026-02-16 13:24:48,771:INFO:127.0.0.1 - - [16/Feb/2026 13:24:48] "GET /home HTTP/1.1" 200 -
+2026-02-16 13:24:48,782:INFO:127.0.0.1 - - [16/Feb/2026 13:24:48] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-02-16 13:24:48,782:INFO:127.0.0.1 - - [16/Feb/2026 13:24:48] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+2026-02-16 13:24:55,631:INFO:127.0.0.1 - - [16/Feb/2026 13:24:55] "GET /job/4 HTTP/1.1" 200 -
+2026-02-16 13:24:55,908:INFO:127.0.0.1 - - [16/Feb/2026 13:24:55] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-02-16 13:24:55,908:INFO:127.0.0.1 - - [16/Feb/2026 13:24:55] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+2026-02-16 13:24:58,796:INFO:127.0.0.1 - - [16/Feb/2026 13:24:58] "GET /job/4/update HTTP/1.1" 200 -
+2026-02-16 13:24:59,075:INFO:127.0.0.1 - - [16/Feb/2026 13:24:59] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+2026-02-16 13:24:59,075:INFO:127.0.0.1 - - [16/Feb/2026 13:24:59] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-02-16 13:25:11,427:INFO:127.0.0.1 - - [16/Feb/2026 13:25:11] "[32mPOST /job/4/update HTTP/1.1[0m" 302 -
+2026-02-16 13:25:11,437:INFO:127.0.0.1 - - [16/Feb/2026 13:25:11] "GET /job/4 HTTP/1.1" 200 -
+2026-02-16 13:25:11,451:INFO:127.0.0.1 - - [16/Feb/2026 13:25:11] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-02-16 13:25:11,452:INFO:127.0.0.1 - - [16/Feb/2026 13:25:11] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+2026-02-16 13:25:18,565:INFO:127.0.0.1 - - [16/Feb/2026 13:25:18] "GET /job/4/update HTTP/1.1" 200 -
+2026-02-16 13:25:18,573:INFO:127.0.0.1 - - [16/Feb/2026 13:25:18] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-02-16 13:25:18,575:INFO:127.0.0.1 - - [16/Feb/2026 13:25:18] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+2026-02-16 13:25:29,841:INFO:127.0.0.1 - - [16/Feb/2026 13:25:29] "[32mPOST /job/4/update HTTP/1.1[0m" 302 -
+2026-02-16 13:25:29,848:INFO:127.0.0.1 - - [16/Feb/2026 13:25:29] "GET /job/4 HTTP/1.1" 200 -
+2026-02-16 13:25:29,857:INFO:127.0.0.1 - - [16/Feb/2026 13:25:29] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+2026-02-16 13:25:29,857:INFO:127.0.0.1 - - [16/Feb/2026 13:25:29] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-02-16 13:25:41,929:INFO:127.0.0.1 - - [16/Feb/2026 13:25:41] "GET /job/4/update HTTP/1.1" 200 -
+2026-02-16 13:25:41,938:INFO:127.0.0.1 - - [16/Feb/2026 13:25:41] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-02-16 13:25:41,938:INFO:127.0.0.1 - - [16/Feb/2026 13:25:41] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+2026-02-16 13:25:49,518:INFO:127.0.0.1 - - [16/Feb/2026 13:25:49] "[32mPOST /job/4/update HTTP/1.1[0m" 302 -
+2026-02-16 13:25:49,527:INFO:127.0.0.1 - - [16/Feb/2026 13:25:49] "GET /job/4 HTTP/1.1" 200 -
+2026-02-16 13:25:49,535:INFO:127.0.0.1 - - [16/Feb/2026 13:25:49] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-02-16 13:25:49,536:INFO:127.0.0.1 - - [16/Feb/2026 13:25:49] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+2026-02-16 13:25:51,289:INFO:127.0.0.1 - - [16/Feb/2026 13:25:51] "GET /home HTTP/1.1" 200 -
+2026-02-16 13:25:51,301:INFO:127.0.0.1 - - [16/Feb/2026 13:25:51] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-02-16 13:25:51,302:INFO:127.0.0.1 - - [16/Feb/2026 13:25:51] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+2026-02-16 13:27:05,602:INFO:127.0.0.1 - - [16/Feb/2026 13:27:05] "GET /job/create HTTP/1.1" 200 -
+2026-02-16 13:27:05,614:INFO:127.0.0.1 - - [16/Feb/2026 13:27:05] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-02-16 13:27:05,615:INFO:127.0.0.1 - - [16/Feb/2026 13:27:05] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+2026-02-16 13:27:37,581:INFO:დაემატა ვაკანსია: Creative Designer მომხმარებლის მიერ: giorgi@gmail.com
+2026-02-16 13:27:37,583:INFO:127.0.0.1 - - [16/Feb/2026 13:27:37] "[32mPOST /job/create HTTP/1.1[0m" 302 -
+2026-02-16 13:27:38,436:INFO:127.0.0.1 - - [16/Feb/2026 13:27:38] "GET /home HTTP/1.1" 200 -
+2026-02-16 13:27:38,453:INFO:127.0.0.1 - - [16/Feb/2026 13:27:38] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+2026-02-16 13:27:38,453:INFO:127.0.0.1 - - [16/Feb/2026 13:27:38] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-02-16 13:27:45,540:INFO:127.0.0.1 - - [16/Feb/2026 13:27:45] "GET /job/5 HTTP/1.1" 200 -
+2026-02-16 13:27:45,820:INFO:127.0.0.1 - - [16/Feb/2026 13:27:45] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-02-16 13:27:45,821:INFO:127.0.0.1 - - [16/Feb/2026 13:27:45] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+2026-02-16 13:28:02,340:INFO:127.0.0.1 - - [16/Feb/2026 13:28:02] "GET /job/4 HTTP/1.1" 200 -
+2026-02-16 13:28:02,348:INFO:127.0.0.1 - - [16/Feb/2026 13:28:02] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-02-16 13:28:02,349:INFO:127.0.0.1 - - [16/Feb/2026 13:28:02] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+2026-02-16 13:28:12,856:INFO:127.0.0.1 - - [16/Feb/2026 13:28:12] "GET /job/3 HTTP/1.1" 200 -
+2026-02-16 13:28:13,138:INFO:127.0.0.1 - - [16/Feb/2026 13:28:13] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+2026-02-16 13:28:13,138:INFO:127.0.0.1 - - [16/Feb/2026 13:28:13] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-02-16 13:29:09,914:INFO: * Detected change in '/Users/giorgi/PycharmProjects/JobBoard/models.py', reloading
+2026-02-16 13:29:10,066:INFO: * Restarting with stat
+2026-02-16 13:30:52,648:INFO:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2026-02-16 13:30:52,648:INFO:[33mPress CTRL+C to quit[0m
+2026-02-16 13:30:52,649:INFO: * Restarting with stat
+2026-02-16 13:30:52,962:WARNING: * Debugger is active!
+2026-02-16 13:30:52,981:INFO: * Debugger PIN: 500-028-211
+2026-02-16 13:30:56,875:INFO:127.0.0.1 - - [16/Feb/2026 13:30:56] "GET /home HTTP/1.1" 200 -
+2026-02-16 13:30:56,888:INFO:127.0.0.1 - - [16/Feb/2026 13:30:56] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+2026-02-16 13:30:56,889:INFO:127.0.0.1 - - [16/Feb/2026 13:30:56] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-02-16 13:30:59,382:INFO:127.0.0.1 - - [16/Feb/2026 13:30:59] "GET /job/5 HTTP/1.1" 200 -
+2026-02-16 13:30:59,389:INFO:127.0.0.1 - - [16/Feb/2026 13:30:59] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-02-16 13:30:59,389:INFO:127.0.0.1 - - [16/Feb/2026 13:30:59] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+2026-02-16 13:31:01,733:INFO:127.0.0.1 - - [16/Feb/2026 13:31:01] "GET /job/5/update HTTP/1.1" 200 -
+2026-02-16 13:31:02,021:INFO:127.0.0.1 - - [16/Feb/2026 13:31:02] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+2026-02-16 13:31:02,022:INFO:127.0.0.1 - - [16/Feb/2026 13:31:02] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-02-16 13:31:05,294:INFO:127.0.0.1 - - [16/Feb/2026 13:31:05] "GET /home HTTP/1.1" 200 -
+2026-02-16 13:31:05,307:INFO:127.0.0.1 - - [16/Feb/2026 13:31:05] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-02-16 13:31:05,308:INFO:127.0.0.1 - - [16/Feb/2026 13:31:05] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+2026-02-16 13:31:09,109:INFO:127.0.0.1 - - [16/Feb/2026 13:31:09] "GET /job/create HTTP/1.1" 200 -
+2026-02-16 13:31:09,116:INFO:127.0.0.1 - - [16/Feb/2026 13:31:09] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-02-16 13:31:09,116:INFO:127.0.0.1 - - [16/Feb/2026 13:31:09] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+2026-02-16 13:31:17,675:INFO:127.0.0.1 - - [16/Feb/2026 13:31:17] "GET /home HTTP/1.1" 200 -
+2026-02-16 13:31:17,703:INFO:127.0.0.1 - - [16/Feb/2026 13:31:17] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-02-16 13:31:17,703:INFO:127.0.0.1 - - [16/Feb/2026 13:31:17] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+2026-02-16 13:32:34,795:INFO: * Detected change in '/Users/giorgi/PycharmProjects/JobBoard/models.py', reloading
+2026-02-16 13:32:35,008:INFO: * Restarting with stat
+2026-02-16 13:32:35,440:WARNING: * Debugger is active!
+2026-02-16 13:32:35,454:INFO: * Debugger PIN: 500-028-211
+2026-02-16 13:32:36,095:INFO:127.0.0.1 - - [16/Feb/2026 13:32:36] "GET /home HTTP/1.1" 200 -
+2026-02-16 13:32:36,112:INFO:127.0.0.1 - - [16/Feb/2026 13:32:36] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-02-16 13:32:36,112:INFO:127.0.0.1 - - [16/Feb/2026 13:32:36] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+2026-02-16 13:32:38,313:INFO:127.0.0.1 - - [16/Feb/2026 13:32:38] "GET /home HTTP/1.1" 200 -
+2026-02-16 13:32:38,324:INFO:127.0.0.1 - - [16/Feb/2026 13:32:38] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-02-16 13:32:38,325:INFO:127.0.0.1 - - [16/Feb/2026 13:32:38] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+2026-02-16 13:32:39,685:INFO:127.0.0.1 - - [16/Feb/2026 13:32:39] "GET /about HTTP/1.1" 200 -
+2026-02-16 13:32:39,969:INFO:127.0.0.1 - - [16/Feb/2026 13:32:39] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+2026-02-16 13:32:39,970:INFO:127.0.0.1 - - [16/Feb/2026 13:32:39] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-02-16 13:32:40,526:INFO:127.0.0.1 - - [16/Feb/2026 13:32:40] "GET /home HTTP/1.1" 200 -
+2026-02-16 13:32:40,533:INFO:127.0.0.1 - - [16/Feb/2026 13:32:40] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-02-16 13:32:40,534:INFO:127.0.0.1 - - [16/Feb/2026 13:32:40] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+2026-02-16 13:32:42,888:INFO:127.0.0.1 - - [16/Feb/2026 13:32:42] "GET /profile HTTP/1.1" 200 -
+2026-02-16 13:32:43,179:INFO:127.0.0.1 - - [16/Feb/2026 13:32:43] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-02-16 13:32:43,179:INFO:127.0.0.1 - - [16/Feb/2026 13:32:43] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+2026-02-16 13:33:26,771:INFO:127.0.0.1 - - [16/Feb/2026 13:33:26] "[32mPOST /profile HTTP/1.1[0m" 302 -
+2026-02-16 13:33:26,777:INFO:127.0.0.1 - - [16/Feb/2026 13:33:26] "GET /profile HTTP/1.1" 200 -
+2026-02-16 13:33:26,787:INFO:127.0.0.1 - - [16/Feb/2026 13:33:26] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-02-16 13:33:26,787:INFO:127.0.0.1 - - [16/Feb/2026 13:33:26] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+2026-02-16 13:33:36,163:INFO:127.0.0.1 - - [16/Feb/2026 13:33:36] "GET /profile HTTP/1.1" 200 -
+2026-02-16 13:33:36,170:INFO:127.0.0.1 - - [16/Feb/2026 13:33:36] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-02-16 13:33:36,170:INFO:127.0.0.1 - - [16/Feb/2026 13:33:36] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+2026-02-16 13:33:38,475:INFO:127.0.0.1 - - [16/Feb/2026 13:33:38] "[32mGET /logout HTTP/1.1[0m" 302 -
+2026-02-16 13:33:38,595:INFO:127.0.0.1 - - [16/Feb/2026 13:33:38] "GET /home HTTP/1.1" 200 -
+2026-02-16 13:33:38,614:INFO:127.0.0.1 - - [16/Feb/2026 13:33:38] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-02-16 13:33:38,617:INFO:127.0.0.1 - - [16/Feb/2026 13:33:38] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+2026-02-16 13:33:40,082:INFO:127.0.0.1 - - [16/Feb/2026 13:33:40] "GET /login HTTP/1.1" 200 -
+2026-02-16 13:33:40,368:INFO:127.0.0.1 - - [16/Feb/2026 13:33:40] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+2026-02-16 13:33:40,368:INFO:127.0.0.1 - - [16/Feb/2026 13:33:40] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-02-16 13:33:43,038:INFO:127.0.0.1 - - [16/Feb/2026 13:33:43] "POST /login HTTP/1.1" 200 -
+2026-02-16 13:33:43,045:INFO:127.0.0.1 - - [16/Feb/2026 13:33:43] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-02-16 13:33:43,046:INFO:127.0.0.1 - - [16/Feb/2026 13:33:43] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+2026-02-16 13:33:46,639:INFO:127.0.0.1 - - [16/Feb/2026 13:33:46] "POST /login HTTP/1.1" 200 -
+2026-02-16 13:33:46,646:INFO:127.0.0.1 - - [16/Feb/2026 13:33:46] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-02-16 13:33:46,647:INFO:127.0.0.1 - - [16/Feb/2026 13:33:46] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+2026-02-16 13:33:48,129:INFO:127.0.0.1 - - [16/Feb/2026 13:33:48] "GET /register HTTP/1.1" 200 -
+2026-02-16 13:33:48,411:INFO:127.0.0.1 - - [16/Feb/2026 13:33:48] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-02-16 13:33:48,411:INFO:127.0.0.1 - - [16/Feb/2026 13:33:48] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+2026-02-16 13:33:54,398:INFO:127.0.0.1 - - [16/Feb/2026 13:33:54] "[32mPOST /register HTTP/1.1[0m" 302 -
+2026-02-16 13:33:54,408:INFO:127.0.0.1 - - [16/Feb/2026 13:33:54] "GET /login HTTP/1.1" 200 -
+2026-02-16 13:33:54,415:INFO:127.0.0.1 - - [16/Feb/2026 13:33:54] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+2026-02-16 13:33:54,415:INFO:127.0.0.1 - - [16/Feb/2026 13:33:54] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-02-16 13:34:39,419:INFO: * Detected change in '/Users/giorgi/PycharmProjects/JobBoard/forms.py', reloading
+2026-02-16 13:34:39,665:INFO: * Restarting with stat
+2026-02-16 13:34:40,236:WARNING: * Debugger is active!
+2026-02-16 13:34:40,261:INFO: * Debugger PIN: 500-028-211
+2026-02-16 13:35:02,464:INFO: * Detected change in '/Users/giorgi/PycharmProjects/JobBoard/forms.py', reloading
+2026-02-16 13:35:02,605:INFO: * Restarting with stat
+2026-02-16 13:35:03,160:WARNING: * Debugger is active!
+2026-02-16 13:35:03,176:INFO: * Debugger PIN: 500-028-211
+2026-02-16 13:35:26,331:INFO: * Detected change in '/Users/giorgi/PycharmProjects/JobBoard/forms.py', reloading
+2026-02-16 13:35:26,441:INFO: * Restarting with stat
+2026-02-16 13:38:56,763:INFO:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2026-02-16 13:38:56,763:INFO:[33mPress CTRL+C to quit[0m
+2026-02-16 13:38:56,764:INFO: * Restarting with stat
+2026-02-16 13:38:57,093:WARNING: * Debugger is active!
+2026-02-16 13:38:57,109:INFO: * Debugger PIN: 500-028-211
+2026-02-16 13:39:02,314:INFO:127.0.0.1 - - [16/Feb/2026 13:39:02] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+2026-02-16 13:39:02,315:INFO:127.0.0.1 - - [16/Feb/2026 13:39:02] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-02-16 13:39:04,408:INFO:127.0.0.1 - - [16/Feb/2026 13:39:04] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-02-16 13:39:04,409:INFO:127.0.0.1 - - [16/Feb/2026 13:39:04] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+2026-02-16 13:39:15,650:INFO:127.0.0.1 - - [16/Feb/2026 13:39:15] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-02-16 13:39:15,652:INFO:127.0.0.1 - - [16/Feb/2026 13:39:15] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+2026-02-16 13:39:20,002:INFO:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2026-02-16 13:39:20,002:INFO:[33mPress CTRL+C to quit[0m
+2026-02-16 13:39:20,003:INFO: * Restarting with stat
+2026-02-16 13:39:20,329:WARNING: * Debugger is active!
+2026-02-16 13:39:20,343:INFO: * Debugger PIN: 500-028-211
+2026-02-16 13:39:22,435:INFO:127.0.0.1 - - [16/Feb/2026 13:39:22] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+2026-02-16 13:39:22,439:INFO:127.0.0.1 - - [16/Feb/2026 13:39:22] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-02-16 13:39:35,209:INFO:127.0.0.1 - - [16/Feb/2026 13:39:35] "GET /home HTTP/1.1" 200 -
+2026-02-16 13:39:35,220:INFO:127.0.0.1 - - [16/Feb/2026 13:39:35] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+2026-02-16 13:39:42,387:INFO:127.0.0.1 - - [16/Feb/2026 13:39:42] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+2026-02-16 13:39:45,320:INFO:127.0.0.1 - - [16/Feb/2026 13:39:45] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+2026-02-17 14:52:19,318:INFO:127.0.0.1 - - [17/Feb/2026 14:52:19] "GET /login HTTP/1.1" 200 -
+2026-02-17 14:52:19,656:INFO:127.0.0.1 - - [17/Feb/2026 14:52:19] "GET /static/css/style.css HTTP/1.1" 200 -
+2026-02-17 14:52:19,656:INFO:127.0.0.1 - - [17/Feb/2026 14:52:19] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+2026-02-17 14:52:22,236:INFO:127.0.0.1 - - [17/Feb/2026 14:52:22] "GET /home HTTP/1.1" 200 -
+2026-02-17 14:52:22,678:INFO:127.0.0.1 - - [17/Feb/2026 14:52:22] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+2026-02-17 14:52:22,683:INFO:127.0.0.1 - - [17/Feb/2026 14:52:22] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-02-17 14:57:15,811:INFO:127.0.0.1 - - [17/Feb/2026 14:57:15] "GET /login HTTP/1.1" 200 -
+2026-02-17 14:57:15,820:INFO:127.0.0.1 - - [17/Feb/2026 14:57:15] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-02-17 14:57:15,820:INFO:127.0.0.1 - - [17/Feb/2026 14:57:15] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+2026-02-17 14:57:22,652:INFO:წარმატებული ავტორიზაცია: username@gmail.com
+2026-02-17 14:57:22,652:INFO:127.0.0.1 - - [17/Feb/2026 14:57:22] "[32mPOST /login HTTP/1.1[0m" 302 -
+2026-02-17 14:57:22,737:INFO:127.0.0.1 - - [17/Feb/2026 14:57:22] "GET /home HTTP/1.1" 200 -
+2026-02-17 14:57:23,130:INFO:127.0.0.1 - - [17/Feb/2026 14:57:23] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-02-17 14:57:23,130:INFO:127.0.0.1 - - [17/Feb/2026 14:57:23] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+2026-02-17 14:57:26,247:INFO:127.0.0.1 - - [17/Feb/2026 14:57:26] "GET /job/create HTTP/1.1" 200 -
+2026-02-17 14:57:26,535:INFO:127.0.0.1 - - [17/Feb/2026 14:57:26] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+2026-02-17 14:57:26,536:INFO:127.0.0.1 - - [17/Feb/2026 14:57:26] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-02-17 14:58:04,503:INFO:დაემატა ვაკანსია: PHP Developer მომხმარებლის მიერ: username@gmail.com
+2026-02-17 14:58:04,504:INFO:127.0.0.1 - - [17/Feb/2026 14:58:04] "[32mPOST /job/create HTTP/1.1[0m" 302 -
+2026-02-17 14:58:04,615:INFO:127.0.0.1 - - [17/Feb/2026 14:58:04] "GET /home HTTP/1.1" 200 -
+2026-02-17 14:58:04,631:INFO:127.0.0.1 - - [17/Feb/2026 14:58:04] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+2026-02-17 14:58:04,631:INFO:127.0.0.1 - - [17/Feb/2026 14:58:04] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-02-17 14:58:08,133:INFO:127.0.0.1 - - [17/Feb/2026 14:58:08] "GET /job/6 HTTP/1.1" 200 -
+2026-02-17 14:58:08,429:INFO:127.0.0.1 - - [17/Feb/2026 14:58:08] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+2026-02-17 14:58:08,430:INFO:127.0.0.1 - - [17/Feb/2026 14:58:08] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-02-17 14:58:13,085:INFO:127.0.0.1 - - [17/Feb/2026 14:58:13] "[32mPOST /job/6/delete HTTP/1.1[0m" 302 -
+2026-02-17 14:58:13,182:INFO:127.0.0.1 - - [17/Feb/2026 14:58:13] "GET /home HTTP/1.1" 200 -
+2026-02-17 14:58:13,590:INFO:127.0.0.1 - - [17/Feb/2026 14:58:13] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+2026-02-17 14:58:13,590:INFO:127.0.0.1 - - [17/Feb/2026 14:58:13] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-02-17 14:58:18,519:INFO:127.0.0.1 - - [17/Feb/2026 14:58:18] "GET /profile HTTP/1.1" 200 -
+2026-02-17 14:58:18,818:INFO:127.0.0.1 - - [17/Feb/2026 14:58:18] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-02-17 14:58:18,819:INFO:127.0.0.1 - - [17/Feb/2026 14:58:18] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+2026-02-17 14:59:32,696:INFO: * Detected change in '/Users/giorgi/PycharmProjects/JobBoard/utils.py', reloading
+2026-02-17 14:59:32,966:INFO: * Restarting with stat
+2026-02-17 14:59:33,660:WARNING: * Debugger is active!
+2026-02-17 14:59:33,683:INFO: * Debugger PIN: 500-028-211
+2026-02-17 14:59:36,720:INFO: * Detected change in '/Users/giorgi/PycharmProjects/JobBoard/utils.py', reloading
+2026-02-17 14:59:36,870:INFO: * Restarting with stat
+2026-02-17 14:59:37,205:WARNING: * Debugger is active!
+2026-02-17 14:59:37,216:INFO: * Debugger PIN: 500-028-211
+2026-02-17 14:59:37,974:INFO:127.0.0.1 - - [17/Feb/2026 14:59:37] "GET /profile HTTP/1.1" 200 -
+2026-02-17 14:59:37,994:INFO:127.0.0.1 - - [17/Feb/2026 14:59:37] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+2026-02-17 14:59:37,994:INFO:127.0.0.1 - - [17/Feb/2026 14:59:37] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-02-17 14:59:39,461:INFO:127.0.0.1 - - [17/Feb/2026 14:59:39] "GET /home HTTP/1.1" 200 -
+2026-02-17 14:59:39,473:INFO:127.0.0.1 - - [17/Feb/2026 14:59:39] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+2026-02-17 14:59:39,474:INFO:127.0.0.1 - - [17/Feb/2026 14:59:39] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-02-17 14:59:42,020:INFO:127.0.0.1 - - [17/Feb/2026 14:59:42] "GET /home HTTP/1.1" 200 -
+2026-02-17 14:59:42,034:INFO:127.0.0.1 - - [17/Feb/2026 14:59:42] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-02-17 14:59:42,034:INFO:127.0.0.1 - - [17/Feb/2026 14:59:42] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+2026-02-17 14:59:48,661:INFO:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2026-02-17 14:59:48,661:INFO:[33mPress CTRL+C to quit[0m
+2026-02-17 14:59:48,662:INFO: * Restarting with stat
+2026-02-17 14:59:48,956:WARNING: * Debugger is active!
+2026-02-17 14:59:48,970:INFO: * Debugger PIN: 500-028-211
+2026-02-17 14:59:52,286:INFO:127.0.0.1 - - [17/Feb/2026 14:59:52] "GET /home HTTP/1.1" 200 -
+2026-02-17 14:59:52,301:INFO:127.0.0.1 - - [17/Feb/2026 14:59:52] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-02-17 14:59:52,301:INFO:127.0.0.1 - - [17/Feb/2026 14:59:52] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+2026-02-17 14:59:53,798:INFO:127.0.0.1 - - [17/Feb/2026 14:59:53] "GET /home HTTP/1.1" 200 -
+2026-02-17 14:59:53,810:INFO:127.0.0.1 - - [17/Feb/2026 14:59:53] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-02-17 14:59:53,810:INFO:127.0.0.1 - - [17/Feb/2026 14:59:53] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+2026-02-17 15:00:47,447:INFO: * Detected change in '/Users/giorgi/PycharmProjects/JobBoard/utils.py', reloading
+2026-02-17 15:00:47,649:INFO: * Restarting with stat
+2026-02-17 15:00:48,138:WARNING: * Debugger is active!
+2026-02-17 15:00:48,154:INFO: * Debugger PIN: 500-028-211
+2026-02-17 15:04:03,835:INFO: * Detected change in '/Users/giorgi/PycharmProjects/JobBoard/routes.py', reloading
+2026-02-17 15:04:04,056:INFO: * Restarting with stat
+2026-02-17 15:04:04,896:WARNING: * Debugger is active!
+2026-02-17 15:04:04,927:INFO: * Debugger PIN: 500-028-211
+2026-02-17 15:04:23,450:INFO:127.0.0.1 - - [17/Feb/2026 15:04:23] "GET /profile HTTP/1.1" 200 -
+2026-02-17 15:04:23,821:INFO:127.0.0.1 - - [17/Feb/2026 15:04:23] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+2026-02-17 15:04:23,822:INFO:127.0.0.1 - - [17/Feb/2026 15:04:23] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-02-17 15:04:41,270:INFO: * Detected change in '/Users/giorgi/PycharmProjects/JobBoard/models.py', reloading
+2026-02-17 15:04:41,511:INFO: * Restarting with stat
+2026-02-17 15:04:42,044:WARNING: * Debugger is active!
+2026-02-17 15:04:42,065:INFO: * Debugger PIN: 500-028-211
+2026-02-17 15:04:43,259:INFO:127.0.0.1 - - [17/Feb/2026 15:04:43] "GET /profile HTTP/1.1" 200 -
+2026-02-17 15:04:43,276:INFO:127.0.0.1 - - [17/Feb/2026 15:04:43] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+2026-02-17 15:04:43,276:INFO:127.0.0.1 - - [17/Feb/2026 15:04:43] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-02-17 15:04:44,007:INFO:127.0.0.1 - - [17/Feb/2026 15:04:44] "GET /profile HTTP/1.1" 200 -
+2026-02-17 15:04:44,015:INFO:127.0.0.1 - - [17/Feb/2026 15:04:44] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-02-17 15:04:44,015:INFO:127.0.0.1 - - [17/Feb/2026 15:04:44] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+2026-02-17 15:04:44,687:INFO:127.0.0.1 - - [17/Feb/2026 15:04:44] "GET /profile HTTP/1.1" 200 -
+2026-02-17 15:04:44,694:INFO:127.0.0.1 - - [17/Feb/2026 15:04:44] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+2026-02-17 15:04:44,695:INFO:127.0.0.1 - - [17/Feb/2026 15:04:44] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-02-17 15:04:47,226:INFO:127.0.0.1 - - [17/Feb/2026 15:04:47] "[32mPOST /profile HTTP/1.1[0m" 302 -
+2026-02-17 15:04:47,239:INFO:127.0.0.1 - - [17/Feb/2026 15:04:47] "GET /profile HTTP/1.1" 200 -
+2026-02-17 15:04:47,245:INFO:127.0.0.1 - - [17/Feb/2026 15:04:47] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-02-17 15:04:47,246:INFO:127.0.0.1 - - [17/Feb/2026 15:04:47] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+2026-02-17 15:04:49,350:INFO:127.0.0.1 - - [17/Feb/2026 15:04:49] "GET /profile HTTP/1.1" 200 -
+2026-02-17 15:04:49,358:INFO:127.0.0.1 - - [17/Feb/2026 15:04:49] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-02-17 15:04:49,358:INFO:127.0.0.1 - - [17/Feb/2026 15:04:49] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+2026-02-17 15:04:50,736:INFO:127.0.0.1 - - [17/Feb/2026 15:04:50] "[32mPOST /profile HTTP/1.1[0m" 302 -
+2026-02-17 15:04:50,743:INFO:127.0.0.1 - - [17/Feb/2026 15:04:50] "GET /profile HTTP/1.1" 200 -
+2026-02-17 15:04:50,752:INFO:127.0.0.1 - - [17/Feb/2026 15:04:50] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-02-17 15:04:50,754:INFO:127.0.0.1 - - [17/Feb/2026 15:04:50] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+2026-02-17 15:05:00,781:INFO:127.0.0.1 - - [17/Feb/2026 15:05:00] "[32mPOST /profile HTTP/1.1[0m" 302 -
+2026-02-17 15:05:00,790:INFO:127.0.0.1 - - [17/Feb/2026 15:05:00] "GET /profile HTTP/1.1" 200 -
+2026-02-17 15:05:00,799:INFO:127.0.0.1 - - [17/Feb/2026 15:05:00] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-02-17 15:05:00,800:INFO:127.0.0.1 - - [17/Feb/2026 15:05:00] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+2026-02-17 15:05:04,655:INFO:127.0.0.1 - - [17/Feb/2026 15:05:04] "[32mPOST /profile HTTP/1.1[0m" 302 -
+2026-02-17 15:05:04,664:INFO:127.0.0.1 - - [17/Feb/2026 15:05:04] "GET /profile HTTP/1.1" 200 -
+2026-02-17 15:05:04,676:INFO:127.0.0.1 - - [17/Feb/2026 15:05:04] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+2026-02-17 15:05:04,677:INFO:127.0.0.1 - - [17/Feb/2026 15:05:04] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-02-17 15:06:09,774:INFO: * Detected change in '/Users/giorgi/PycharmProjects/JobBoard/forms.py', reloading
+2026-02-17 15:06:09,928:INFO: * Restarting with stat
+2026-02-17 15:06:10,402:WARNING: * Debugger is active!
+2026-02-17 15:06:10,416:INFO: * Debugger PIN: 500-028-211
+2026-02-17 15:12:16,330:INFO:127.0.0.1 - - [17/Feb/2026 15:12:16] "GET /home HTTP/1.1" 200 -
+2026-02-17 15:12:16,351:INFO:127.0.0.1 - - [17/Feb/2026 15:12:16] "GET /static/js/main.js HTTP/1.1" 200 -
+2026-02-17 15:12:16,352:INFO:127.0.0.1 - - [17/Feb/2026 15:12:16] "GET /static/css/style.css HTTP/1.1" 200 -
+2026-02-17 15:12:16,473:INFO:127.0.0.1 - - [17/Feb/2026 15:12:16] "[33mGET /apple-touch-icon-precomposed.png HTTP/1.1[0m" 404 -
+2026-02-17 15:12:16,481:INFO:127.0.0.1 - - [17/Feb/2026 15:12:16] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2026-02-17 15:12:16,475:INFO:127.0.0.1 - - [17/Feb/2026 15:12:16] "[33mGET /apple-touch-icon.png HTTP/1.1[0m" 404 -
+2026-02-17 15:12:20,879:INFO:127.0.0.1 - - [17/Feb/2026 15:12:20] "GET /home HTTP/1.1" 200 -
+2026-02-17 15:12:20,893:INFO:127.0.0.1 - - [17/Feb/2026 15:12:20] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-02-17 15:12:20,893:INFO:127.0.0.1 - - [17/Feb/2026 15:12:20] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+2026-02-17 15:12:24,523:INFO:127.0.0.1 - - [17/Feb/2026 15:12:24] "GET /job/5 HTTP/1.1" 200 -
+2026-02-17 15:12:24,819:INFO:127.0.0.1 - - [17/Feb/2026 15:12:24] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-02-17 15:12:24,819:INFO:127.0.0.1 - - [17/Feb/2026 15:12:24] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+2026-02-17 15:12:30,964:INFO:127.0.0.1 - - [17/Feb/2026 15:12:30] "GET /about HTTP/1.1" 200 -
+2026-02-17 15:12:31,254:INFO:127.0.0.1 - - [17/Feb/2026 15:12:31] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-02-17 15:12:31,254:INFO:127.0.0.1 - - [17/Feb/2026 15:12:31] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+2026-02-17 15:12:37,007:INFO:127.0.0.1 - - [17/Feb/2026 15:12:37] "GET /job/create HTTP/1.1" 200 -
+2026-02-17 15:12:37,305:INFO:127.0.0.1 - - [17/Feb/2026 15:12:37] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-02-17 15:12:37,305:INFO:127.0.0.1 - - [17/Feb/2026 15:12:37] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+2026-02-17 15:12:55,245:INFO:დაემატა ვაკანსია: გჰ მომხმარებლის მიერ: username@gmail.com
+2026-02-17 15:12:55,246:INFO:127.0.0.1 - - [17/Feb/2026 15:12:55] "[32mPOST /job/create HTTP/1.1[0m" 302 -
+2026-02-17 15:12:55,377:INFO:127.0.0.1 - - [17/Feb/2026 15:12:55] "GET /home HTTP/1.1" 200 -
+2026-02-17 15:12:55,392:INFO:127.0.0.1 - - [17/Feb/2026 15:12:55] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+2026-02-17 15:12:55,393:INFO:127.0.0.1 - - [17/Feb/2026 15:12:55] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-02-17 15:12:58,295:INFO:127.0.0.1 - - [17/Feb/2026 15:12:58] "GET /job/6 HTTP/1.1" 200 -
+2026-02-17 15:12:58,574:INFO:127.0.0.1 - - [17/Feb/2026 15:12:58] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-02-17 15:12:58,575:INFO:127.0.0.1 - - [17/Feb/2026 15:12:58] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+2026-02-17 15:13:02,006:INFO:127.0.0.1 - - [17/Feb/2026 15:13:02] "[32mPOST /job/6/delete HTTP/1.1[0m" 302 -
+2026-02-17 15:13:02,113:INFO:127.0.0.1 - - [17/Feb/2026 15:13:02] "GET /home HTTP/1.1" 200 -
+2026-02-17 15:13:02,127:INFO:127.0.0.1 - - [17/Feb/2026 15:13:02] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+2026-02-17 15:13:02,127:INFO:127.0.0.1 - - [17/Feb/2026 15:13:02] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-02-17 15:13:03,919:INFO:127.0.0.1 - - [17/Feb/2026 15:13:03] "GET /profile HTTP/1.1" 200 -
+2026-02-17 15:13:04,210:INFO:127.0.0.1 - - [17/Feb/2026 15:13:04] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-02-17 15:13:04,216:INFO:127.0.0.1 - - [17/Feb/2026 15:13:04] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+2026-02-17 15:13:16,533:INFO:127.0.0.1 - - [17/Feb/2026 15:13:16] "[33mGET /profiled HTTP/1.1[0m" 404 -
+2026-02-17 15:13:16,537:INFO:127.0.0.1 - - [17/Feb/2026 15:13:16] "[36mGET /profiled?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2026-02-17 15:13:16,538:INFO:127.0.0.1 - - [17/Feb/2026 15:13:16] "[36mGET /profiled?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2026-02-17 15:13:16,538:INFO:127.0.0.1 - - [17/Feb/2026 15:13:16] "[36mGET /profiled?__debugger__=yes&cmd=resource&f=console.png&s=Gx4wY4Vx1slBsi2qdgrC HTTP/1.1[0m" 304 -
+2026-02-17 15:13:16,539:INFO:127.0.0.1 - - [17/Feb/2026 15:13:16] "[36mGET /profiled?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2026-02-17 15:13:16,904:INFO:127.0.0.1 - - [17/Feb/2026 15:13:16] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-02-17 15:13:16,905:INFO:127.0.0.1 - - [17/Feb/2026 15:13:16] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+2026-02-17 15:13:19,267:INFO:127.0.0.1 - - [17/Feb/2026 15:13:19] "GET /home HTTP/1.1" 200 -
+2026-02-17 15:13:19,287:INFO:127.0.0.1 - - [17/Feb/2026 15:13:19] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-02-17 15:13:19,288:INFO:127.0.0.1 - - [17/Feb/2026 15:13:19] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+2026-02-17 15:13:20,860:INFO:127.0.0.1 - - [17/Feb/2026 15:13:20] "[32mGET /logout HTTP/1.1[0m" 302 -
+2026-02-17 15:13:20,963:INFO:127.0.0.1 - - [17/Feb/2026 15:13:20] "GET /home HTTP/1.1" 200 -
+2026-02-17 15:13:20,975:INFO:127.0.0.1 - - [17/Feb/2026 15:13:20] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-02-17 15:13:20,975:INFO:127.0.0.1 - - [17/Feb/2026 15:13:20] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+2026-02-17 15:13:31,328:INFO:127.0.0.1 - - [17/Feb/2026 15:13:31] "GET /register HTTP/1.1" 200 -
+2026-02-17 15:13:31,615:INFO:127.0.0.1 - - [17/Feb/2026 15:13:31] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+2026-02-17 15:13:31,616:INFO:127.0.0.1 - - [17/Feb/2026 15:13:31] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-02-17 15:14:01,854:INFO:127.0.0.1 - - [17/Feb/2026 15:14:01] "POST /register HTTP/1.1" 200 -
+2026-02-17 15:14:01,862:INFO:127.0.0.1 - - [17/Feb/2026 15:14:01] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-02-17 15:14:01,862:INFO:127.0.0.1 - - [17/Feb/2026 15:14:01] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+2026-02-17 15:15:29,990:INFO: * Detected change in '/Users/giorgi/PycharmProjects/JobBoard/forms.py', reloading
+2026-02-17 15:15:30,114:INFO: * Restarting with stat
+2026-02-17 15:15:30,635:WARNING: * Debugger is active!
+2026-02-17 15:15:30,650:INFO: * Debugger PIN: 500-028-211
+2026-02-17 15:16:01,919:INFO: * Detected change in '/Users/giorgi/PycharmProjects/JobBoard/forms.py', reloading
+2026-02-17 15:16:02,022:INFO: * Restarting with stat
+2026-02-17 15:16:02,426:WARNING: * Debugger is active!
+2026-02-17 15:16:02,447:INFO: * Debugger PIN: 500-028-211
+2026-02-17 15:16:21,283:INFO:127.0.0.1 - - [17/Feb/2026 15:16:21] "POST /register HTTP/1.1" 200 -
+2026-02-17 15:16:21,293:INFO:127.0.0.1 - - [17/Feb/2026 15:16:21] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-02-17 15:16:21,293:INFO:127.0.0.1 - - [17/Feb/2026 15:16:21] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+2026-02-17 15:16:38,696:INFO:127.0.0.1 - - [17/Feb/2026 15:16:38] "POST /register HTTP/1.1" 200 -
+2026-02-17 15:16:38,703:INFO:127.0.0.1 - - [17/Feb/2026 15:16:38] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-02-17 15:16:38,704:INFO:127.0.0.1 - - [17/Feb/2026 15:16:38] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+2026-02-17 15:17:53,363:INFO: * Detected change in '/Users/giorgi/PycharmProjects/JobBoard/forms.py', reloading
+2026-02-17 15:17:53,645:INFO: * Restarting with stat
+2026-02-17 15:17:54,291:WARNING: * Debugger is active!
+2026-02-17 15:17:54,313:INFO: * Debugger PIN: 500-028-211
+2026-02-17 15:18:15,491:INFO: * Detected change in '/Users/giorgi/PycharmProjects/JobBoard/forms.py', reloading
+2026-02-17 15:18:15,650:INFO: * Restarting with stat
+2026-02-17 15:18:16,354:WARNING: * Debugger is active!
+2026-02-17 15:18:16,371:INFO: * Debugger PIN: 500-028-211
+2026-02-17 15:18:48,283:INFO:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2026-02-17 15:18:48,284:INFO:[33mPress CTRL+C to quit[0m
+2026-02-17 15:18:48,284:INFO: * Restarting with stat
+2026-02-17 15:18:48,613:WARNING: * Debugger is active!
+2026-02-17 15:18:48,625:INFO: * Debugger PIN: 500-028-211
+2026-02-17 15:18:51,084:INFO:127.0.0.1 - - [17/Feb/2026 15:18:51] "POST /register HTTP/1.1" 200 -
+2026-02-17 15:18:51,095:INFO:127.0.0.1 - - [17/Feb/2026 15:18:51] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+2026-02-17 15:18:51,095:INFO:127.0.0.1 - - [17/Feb/2026 15:18:51] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-02-17 15:18:52,378:INFO:127.0.0.1 - - [17/Feb/2026 15:18:52] "GET /home HTTP/1.1" 200 -
+2026-02-17 15:18:53,023:INFO:127.0.0.1 - - [17/Feb/2026 15:18:53] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+2026-02-17 15:18:53,023:INFO:127.0.0.1 - - [17/Feb/2026 15:18:53] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-02-17 15:18:53,153:INFO:127.0.0.1 - - [17/Feb/2026 15:18:53] "GET /register HTTP/1.1" 200 -
+2026-02-17 15:18:53,160:INFO:127.0.0.1 - - [17/Feb/2026 15:18:53] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-02-17 15:18:53,161:INFO:127.0.0.1 - - [17/Feb/2026 15:18:53] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+2026-02-17 15:19:04,405:INFO:127.0.0.1 - - [17/Feb/2026 15:19:04] "POST /register HTTP/1.1" 200 -
+2026-02-17 15:19:04,411:INFO:127.0.0.1 - - [17/Feb/2026 15:19:04] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-02-17 15:19:04,412:INFO:127.0.0.1 - - [17/Feb/2026 15:19:04] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+2026-02-17 15:19:11,126:INFO:127.0.0.1 - - [17/Feb/2026 15:19:11] "GET /login HTTP/1.1" 200 -
+2026-02-17 15:19:11,417:INFO:127.0.0.1 - - [17/Feb/2026 15:19:11] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-02-17 15:19:11,418:INFO:127.0.0.1 - - [17/Feb/2026 15:19:11] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+2026-02-17 15:19:14,415:INFO:127.0.0.1 - - [17/Feb/2026 15:19:14] "POST /login HTTP/1.1" 200 -
+2026-02-17 15:19:14,422:INFO:127.0.0.1 - - [17/Feb/2026 15:19:14] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-02-17 15:19:14,424:INFO:127.0.0.1 - - [17/Feb/2026 15:19:14] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+2026-02-17 15:19:19,048:INFO:127.0.0.1 - - [17/Feb/2026 15:19:19] "POST /login HTTP/1.1" 200 -
+2026-02-17 15:19:19,055:INFO:127.0.0.1 - - [17/Feb/2026 15:19:19] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-02-17 15:19:19,056:INFO:127.0.0.1 - - [17/Feb/2026 15:19:19] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+2026-02-17 15:19:28,143:INFO:127.0.0.1 - - [17/Feb/2026 15:19:28] "POST /login HTTP/1.1" 200 -
+2026-02-17 15:19:28,150:INFO:127.0.0.1 - - [17/Feb/2026 15:19:28] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-02-17 15:19:28,150:INFO:127.0.0.1 - - [17/Feb/2026 15:19:28] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+2026-02-17 15:19:36,293:INFO:წარმატებული ავტორიზაცია: username@gmail.com
+2026-02-17 15:19:36,293:INFO:127.0.0.1 - - [17/Feb/2026 15:19:36] "[32mPOST /login HTTP/1.1[0m" 302 -
+2026-02-17 15:19:36,409:INFO:127.0.0.1 - - [17/Feb/2026 15:19:36] "GET /home HTTP/1.1" 200 -
+2026-02-17 15:19:36,421:INFO:127.0.0.1 - - [17/Feb/2026 15:19:36] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+2026-02-17 15:19:36,421:INFO:127.0.0.1 - - [17/Feb/2026 15:19:36] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-02-17 15:21:47,707:INFO:127.0.0.1 - - [17/Feb/2026 15:21:47] "GET /home HTTP/1.1" 200 -
+2026-02-17 15:21:47,724:INFO:127.0.0.1 - - [17/Feb/2026 15:21:47] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-02-17 15:21:47,724:INFO:127.0.0.1 - - [17/Feb/2026 15:21:47] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+2026-02-17 15:21:50,377:INFO:127.0.0.1 - - [17/Feb/2026 15:21:50] "[32mGET /logout HTTP/1.1[0m" 302 -
+2026-02-17 15:21:50,493:INFO:127.0.0.1 - - [17/Feb/2026 15:21:50] "GET /home HTTP/1.1" 200 -
+2026-02-17 15:21:50,935:INFO:127.0.0.1 - - [17/Feb/2026 15:21:50] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+2026-02-17 15:21:50,935:INFO:127.0.0.1 - - [17/Feb/2026 15:21:50] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-02-17 15:21:51,523:INFO:127.0.0.1 - - [17/Feb/2026 15:21:51] "GET /register HTTP/1.1" 200 -
+2026-02-17 15:21:51,533:INFO:127.0.0.1 - - [17/Feb/2026 15:21:51] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+2026-02-17 15:21:51,534:INFO:127.0.0.1 - - [17/Feb/2026 15:21:51] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-02-17 15:22:18,623:INFO:127.0.0.1 - - [17/Feb/2026 15:22:18] "POST /register HTTP/1.1" 200 -
+2026-02-17 15:22:18,630:INFO:127.0.0.1 - - [17/Feb/2026 15:22:18] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-02-17 15:22:18,631:INFO:127.0.0.1 - - [17/Feb/2026 15:22:18] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+2026-02-17 15:22:35,855:INFO:127.0.0.1 - - [17/Feb/2026 15:22:35] "POST /register HTTP/1.1" 200 -
+2026-02-17 15:22:35,863:INFO:127.0.0.1 - - [17/Feb/2026 15:22:35] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+2026-02-17 15:22:35,863:INFO:127.0.0.1 - - [17/Feb/2026 15:22:35] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-02-17 15:23:48,650:INFO:127.0.0.1 - - [17/Feb/2026 15:23:48] "POST /register HTTP/1.1" 200 -
+2026-02-17 15:23:48,666:INFO:127.0.0.1 - - [17/Feb/2026 15:23:48] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-02-17 15:23:48,666:INFO:127.0.0.1 - - [17/Feb/2026 15:23:48] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+2026-02-17 15:23:53,971:INFO:127.0.0.1 - - [17/Feb/2026 15:23:53] "GET /login HTTP/1.1" 200 -
+2026-02-17 15:23:53,979:INFO:127.0.0.1 - - [17/Feb/2026 15:23:53] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-02-17 15:23:53,979:INFO:127.0.0.1 - - [17/Feb/2026 15:23:53] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+2026-02-17 15:24:01,668:INFO:წარმატებული ავტორიზაცია: username@gmail.com
+2026-02-17 15:24:01,669:INFO:127.0.0.1 - - [17/Feb/2026 15:24:01] "[32mPOST /login HTTP/1.1[0m" 302 -
+2026-02-17 15:24:01,785:INFO:127.0.0.1 - - [17/Feb/2026 15:24:01] "GET /home HTTP/1.1" 200 -
+2026-02-17 15:24:01,795:INFO:127.0.0.1 - - [17/Feb/2026 15:24:01] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-02-17 15:24:01,795:INFO:127.0.0.1 - - [17/Feb/2026 15:24:01] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+2026-02-17 15:26:11,628:ERROR:127.0.0.1 - - [17/Feb/2026 15:26:11] code 400, message Bad request version ('ó\x00§\'"\x00*êê\x13\x02\x13\x03\x13\x01À,À+Ì©À0À/Ì¨À')
+2026-02-17 15:26:11,630:INFO:127.0.0.1 - - [17/Feb/2026 15:26:11] "[31m[1m\x16\x03\x01\x05å\x01\x00\x05á\x03\x03\x96\x88VÃé¥í\x09Ò4\x8f¿\x82âÛ@»\x91\x8b¦­âiSTÝµ5GÞ»\x08 \x95ðºüf?+¦1\x12á¥\x05\x8e0ËÀ,õ\x04s§\x7f\x19¢Á\x85ó\x00§'"\x00*êê\x13\x02\x13\x03\x13\x01À,À+Ì©À0À/Ì¨À[0m" 400 -
+2026-02-17 15:26:11,637:ERROR:127.0.0.1 - - [17/Feb/2026 15:26:11] code 400, message Bad request version ('V{\x00,\x9a\x9a\x13\x02\x13\x03\x13\x01À,À+Ì©À0À/Ì¨À')
+2026-02-17 15:26:11,637:INFO:127.0.0.1 - - [17/Feb/2026 15:26:11] "[31m[1m\x16\x03\x01\x05ç\x01\x00\x05ã\x03\x03®\x82¿ûÞÊ\x8e%ÿ\x07\x09\x14U`O\x14ÌµÜ\x8d>#'T1o\x00/\x90Êlæ Üè\x0dÏÙ\x0f\x92b¹\x06FCÊÚ=ÏÉ*Pð!òEeë,ó±{\x0dV{\x00,\x9a\x9a\x13\x02\x13\x03\x13\x01À,À+Ì©À0À/Ì¨À[0m" 400 -
+2026-02-17 15:26:11,888:ERROR:127.0.0.1 - - [17/Feb/2026 15:26:11] code 400, message Bad request version ('äÃ¡¾\x17\x87\x00*ZZ\x13\x02\x13\x03\x13\x01À,À+Ì©À0À/Ì¨À')
+2026-02-17 15:26:11,888:INFO:127.0.0.1 - - [17/Feb/2026 15:26:11] "[31m[1m\x16\x03\x01\x05å\x01\x00\x05á\x03\x03\x9cªËÖU#(þíVm\x11Û¦û\x9a\x84\x08õ\\g^½Ã\x07pÜ\x8dàÊ·y JC[.yRÀÜÇ\x81|\x9cqOaÚ£>F\x86|gX¢E\x1däÃ¡¾\x17\x87\x00*ZZ\x13\x02\x13\x03\x13\x01À,À+Ì©À0À/Ì¨À[0m" 400 -
+2026-02-17 15:26:11,890:ERROR:127.0.0.1 - - [17/Feb/2026 15:26:11] code 400, message Bad HTTP/0.9 request type ('\x16\x03\x01\x05ç\x01\x00\x05ã\x03\x03¦ÏmÖ')
+2026-02-17 15:26:11,890:INFO:127.0.0.1 - - [17/Feb/2026 15:26:11] "[31m[1m\x16\x03\x01\x05ç\x01\x00\x05ã\x03\x03¦ÏmÖ\x1e¢4©ÆÏ#\x96\x7fÒ$nf»[0m" 400 -

@@ -1,0 +1,61 @@
+{% extends "base.html" %}
+
+{% block content %}
+<div class="form-container">
+    <h2 style="color: var(--primary-blue); text-align: center; margin-bottom: 30px;">რეგისტრაცია</h2>
+
+    <form method="POST" action="">
+        {{ form.hidden_tag() }}
+
+        <div class="form-group" style="margin-bottom: 15px;">
+            {{ form.username.label(style="font-weight: 600; color: var(--text-dark); display: block; margin-bottom: 5px;") }}
+            {{ form.username(placeholder="აირჩიეთ სახელი", style="width: 100%; border: 1px solid " + ("#dc3545" if form.username.errors else "#ced4da") + "; padding: 8px; border-radius: 4px;") }}
+            {% if form.username.errors %}
+                {% for error in form.username.errors %}
+                    <small style="color: #dc3545; display: block; margin-top: 4px;">{{ error }}</small>
+                {% endfor %}
+            {% endif %}
+        </div>
+
+        <div class="form-group" style="margin-bottom: 15px;">
+            {{ form.email.label(style="font-weight: 600; color: var(--text-dark); display: block; margin-bottom: 5px;") }}
+            {{ form.email(placeholder="example@gmail.com", style="width: 100%; border: 1px solid " + ("#dc3545" if form.email.errors else "#ced4da") + "; padding: 8px; border-radius: 4px;") }}
+            {% if form.email.errors %}
+                {% for error in form.email.errors %}
+                    <small style="color: #dc3545; display: block; margin-top: 4px;">{{ error }}</small>
+                {% endfor %}
+            {% endif %}
+        </div>
+
+        <div class="form-group" style="margin-bottom: 15px;">
+            {{ form.password.label(style="font-weight: 600; color: var(--text-dark); display: block; margin-bottom: 5px;") }}
+            {{ form.password(placeholder="პაროლი", style="width: 100%; border: 1px solid " + ("#dc3545" if form.password.errors else "#ced4da") + "; padding: 8px; border-radius: 4px;") }}
+            {% if form.password.errors %}
+                {% for error in form.password.errors %}
+                    <small style="color: #dc3545; display: block; margin-top: 4px;">{{ error }}</small>
+                {% endfor %}
+            {% endif %}
+        </div>
+
+        <div class="form-group" style="margin-bottom: 15px;">
+            {{ form.confirm_password.label(style="font-weight: 600; color: var(--text-dark); display: block; margin-bottom: 5px;") }}
+            {{ form.confirm_password(placeholder="გაიმეორეთ პაროლი", style="width: 100%; border: 1px solid " + ("#dc3545" if form.confirm_password.errors else "#ced4da") + "; padding: 8px; border-radius: 4px;") }}
+            {% if form.confirm_password.errors %}
+                {% for error in form.confirm_password.errors %}
+                    <small style="color: #dc3545; display: block; margin-top: 4px;">{{ error }}</small>
+                {% endfor %}
+            {% endif %}
+        </div>
+
+        <div style="margin-top: 20px;">
+            {{ form.submit(class="btn-primary", style="width: 100%; cursor: pointer;") }}
+        </div>
+    </form>
+
+    <div style="margin-top: 25px; text-align: center; border-top: 1px solid #f1f5f9; padding-top: 20px;">
+        <p style="color: #64748b; font-size: 0.9rem;">
+            უკვე გაქვთ ანგარიში? <a href="{{ url_for('login') }}" style="color: var(--secondary-blue); text-decoration: none; font-weight: 600;">შესვლა</a>
+        </p>
+    </div>
+</div>
+{% endblock %}

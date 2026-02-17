@@ -1,0 +1,1223 @@
+2026-02-14 00:36:04,879 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2026-02-14 00:36:04,879 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2026-02-14 00:36:04,880 - werkzeug - INFO -  * Restarting with stat
+2026-02-14 00:36:05,294 - werkzeug - WARNING -  * Debugger is active!
+2026-02-14 00:36:05,323 - werkzeug - INFO -  * Debugger PIN: 500-028-211
+2026-02-14 00:36:12,951 - werkzeug - INFO - 127.0.0.1 - - [14/Feb/2026 00:36:12] "[35m[1mGET / HTTP/1.1[0m" 500 -
+2026-02-14 00:36:13,016 - werkzeug - INFO - 127.0.0.1 - - [14/Feb/2026 00:36:13] "GET /?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+2026-02-14 00:36:13,020 - werkzeug - INFO - 127.0.0.1 - - [14/Feb/2026 00:36:13] "GET /?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+2026-02-14 00:36:13,037 - werkzeug - INFO - 127.0.0.1 - - [14/Feb/2026 00:36:13] "GET /?__debugger__=yes&cmd=resource&f=console.png&s=gxrnsHFpiN1zlbl9S0ms HTTP/1.1" 200 -
+2026-02-14 00:36:13,101 - werkzeug - INFO - 127.0.0.1 - - [14/Feb/2026 00:36:13] "[33mGET /apple-touch-icon-precomposed.png HTTP/1.1[0m" 404 -
+2026-02-14 00:36:13,358 - werkzeug - INFO - 127.0.0.1 - - [14/Feb/2026 00:36:13] "[33mGET /apple-touch-icon.png HTTP/1.1[0m" 404 -
+2026-02-14 00:37:07,861 - werkzeug - INFO -  * Detected change in '/Users/giorgi/PycharmProjects/JobBoard/main.py', reloading
+2026-02-14 00:37:08,264 - werkzeug - INFO -  * Restarting with stat
+2026-02-14 00:37:08,931 - werkzeug - WARNING -  * Debugger is active!
+2026-02-14 00:37:08,949 - werkzeug - INFO -  * Debugger PIN: 500-028-211
+2026-02-14 00:38:00,062 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2026-02-14 00:38:00,062 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2026-02-14 00:38:00,062 - werkzeug - INFO -  * Restarting with stat
+2026-02-14 00:38:00,350 - werkzeug - WARNING -  * Debugger is active!
+2026-02-14 00:38:00,363 - werkzeug - INFO -  * Debugger PIN: 500-028-211
+2026-02-14 00:38:03,741 - werkzeug - INFO - 127.0.0.1 - - [14/Feb/2026 00:38:03] "[35m[1mGET / HTTP/1.1[0m" 500 -
+2026-02-14 00:38:03,777 - werkzeug - INFO - 127.0.0.1 - - [14/Feb/2026 00:38:03] "[36mGET /?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2026-02-14 00:38:03,778 - werkzeug - INFO - 127.0.0.1 - - [14/Feb/2026 00:38:03] "[36mGET /?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2026-02-14 00:38:03,787 - werkzeug - INFO - 127.0.0.1 - - [14/Feb/2026 00:38:03] "GET /?__debugger__=yes&cmd=resource&f=console.png&s=JQf8a3WCiLCPnGcEXXAf HTTP/1.1" 200 -
+2026-02-14 00:38:04,672 - werkzeug - INFO - 127.0.0.1 - - [14/Feb/2026 00:38:04] "[35m[1mGET / HTTP/1.1[0m" 500 -
+2026-02-14 00:38:04,686 - werkzeug - INFO - 127.0.0.1 - - [14/Feb/2026 00:38:04] "[36mGET /?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2026-02-14 00:38:04,686 - werkzeug - INFO - 127.0.0.1 - - [14/Feb/2026 00:38:04] "[36mGET /?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2026-02-14 00:38:04,690 - werkzeug - INFO - 127.0.0.1 - - [14/Feb/2026 00:38:04] "[36mGET /?__debugger__=yes&cmd=resource&f=console.png&s=JQf8a3WCiLCPnGcEXXAf HTTP/1.1[0m" 304 -
+2026-02-14 00:38:05,350 - werkzeug - INFO - 127.0.0.1 - - [14/Feb/2026 00:38:05] "[35m[1mGET / HTTP/1.1[0m" 500 -
+2026-02-14 00:38:05,356 - werkzeug - INFO - 127.0.0.1 - - [14/Feb/2026 00:38:05] "[36mGET /?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2026-02-14 00:38:05,356 - werkzeug - INFO - 127.0.0.1 - - [14/Feb/2026 00:38:05] "[36mGET /?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2026-02-14 00:38:05,360 - werkzeug - INFO - 127.0.0.1 - - [14/Feb/2026 00:38:05] "[36mGET /?__debugger__=yes&cmd=resource&f=console.png&s=JQf8a3WCiLCPnGcEXXAf HTTP/1.1[0m" 304 -
+2026-02-14 00:38:52,797 - werkzeug - INFO -  * Detected change in '/Users/giorgi/PycharmProjects/JobBoard/routes.py', reloading
+2026-02-14 00:38:52,962 - werkzeug - INFO -  * Restarting with stat
+2026-02-14 00:42:56,573 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2026-02-14 00:42:56,573 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2026-02-14 00:42:56,573 - werkzeug - INFO -  * Restarting with stat
+2026-02-14 00:42:56,838 - werkzeug - WARNING -  * Debugger is active!
+2026-02-14 00:42:56,854 - werkzeug - INFO -  * Debugger PIN: 500-028-211
+2026-02-14 00:42:59,689 - werkzeug - INFO - 127.0.0.1 - - [14/Feb/2026 00:42:59] "GET / HTTP/1.1" 200 -
+2026-02-14 00:43:03,233 - werkzeug - INFO - 127.0.0.1 - - [14/Feb/2026 00:43:03] "GET /home HTTP/1.1" 200 -
+2026-02-14 16:02:09,083 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2026-02-14 16:02:09,083 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2026-02-14 16:02:09,084 - werkzeug - INFO -  * Restarting with stat
+2026-02-14 16:02:09,348 - werkzeug - WARNING -  * Debugger is active!
+2026-02-14 16:02:09,361 - werkzeug - INFO -  * Debugger PIN: 500-028-211
+2026-02-14 16:02:14,756 - root - ERROR - API request error: HTTPSConnectionPool(host='open.er-api.com', port=443): Max retries exceeded with url: /v6/latest/GEL (Caused by NameResolutionError("HTTPSConnection(host='open.er-api.com', port=443): Failed to resolve 'open.er-api.com' ([Errno 8] nodename nor servname provided, or not known)"))
+2026-02-14 16:02:14,764 - werkzeug - INFO - 127.0.0.1 - - [14/Feb/2026 16:02:14] "GET /home HTTP/1.1" 200 -
+2026-02-14 16:02:16,184 - root - ERROR - API request error: HTTPSConnectionPool(host='open.er-api.com', port=443): Max retries exceeded with url: /v6/latest/GEL (Caused by NameResolutionError("HTTPSConnection(host='open.er-api.com', port=443): Failed to resolve 'open.er-api.com' ([Errno 8] nodename nor servname provided, or not known)"))
+2026-02-14 16:02:16,184 - werkzeug - INFO - 127.0.0.1 - - [14/Feb/2026 16:02:16] "GET /home HTTP/1.1" 200 -
+2026-02-14 20:11:08,473 - werkzeug - INFO - 127.0.0.1 - - [14/Feb/2026 20:11:08] "GET /home HTTP/1.1" 200 -
+2026-02-14 22:19:03,406 - werkzeug - INFO - 127.0.0.1 - - [14/Feb/2026 22:19:03] "GET /home HTTP/1.1" 200 -
+2026-02-14 22:19:03,422 - werkzeug - INFO - 127.0.0.1 - - [14/Feb/2026 22:19:03] "[33mGET /static/css/style.css HTTP/1.1[0m" 404 -
+2026-02-14 22:19:03,423 - werkzeug - INFO - 127.0.0.1 - - [14/Feb/2026 22:19:03] "[33mGET /static/js/main.js HTTP/1.1[0m" 404 -
+2026-02-14 22:19:05,080 - werkzeug - INFO - 127.0.0.1 - - [14/Feb/2026 22:19:05] "GET /home HTTP/1.1" 200 -
+2026-02-14 22:19:05,091 - werkzeug - INFO - 127.0.0.1 - - [14/Feb/2026 22:19:05] "[33mGET /static/css/style.css HTTP/1.1[0m" 404 -
+2026-02-14 22:19:05,092 - werkzeug - INFO - 127.0.0.1 - - [14/Feb/2026 22:19:05] "[33mGET /static/js/main.js HTTP/1.1[0m" 404 -
+2026-02-14 22:19:23,950 - werkzeug - INFO - 127.0.0.1 - - [14/Feb/2026 22:19:23] "GET / HTTP/1.1" 200 -
+2026-02-14 22:19:23,955 - werkzeug - INFO - 127.0.0.1 - - [14/Feb/2026 22:19:23] "[33mGET /static/css/style.css HTTP/1.1[0m" 404 -
+2026-02-14 22:19:23,956 - werkzeug - INFO - 127.0.0.1 - - [14/Feb/2026 22:19:23] "[33mGET /static/js/main.js HTTP/1.1[0m" 404 -
+2026-02-14 22:19:23,970 - werkzeug - INFO - 127.0.0.1 - - [14/Feb/2026 22:19:23] "[33mGET /apple-touch-icon-precomposed.png HTTP/1.1[0m" 404 -
+2026-02-14 22:19:23,971 - werkzeug - INFO - 127.0.0.1 - - [14/Feb/2026 22:19:23] "[33mGET /apple-touch-icon.png HTTP/1.1[0m" 404 -
+2026-02-14 22:19:23,972 - werkzeug - INFO - 127.0.0.1 - - [14/Feb/2026 22:19:23] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2026-02-14 22:20:27,011 - werkzeug - INFO - 127.0.0.1 - - [14/Feb/2026 22:20:27] "GET / HTTP/1.1" 200 -
+2026-02-14 22:20:27,022 - werkzeug - INFO - 127.0.0.1 - - [14/Feb/2026 22:20:27] "[33mGET /static/css/style.css HTTP/1.1[0m" 404 -
+2026-02-14 22:20:27,024 - werkzeug - INFO - 127.0.0.1 - - [14/Feb/2026 22:20:27] "[33mGET /static/js/main.js HTTP/1.1[0m" 404 -
+2026-02-14 22:20:28,019 - werkzeug - INFO - 127.0.0.1 - - [14/Feb/2026 22:20:28] "GET / HTTP/1.1" 200 -
+2026-02-14 22:20:28,024 - werkzeug - INFO - 127.0.0.1 - - [14/Feb/2026 22:20:28] "[33mGET /static/css/style.css HTTP/1.1[0m" 404 -
+2026-02-14 22:20:28,025 - werkzeug - INFO - 127.0.0.1 - - [14/Feb/2026 22:20:28] "[33mGET /static/js/main.js HTTP/1.1[0m" 404 -
+2026-02-14 22:20:58,079 - werkzeug - INFO - 127.0.0.1 - - [14/Feb/2026 22:20:58] "GET / HTTP/1.1" 200 -
+2026-02-14 22:20:58,093 - werkzeug - INFO - 127.0.0.1 - - [14/Feb/2026 22:20:58] "[33mGET /static/js/main.js HTTP/1.1[0m" 404 -
+2026-02-14 22:20:58,098 - werkzeug - INFO - 127.0.0.1 - - [14/Feb/2026 22:20:58] "GET /static/css/style.css HTTP/1.1" 200 -
+2026-02-14 22:22:35,388 - werkzeug - INFO - 127.0.0.1 - - [14/Feb/2026 22:22:35] "GET / HTTP/1.1" 200 -
+2026-02-14 22:22:35,397 - werkzeug - INFO - 127.0.0.1 - - [14/Feb/2026 22:22:35] "[33mGET /static/js/main.js HTTP/1.1[0m" 404 -
+2026-02-14 22:22:35,399 - werkzeug - INFO - 127.0.0.1 - - [14/Feb/2026 22:22:35] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-02-14 22:23:01,283 - werkzeug - INFO - 127.0.0.1 - - [14/Feb/2026 22:23:01] "GET / HTTP/1.1" 200 -
+2026-02-14 22:23:01,293 - werkzeug - INFO - 127.0.0.1 - - [14/Feb/2026 22:23:01] "[33mGET /static/js/main.js HTTP/1.1[0m" 404 -
+2026-02-14 22:23:01,295 - werkzeug - INFO - 127.0.0.1 - - [14/Feb/2026 22:23:01] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-02-14 22:23:07,333 - werkzeug - INFO - 127.0.0.1 - - [14/Feb/2026 22:23:07] "GET / HTTP/1.1" 200 -
+2026-02-14 22:23:07,343 - werkzeug - INFO - 127.0.0.1 - - [14/Feb/2026 22:23:07] "[33mGET /static/js/main.js HTTP/1.1[0m" 404 -
+2026-02-14 22:23:07,345 - werkzeug - INFO - 127.0.0.1 - - [14/Feb/2026 22:23:07] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-02-14 22:23:09,066 - werkzeug - INFO - 127.0.0.1 - - [14/Feb/2026 22:23:09] "GET /home HTTP/1.1" 200 -
+2026-02-14 22:23:09,076 - werkzeug - INFO - 127.0.0.1 - - [14/Feb/2026 22:23:09] "[33mGET /static/js/main.js HTTP/1.1[0m" 404 -
+2026-02-14 22:23:09,078 - werkzeug - INFO - 127.0.0.1 - - [14/Feb/2026 22:23:09] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-02-14 22:24:09,371 - werkzeug - INFO - 127.0.0.1 - - [14/Feb/2026 22:24:09] "GET /home HTTP/1.1" 200 -
+2026-02-14 22:24:09,378 - werkzeug - INFO - 127.0.0.1 - - [14/Feb/2026 22:24:09] "[33mGET /static/js/main.js HTTP/1.1[0m" 404 -
+2026-02-14 22:24:09,380 - werkzeug - INFO - 127.0.0.1 - - [14/Feb/2026 22:24:09] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-02-14 22:24:16,132 - werkzeug - INFO - 127.0.0.1 - - [14/Feb/2026 22:24:16] "[35m[1mGET /register HTTP/1.1[0m" 500 -
+2026-02-14 22:24:16,448 - werkzeug - INFO - 127.0.0.1 - - [14/Feb/2026 22:24:16] "GET /register?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+2026-02-14 22:24:16,448 - werkzeug - INFO - 127.0.0.1 - - [14/Feb/2026 22:24:16] "GET /register?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+2026-02-14 22:24:16,454 - werkzeug - INFO - 127.0.0.1 - - [14/Feb/2026 22:24:16] "GET /register?__debugger__=yes&cmd=resource&f=console.png&s=WUXqD1e6TFhfWKDTTfIU HTTP/1.1" 200 -
+2026-02-14 22:24:16,470 - werkzeug - INFO - 127.0.0.1 - - [14/Feb/2026 22:24:16] "GET /register?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2026-02-14 22:24:34,595 - werkzeug - INFO - 127.0.0.1 - - [14/Feb/2026 22:24:34] "GET /register HTTP/1.1" 200 -
+2026-02-14 22:24:34,598 - werkzeug - INFO - 127.0.0.1 - - [14/Feb/2026 22:24:34] "[36mGET /register?__debugger__=yes&cmd=resource&f=console.png&s=WUXqD1e6TFhfWKDTTfIU HTTP/1.1[0m" 304 -
+2026-02-14 22:24:34,600 - werkzeug - INFO - 127.0.0.1 - - [14/Feb/2026 22:24:34] "[36mGET /register?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2026-02-14 22:24:34,599 - werkzeug - INFO - 127.0.0.1 - - [14/Feb/2026 22:24:34] "[36mGET /register?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2026-02-14 22:24:34,601 - werkzeug - INFO - 127.0.0.1 - - [14/Feb/2026 22:24:34] "[36mGET /register?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2026-02-14 22:24:48,054 - werkzeug - INFO - 127.0.0.1 - - [14/Feb/2026 22:24:48] "GET /register HTTP/1.1" 200 -
+2026-02-14 22:24:48,057 - werkzeug - INFO - 127.0.0.1 - - [14/Feb/2026 22:24:48] "[36mGET /register?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2026-02-14 22:24:48,058 - werkzeug - INFO - 127.0.0.1 - - [14/Feb/2026 22:24:48] "[36mGET /register?__debugger__=yes&cmd=resource&f=console.png&s=WUXqD1e6TFhfWKDTTfIU HTTP/1.1[0m" 304 -
+2026-02-14 22:24:48,059 - werkzeug - INFO - 127.0.0.1 - - [14/Feb/2026 22:24:48] "[36mGET /register?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2026-02-14 22:24:48,059 - werkzeug - INFO - 127.0.0.1 - - [14/Feb/2026 22:24:48] "[36mGET /register?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2026-02-14 22:24:48,063 - werkzeug - INFO - 127.0.0.1 - - [14/Feb/2026 22:24:48] "[33mGET /static/js/main.js HTTP/1.1[0m" 404 -
+2026-02-14 22:24:48,064 - werkzeug - INFO - 127.0.0.1 - - [14/Feb/2026 22:24:48] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-02-14 22:24:49,122 - werkzeug - INFO - 127.0.0.1 - - [14/Feb/2026 22:24:49] "GET /register HTTP/1.1" 200 -
+2026-02-14 22:24:49,127 - werkzeug - INFO - 127.0.0.1 - - [14/Feb/2026 22:24:49] "[33mGET /static/js/main.js HTTP/1.1[0m" 404 -
+2026-02-14 22:24:49,129 - werkzeug - INFO - 127.0.0.1 - - [14/Feb/2026 22:24:49] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-02-14 22:50:55,486 - werkzeug - INFO - 127.0.0.1 - - [14/Feb/2026 22:50:55] "GET /home HTTP/1.1" 200 -
+2026-02-14 22:50:55,518 - werkzeug - INFO - 127.0.0.1 - - [14/Feb/2026 22:50:55] "[33mGET /static/js/main.js HTTP/1.1[0m" 404 -
+2026-02-14 22:50:55,518 - werkzeug - INFO - 127.0.0.1 - - [14/Feb/2026 22:50:55] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-02-14 22:50:58,677 - werkzeug - INFO - 127.0.0.1 - - [14/Feb/2026 22:50:58] "GET /register HTTP/1.1" 200 -
+2026-02-14 22:50:58,974 - werkzeug - INFO - 127.0.0.1 - - [14/Feb/2026 22:50:58] "[33mGET /static/js/main.js HTTP/1.1[0m" 404 -
+2026-02-14 22:50:58,977 - werkzeug - INFO - 127.0.0.1 - - [14/Feb/2026 22:50:58] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-02-14 22:51:02,759 - werkzeug - INFO - 127.0.0.1 - - [14/Feb/2026 22:51:02] "[35m[1mGET /login HTTP/1.1[0m" 500 -
+2026-02-14 22:51:03,052 - werkzeug - INFO - 127.0.0.1 - - [14/Feb/2026 22:51:03] "GET /login?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+2026-02-14 22:51:03,052 - werkzeug - INFO - 127.0.0.1 - - [14/Feb/2026 22:51:03] "GET /login?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+2026-02-14 22:51:03,060 - werkzeug - INFO - 127.0.0.1 - - [14/Feb/2026 22:51:03] "GET /login?__debugger__=yes&cmd=resource&f=console.png&s=WUXqD1e6TFhfWKDTTfIU HTTP/1.1" 200 -
+2026-02-14 22:51:03,121 - werkzeug - INFO - 127.0.0.1 - - [14/Feb/2026 22:51:03] "GET /login?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2026-02-14 22:51:06,466 - werkzeug - INFO - 127.0.0.1 - - [14/Feb/2026 22:51:06] "GET /home HTTP/1.1" 200 -
+2026-02-14 22:51:06,478 - werkzeug - INFO - 127.0.0.1 - - [14/Feb/2026 22:51:06] "[33mGET /static/js/main.js HTTP/1.1[0m" 404 -
+2026-02-14 22:51:06,480 - werkzeug - INFO - 127.0.0.1 - - [14/Feb/2026 22:51:06] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-02-14 22:51:08,016 - werkzeug - INFO - 127.0.0.1 - - [14/Feb/2026 22:51:08] "GET /register HTTP/1.1" 200 -
+2026-02-14 22:51:08,019 - werkzeug - INFO - 127.0.0.1 - - [14/Feb/2026 22:51:08] "[33mGET /static/js/main.js HTTP/1.1[0m" 404 -
+2026-02-14 22:51:08,021 - werkzeug - INFO - 127.0.0.1 - - [14/Feb/2026 22:51:08] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-02-14 22:52:02,415 - werkzeug - INFO - 127.0.0.1 - - [14/Feb/2026 22:52:02] "GET /register HTTP/1.1" 200 -
+2026-02-14 22:52:02,423 - werkzeug - INFO - 127.0.0.1 - - [14/Feb/2026 22:52:02] "[33mGET /static/js/main.js HTTP/1.1[0m" 404 -
+2026-02-14 22:52:02,425 - werkzeug - INFO - 127.0.0.1 - - [14/Feb/2026 22:52:02] "GET /static/css/style.css HTTP/1.1" 200 -
+2026-02-14 22:52:47,878 - werkzeug - INFO - 127.0.0.1 - - [14/Feb/2026 22:52:47] "GET /register HTTP/1.1" 200 -
+2026-02-14 22:52:47,887 - werkzeug - INFO - 127.0.0.1 - - [14/Feb/2026 22:52:47] "[33mGET /static/js/main.js HTTP/1.1[0m" 404 -
+2026-02-14 22:52:47,889 - werkzeug - INFO - 127.0.0.1 - - [14/Feb/2026 22:52:47] "GET /static/css/style.css HTTP/1.1" 200 -
+2026-02-14 22:52:51,181 - werkzeug - INFO - 127.0.0.1 - - [14/Feb/2026 22:52:51] "GET /home HTTP/1.1" 200 -
+2026-02-14 22:52:51,187 - werkzeug - INFO - 127.0.0.1 - - [14/Feb/2026 22:52:51] "[33mGET /static/js/main.js HTTP/1.1[0m" 404 -
+2026-02-14 22:52:51,193 - werkzeug - INFO - 127.0.0.1 - - [14/Feb/2026 22:52:51] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-02-14 22:52:52,360 - werkzeug - INFO - 127.0.0.1 - - [14/Feb/2026 22:52:52] "GET /home HTTP/1.1" 200 -
+2026-02-14 22:52:52,368 - werkzeug - INFO - 127.0.0.1 - - [14/Feb/2026 22:52:52] "[33mGET /static/js/main.js HTTP/1.1[0m" 404 -
+2026-02-14 22:52:52,370 - werkzeug - INFO - 127.0.0.1 - - [14/Feb/2026 22:52:52] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-02-14 22:54:42,768 - werkzeug - INFO - 127.0.0.1 - - [14/Feb/2026 22:54:42] "GET /home HTTP/1.1" 200 -
+2026-02-14 22:54:42,802 - werkzeug - INFO - 127.0.0.1 - - [14/Feb/2026 22:54:42] "[33mGET /static/js/main.js HTTP/1.1[0m" 404 -
+2026-02-14 22:54:42,802 - werkzeug - INFO - 127.0.0.1 - - [14/Feb/2026 22:54:42] "GET /static/css/style.css HTTP/1.1" 200 -
+2026-02-14 22:55:16,108 - werkzeug - INFO - 127.0.0.1 - - [14/Feb/2026 22:55:16] "GET /home HTTP/1.1" 200 -
+2026-02-14 22:55:16,120 - werkzeug - INFO - 127.0.0.1 - - [14/Feb/2026 22:55:16] "[33mGET /static/js/main.js HTTP/1.1[0m" 404 -
+2026-02-14 22:55:16,122 - werkzeug - INFO - 127.0.0.1 - - [14/Feb/2026 22:55:16] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-02-14 22:55:20,217 - werkzeug - INFO - 127.0.0.1 - - [14/Feb/2026 22:55:20] "GET /home HTTP/1.1" 200 -
+2026-02-14 22:55:20,229 - werkzeug - INFO - 127.0.0.1 - - [14/Feb/2026 22:55:20] "[33mGET /static/js/main.js HTTP/1.1[0m" 404 -
+2026-02-14 22:55:20,230 - werkzeug - INFO - 127.0.0.1 - - [14/Feb/2026 22:55:20] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-02-14 22:55:40,317 - werkzeug - INFO - 127.0.0.1 - - [14/Feb/2026 22:55:40] "GET /home HTTP/1.1" 200 -
+2026-02-14 22:55:40,330 - werkzeug - INFO - 127.0.0.1 - - [14/Feb/2026 22:55:40] "[33mGET /static/js/main.js HTTP/1.1[0m" 404 -
+2026-02-14 22:55:40,332 - werkzeug - INFO - 127.0.0.1 - - [14/Feb/2026 22:55:40] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-02-14 22:56:11,589 - werkzeug - INFO - 127.0.0.1 - - [14/Feb/2026 22:56:11] "GET /home HTTP/1.1" 200 -
+2026-02-14 22:56:12,032 - werkzeug - INFO - 127.0.0.1 - - [14/Feb/2026 22:56:12] "[33mGET /static/js/main.js HTTP/1.1[0m" 404 -
+2026-02-14 22:56:12,036 - werkzeug - INFO - 127.0.0.1 - - [14/Feb/2026 22:56:12] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-02-14 22:56:28,467 - werkzeug - INFO - 127.0.0.1 - - [14/Feb/2026 22:56:28] "GET /home HTTP/1.1" 200 -
+2026-02-14 22:56:28,480 - werkzeug - INFO - 127.0.0.1 - - [14/Feb/2026 22:56:28] "[33mGET /static/js/main.js HTTP/1.1[0m" 404 -
+2026-02-14 22:56:28,481 - werkzeug - INFO - 127.0.0.1 - - [14/Feb/2026 22:56:28] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-02-14 22:58:11,332 - werkzeug - INFO - 127.0.0.1 - - [14/Feb/2026 22:58:11] "GET /home HTTP/1.1" 200 -
+2026-02-14 22:58:11,366 - werkzeug - INFO - 127.0.0.1 - - [14/Feb/2026 22:58:11] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-02-14 22:58:11,367 - werkzeug - INFO - 127.0.0.1 - - [14/Feb/2026 22:58:11] "GET /static/js/main.js HTTP/1.1" 200 -
+2026-02-14 22:58:56,562 - werkzeug - INFO - 127.0.0.1 - - [14/Feb/2026 22:58:56] "GET /home HTTP/1.1" 200 -
+2026-02-14 22:58:56,578 - werkzeug - INFO - 127.0.0.1 - - [14/Feb/2026 22:58:56] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+2026-02-14 22:58:56,579 - werkzeug - INFO - 127.0.0.1 - - [14/Feb/2026 22:58:56] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-02-14 22:58:57,380 - werkzeug - INFO - 127.0.0.1 - - [14/Feb/2026 22:58:57] "GET /home HTTP/1.1" 200 -
+2026-02-14 22:58:57,393 - werkzeug - INFO - 127.0.0.1 - - [14/Feb/2026 22:58:57] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-02-14 22:58:57,393 - werkzeug - INFO - 127.0.0.1 - - [14/Feb/2026 22:58:57] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+2026-02-14 23:00:02,539 - werkzeug - INFO - 127.0.0.1 - - [14/Feb/2026 23:00:02] "GET /home HTTP/1.1" 200 -
+2026-02-14 23:00:02,552 - werkzeug - INFO - 127.0.0.1 - - [14/Feb/2026 23:00:02] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+2026-02-14 23:00:02,553 - werkzeug - INFO - 127.0.0.1 - - [14/Feb/2026 23:00:02] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-02-14 23:00:23,741 - werkzeug - INFO - 127.0.0.1 - - [14/Feb/2026 23:00:23] "GET /home HTTP/1.1" 200 -
+2026-02-14 23:00:23,754 - werkzeug - INFO - 127.0.0.1 - - [14/Feb/2026 23:00:23] "GET /static/js/main.js HTTP/1.1" 200 -
+2026-02-14 23:00:23,756 - werkzeug - INFO - 127.0.0.1 - - [14/Feb/2026 23:00:23] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-02-14 23:01:17,783 - werkzeug - INFO - 127.0.0.1 - - [14/Feb/2026 23:01:17] "GET /home HTTP/1.1" 200 -
+2026-02-14 23:01:17,798 - werkzeug - INFO - 127.0.0.1 - - [14/Feb/2026 23:01:17] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+2026-02-14 23:01:17,798 - werkzeug - INFO - 127.0.0.1 - - [14/Feb/2026 23:01:17] "GET /static/css/style.css HTTP/1.1" 200 -
+2026-02-14 23:03:52,927 - werkzeug - INFO - 127.0.0.1 - - [14/Feb/2026 23:03:52] "GET /home HTTP/1.1" 200 -
+2026-02-14 23:03:52,955 - werkzeug - INFO - 127.0.0.1 - - [14/Feb/2026 23:03:52] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-02-14 23:03:52,956 - werkzeug - INFO - 127.0.0.1 - - [14/Feb/2026 23:03:52] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+2026-02-14 23:06:07,281 - werkzeug - INFO -  * Detected change in '/Users/giorgi/PycharmProjects/JobBoard/routes.py', reloading
+2026-02-14 23:06:07,465 - werkzeug - INFO -  * Restarting with stat
+2026-02-14 23:06:07,945 - werkzeug - WARNING -  * Debugger is active!
+2026-02-14 23:06:07,962 - werkzeug - INFO -  * Debugger PIN: 500-028-211
+2026-02-14 23:06:09,483 - werkzeug - INFO - 127.0.0.1 - - [14/Feb/2026 23:06:09] "GET /home HTTP/1.1" 200 -
+2026-02-14 23:06:13,737 - werkzeug - INFO - 127.0.0.1 - - [14/Feb/2026 23:06:13] "[32mGET /job/create HTTP/1.1[0m" 302 -
+2026-02-14 23:06:13,749 - werkzeug - INFO - 127.0.0.1 - - [14/Feb/2026 23:06:13] "[35m[1mGET /login?next=/job/create HTTP/1.1[0m" 500 -
+2026-02-14 23:06:14,036 - werkzeug - INFO - 127.0.0.1 - - [14/Feb/2026 23:06:14] "[36mGET /login?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2026-02-14 23:06:14,038 - werkzeug - INFO - 127.0.0.1 - - [14/Feb/2026 23:06:14] "[36mGET /login?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2026-02-14 23:06:14,043 - werkzeug - INFO - 127.0.0.1 - - [14/Feb/2026 23:06:14] "GET /login?__debugger__=yes&cmd=resource&f=console.png&s=GHBVYKScXzLOcwPEy02A HTTP/1.1" 200 -
+2026-02-14 23:06:34,161 - werkzeug - INFO - 127.0.0.1 - - [14/Feb/2026 23:06:34] "GET /home HTTP/1.1" 200 -
+2026-02-14 23:06:34,579 - werkzeug - INFO - 127.0.0.1 - - [14/Feb/2026 23:06:34] "GET /static/css/style.css HTTP/1.1" 200 -
+2026-02-14 23:06:34,579 - werkzeug - INFO - 127.0.0.1 - - [14/Feb/2026 23:06:34] "GET /static/js/main.js HTTP/1.1" 200 -
+2026-02-14 23:07:22,215 - werkzeug - INFO - 127.0.0.1 - - [14/Feb/2026 23:07:22] "[35m[1mGET /login HTTP/1.1[0m" 500 -
+2026-02-14 23:07:22,219 - werkzeug - INFO - 127.0.0.1 - - [14/Feb/2026 23:07:22] "[36mGET /login?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2026-02-14 23:07:22,219 - werkzeug - INFO - 127.0.0.1 - - [14/Feb/2026 23:07:22] "[36mGET /login?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2026-02-14 23:07:22,219 - werkzeug - INFO - 127.0.0.1 - - [14/Feb/2026 23:07:22] "[36mGET /login?__debugger__=yes&cmd=resource&f=console.png&s=WUXqD1e6TFhfWKDTTfIU HTTP/1.1[0m" 304 -
+2026-02-14 23:07:22,220 - werkzeug - INFO - 127.0.0.1 - - [14/Feb/2026 23:07:22] "[36mGET /login?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2026-02-14 23:07:22,225 - werkzeug - INFO - 127.0.0.1 - - [14/Feb/2026 23:07:22] "[36mGET /login?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2026-02-14 23:07:22,226 - werkzeug - INFO - 127.0.0.1 - - [14/Feb/2026 23:07:22] "[36mGET /login?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2026-02-14 23:07:22,230 - werkzeug - INFO - 127.0.0.1 - - [14/Feb/2026 23:07:22] "[36mGET /login?__debugger__=yes&cmd=resource&f=console.png&s=GHBVYKScXzLOcwPEy02A HTTP/1.1[0m" 304 -
+2026-02-14 23:08:58,203 - werkzeug - INFO -  * Detected change in '/Users/giorgi/PycharmProjects/JobBoard/routes.py', reloading
+2026-02-14 23:08:58,343 - werkzeug - INFO -  * Restarting with stat
+2026-02-14 23:08:58,771 - werkzeug - WARNING -  * Debugger is active!
+2026-02-14 23:08:58,785 - werkzeug - INFO -  * Debugger PIN: 500-028-211
+2026-02-14 23:09:17,196 - werkzeug - INFO - 127.0.0.1 - - [14/Feb/2026 23:09:17] "GET /home HTTP/1.1" 200 -
+2026-02-14 23:09:17,210 - werkzeug - INFO - 127.0.0.1 - - [14/Feb/2026 23:09:17] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-02-14 23:09:17,210 - werkzeug - INFO - 127.0.0.1 - - [14/Feb/2026 23:09:17] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+2026-02-14 23:09:18,252 - werkzeug - INFO - 127.0.0.1 - - [14/Feb/2026 23:09:18] "GET /home HTTP/1.1" 200 -
+2026-02-14 23:09:18,257 - werkzeug - INFO - 127.0.0.1 - - [14/Feb/2026 23:09:18] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+2026-02-14 23:09:18,263 - werkzeug - INFO - 127.0.0.1 - - [14/Feb/2026 23:09:18] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-02-14 23:09:18,263 - werkzeug - INFO - 127.0.0.1 - - [14/Feb/2026 23:09:18] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+2026-02-14 23:09:19,399 - werkzeug - INFO - 127.0.0.1 - - [14/Feb/2026 23:09:19] "[35m[1mGET /login HTTP/1.1[0m" 500 -
+2026-02-14 23:09:19,402 - werkzeug - INFO - 127.0.0.1 - - [14/Feb/2026 23:09:19] "[36mGET /login?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2026-02-14 23:09:19,402 - werkzeug - INFO - 127.0.0.1 - - [14/Feb/2026 23:09:19] "[36mGET /login?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2026-02-14 23:09:19,403 - werkzeug - INFO - 127.0.0.1 - - [14/Feb/2026 23:09:19] "[36mGET /login?__debugger__=yes&cmd=resource&f=console.png&s=WUXqD1e6TFhfWKDTTfIU HTTP/1.1[0m" 304 -
+2026-02-14 23:09:19,403 - werkzeug - INFO - 127.0.0.1 - - [14/Feb/2026 23:09:19] "[36mGET /login?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2026-02-14 23:09:19,406 - werkzeug - INFO - 127.0.0.1 - - [14/Feb/2026 23:09:19] "[36mGET /login?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2026-02-14 23:09:19,407 - werkzeug - INFO - 127.0.0.1 - - [14/Feb/2026 23:09:19] "[36mGET /login?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2026-02-14 23:09:19,411 - werkzeug - INFO - 127.0.0.1 - - [14/Feb/2026 23:09:19] "GET /login?__debugger__=yes&cmd=resource&f=console.png&s=icRntRBXaxmdmNXYzmxk HTTP/1.1" 200 -
+2026-02-14 23:09:21,783 - werkzeug - INFO - 127.0.0.1 - - [14/Feb/2026 23:09:21] "GET /register HTTP/1.1" 200 -
+2026-02-14 23:09:21,786 - werkzeug - INFO - 127.0.0.1 - - [14/Feb/2026 23:09:21] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+2026-02-14 23:09:22,063 - werkzeug - INFO - 127.0.0.1 - - [14/Feb/2026 23:09:22] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+2026-02-14 23:09:22,064 - werkzeug - INFO - 127.0.0.1 - - [14/Feb/2026 23:09:22] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-02-14 23:09:47,647 - werkzeug - INFO - 127.0.0.1 - - [14/Feb/2026 23:09:47] "[35m[1mGET /login HTTP/1.1[0m" 500 -
+2026-02-14 23:09:47,656 - werkzeug - INFO - 127.0.0.1 - - [14/Feb/2026 23:09:47] "[36mGET /login?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2026-02-14 23:09:47,656 - werkzeug - INFO - 127.0.0.1 - - [14/Feb/2026 23:09:47] "[36mGET /login?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2026-02-14 23:09:47,662 - werkzeug - INFO - 127.0.0.1 - - [14/Feb/2026 23:09:47] "[36mGET /login?__debugger__=yes&cmd=resource&f=console.png&s=icRntRBXaxmdmNXYzmxk HTTP/1.1[0m" 304 -
+2026-02-14 23:09:48,782 - werkzeug - INFO - 127.0.0.1 - - [14/Feb/2026 23:09:48] "[35m[1mGET /login HTTP/1.1[0m" 500 -
+2026-02-14 23:09:48,787 - werkzeug - INFO - 127.0.0.1 - - [14/Feb/2026 23:09:48] "[36mGET /login?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2026-02-14 23:09:48,788 - werkzeug - INFO - 127.0.0.1 - - [14/Feb/2026 23:09:48] "[36mGET /login?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2026-02-14 23:09:48,791 - werkzeug - INFO - 127.0.0.1 - - [14/Feb/2026 23:09:48] "[36mGET /login?__debugger__=yes&cmd=resource&f=console.png&s=icRntRBXaxmdmNXYzmxk HTTP/1.1[0m" 304 -
+2026-02-14 23:09:49,400 - werkzeug - INFO - 127.0.0.1 - - [14/Feb/2026 23:09:49] "[35m[1mGET /login HTTP/1.1[0m" 500 -
+2026-02-14 23:09:49,408 - werkzeug - INFO - 127.0.0.1 - - [14/Feb/2026 23:09:49] "[36mGET /login?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2026-02-14 23:09:49,408 - werkzeug - INFO - 127.0.0.1 - - [14/Feb/2026 23:09:49] "[36mGET /login?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2026-02-14 23:09:49,411 - werkzeug - INFO - 127.0.0.1 - - [14/Feb/2026 23:09:49] "[36mGET /login?__debugger__=yes&cmd=resource&f=console.png&s=icRntRBXaxmdmNXYzmxk HTTP/1.1[0m" 304 -
+2026-02-14 23:10:27,439 - werkzeug - INFO -  * Detected change in '/Users/giorgi/PycharmProjects/JobBoard/routes.py', reloading
+2026-02-14 23:10:27,538 - werkzeug - INFO -  * Restarting with stat
+2026-02-14 23:10:27,903 - werkzeug - WARNING -  * Debugger is active!
+2026-02-14 23:10:27,916 - werkzeug - INFO -  * Debugger PIN: 500-028-211
+2026-02-14 23:10:41,025 - werkzeug - INFO -  * Detected change in '/Users/giorgi/PycharmProjects/JobBoard/routes.py', reloading
+2026-02-14 23:10:41,124 - werkzeug - INFO -  * Restarting with stat
+2026-02-14 23:10:41,705 - werkzeug - WARNING -  * Debugger is active!
+2026-02-14 23:10:41,719 - werkzeug - INFO -  * Debugger PIN: 500-028-211
+2026-02-14 23:10:42,600 - werkzeug - INFO - 127.0.0.1 - - [14/Feb/2026 23:10:42] "[35m[1mGET /login HTTP/1.1[0m" 500 -
+2026-02-14 23:10:42,622 - werkzeug - INFO - 127.0.0.1 - - [14/Feb/2026 23:10:42] "[36mGET /login?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2026-02-14 23:10:42,623 - werkzeug - INFO - 127.0.0.1 - - [14/Feb/2026 23:10:42] "[36mGET /login?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2026-02-14 23:10:42,627 - werkzeug - INFO - 127.0.0.1 - - [14/Feb/2026 23:10:42] "GET /login?__debugger__=yes&cmd=resource&f=console.png&s=kLDKellt1GWQjV2YLTql HTTP/1.1" 200 -
+2026-02-14 23:11:24,038 - werkzeug - INFO -  * Detected change in '/Users/giorgi/PycharmProjects/JobBoard/forms.py', reloading
+2026-02-14 23:11:24,194 - werkzeug - INFO -  * Restarting with stat
+2026-02-14 23:17:36,526 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2026-02-14 23:17:36,526 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2026-02-14 23:17:36,527 - werkzeug - INFO -  * Restarting with stat
+2026-02-14 23:17:36,832 - werkzeug - WARNING -  * Debugger is active!
+2026-02-14 23:17:36,846 - werkzeug - INFO -  * Debugger PIN: 500-028-211
+2026-02-14 23:18:16,181 - werkzeug - INFO - 127.0.0.1 - - [14/Feb/2026 23:18:16] "GET / HTTP/1.1" 200 -
+2026-02-14 23:18:16,195 - werkzeug - INFO - 127.0.0.1 - - [14/Feb/2026 23:18:16] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+2026-02-14 23:19:33,017 - werkzeug - INFO - 127.0.0.1 - - [14/Feb/2026 23:19:33] "GET / HTTP/1.1" 200 -
+2026-02-14 23:19:33,032 - werkzeug - INFO - 127.0.0.1 - - [14/Feb/2026 23:19:33] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+2026-02-14 23:19:33,042 - werkzeug - INFO - 127.0.0.1 - - [14/Feb/2026 23:19:33] "[33mGET /apple-touch-icon-precomposed.png HTTP/1.1[0m" 404 -
+2026-02-14 23:19:33,044 - werkzeug - INFO - 127.0.0.1 - - [14/Feb/2026 23:19:33] "[33mGET /apple-touch-icon.png HTTP/1.1[0m" 404 -
+2026-02-14 23:19:33,045 - werkzeug - INFO - 127.0.0.1 - - [14/Feb/2026 23:19:33] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2026-02-14 23:19:33,738 - werkzeug - INFO - 127.0.0.1 - - [14/Feb/2026 23:19:33] "GET / HTTP/1.1" 200 -
+2026-02-14 23:19:33,750 - werkzeug - INFO - 127.0.0.1 - - [14/Feb/2026 23:19:33] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+2026-02-14 23:19:51,624 - werkzeug - INFO - 127.0.0.1 - - [14/Feb/2026 23:19:51] "GET / HTTP/1.1" 200 -
+2026-02-14 23:19:51,638 - werkzeug - INFO - 127.0.0.1 - - [14/Feb/2026 23:19:51] "GET /static/css/style.css HTTP/1.1" 200 -
+2026-02-14 23:19:51,639 - werkzeug - INFO - 127.0.0.1 - - [14/Feb/2026 23:19:51] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+2026-02-14 23:19:53,446 - werkzeug - INFO - 127.0.0.1 - - [14/Feb/2026 23:19:53] "GET /login HTTP/1.1" 200 -
+2026-02-14 23:19:53,730 - werkzeug - INFO - 127.0.0.1 - - [14/Feb/2026 23:19:53] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-02-14 23:19:53,732 - werkzeug - INFO - 127.0.0.1 - - [14/Feb/2026 23:19:53] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+2026-02-14 23:24:12,438 - werkzeug - INFO -  * Detected change in '/Users/giorgi/PycharmProjects/JobBoard/forms.py', reloading
+2026-02-14 23:24:12,528 - werkzeug - INFO -  * Restarting with stat
+2026-02-14 23:24:12,927 - werkzeug - WARNING -  * Debugger is active!
+2026-02-14 23:24:12,951 - werkzeug - INFO -  * Debugger PIN: 500-028-211
+2026-02-14 23:24:17,999 - werkzeug - INFO -  * Detected change in '/Users/giorgi/PycharmProjects/JobBoard/forms.py', reloading
+2026-02-14 23:24:18,126 - werkzeug - INFO -  * Restarting with stat
+2026-02-14 23:24:18,510 - werkzeug - WARNING -  * Debugger is active!
+2026-02-14 23:24:18,520 - werkzeug - INFO -  * Debugger PIN: 500-028-211
+2026-02-14 23:24:18,699 - werkzeug - INFO - 127.0.0.1 - - [14/Feb/2026 23:24:18] "GET /login HTTP/1.1" 200 -
+2026-02-14 23:24:19,006 - werkzeug - INFO - 127.0.0.1 - - [14/Feb/2026 23:24:19] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+2026-02-14 23:24:19,007 - werkzeug - INFO - 127.0.0.1 - - [14/Feb/2026 23:24:19] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-02-14 23:24:23,394 - werkzeug - INFO - 127.0.0.1 - - [14/Feb/2026 23:24:23] "[35m[1mPOST /login HTTP/1.1[0m" 500 -
+2026-02-14 23:24:23,408 - werkzeug - INFO - 127.0.0.1 - - [14/Feb/2026 23:24:23] "[36mGET /login?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2026-02-14 23:24:23,408 - werkzeug - INFO - 127.0.0.1 - - [14/Feb/2026 23:24:23] "[36mGET /login?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2026-02-14 23:24:23,413 - werkzeug - INFO - 127.0.0.1 - - [14/Feb/2026 23:24:23] "GET /login?__debugger__=yes&cmd=resource&f=console.png&s=Ue1Y7H9N1t8nHSzrNRNt HTTP/1.1" 200 -
+2026-02-14 23:25:04,346 - werkzeug - INFO - 127.0.0.1 - - [14/Feb/2026 23:25:04] "GET /register HTTP/1.1" 200 -
+2026-02-14 23:25:04,349 - werkzeug - INFO - 127.0.0.1 - - [14/Feb/2026 23:25:04] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+2026-02-14 23:25:04,638 - werkzeug - INFO - 127.0.0.1 - - [14/Feb/2026 23:25:04] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+2026-02-14 23:25:04,638 - werkzeug - INFO - 127.0.0.1 - - [14/Feb/2026 23:25:04] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-02-14 23:25:05,423 - werkzeug - INFO - 127.0.0.1 - - [14/Feb/2026 23:25:05] "GET /home HTTP/1.1" 200 -
+2026-02-14 23:25:05,426 - werkzeug - INFO - 127.0.0.1 - - [14/Feb/2026 23:25:05] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+2026-02-14 23:25:05,435 - werkzeug - INFO - 127.0.0.1 - - [14/Feb/2026 23:25:05] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-02-14 23:25:05,436 - werkzeug - INFO - 127.0.0.1 - - [14/Feb/2026 23:25:05] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+2026-02-14 23:25:06,886 - werkzeug - INFO - 127.0.0.1 - - [14/Feb/2026 23:25:06] "GET /login HTTP/1.1" 200 -
+2026-02-14 23:25:07,162 - werkzeug - INFO - 127.0.0.1 - - [14/Feb/2026 23:25:07] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+2026-02-14 23:25:07,162 - werkzeug - INFO - 127.0.0.1 - - [14/Feb/2026 23:25:07] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-02-14 23:25:11,417 - werkzeug - INFO - 127.0.0.1 - - [14/Feb/2026 23:25:11] "GET /register HTTP/1.1" 200 -
+2026-02-14 23:25:11,420 - werkzeug - INFO - 127.0.0.1 - - [14/Feb/2026 23:25:11] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+2026-02-14 23:25:11,424 - werkzeug - INFO - 127.0.0.1 - - [14/Feb/2026 23:25:11] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+2026-02-14 23:25:11,424 - werkzeug - INFO - 127.0.0.1 - - [14/Feb/2026 23:25:11] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-02-14 23:25:12,567 - werkzeug - INFO - 127.0.0.1 - - [14/Feb/2026 23:25:12] "GET /register HTTP/1.1" 200 -
+2026-02-14 23:25:12,570 - werkzeug - INFO - 127.0.0.1 - - [14/Feb/2026 23:25:12] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+2026-02-14 23:25:12,574 - werkzeug - INFO - 127.0.0.1 - - [14/Feb/2026 23:25:12] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+2026-02-14 23:25:12,575 - werkzeug - INFO - 127.0.0.1 - - [14/Feb/2026 23:25:12] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-02-14 23:26:17,174 - werkzeug - INFO - 127.0.0.1 - - [14/Feb/2026 23:26:17] "GET /register HTTP/1.1" 200 -
+2026-02-14 23:26:17,182 - werkzeug - INFO - 127.0.0.1 - - [14/Feb/2026 23:26:17] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-02-14 23:26:17,183 - werkzeug - INFO - 127.0.0.1 - - [14/Feb/2026 23:26:17] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+2026-02-14 23:27:10,481 - werkzeug - INFO - 127.0.0.1 - - [14/Feb/2026 23:27:10] "GET /register HTTP/1.1" 200 -
+2026-02-14 23:27:10,493 - werkzeug - INFO - 127.0.0.1 - - [14/Feb/2026 23:27:10] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-02-14 23:27:10,494 - werkzeug - INFO - 127.0.0.1 - - [14/Feb/2026 23:27:10] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+2026-02-14 23:27:20,573 - werkzeug - INFO - 127.0.0.1 - - [14/Feb/2026 23:27:20] "GET /register HTTP/1.1" 200 -
+2026-02-14 23:27:20,580 - werkzeug - INFO - 127.0.0.1 - - [14/Feb/2026 23:27:20] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-02-14 23:27:20,581 - werkzeug - INFO - 127.0.0.1 - - [14/Feb/2026 23:27:20] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+2026-02-14 23:28:07,246 - werkzeug - INFO -  * Detected change in '/Users/giorgi/PycharmProjects/JobBoard/forms.py', reloading
+2026-02-14 23:28:07,336 - werkzeug - INFO -  * Restarting with stat
+2026-02-14 23:28:07,722 - werkzeug - WARNING -  * Debugger is active!
+2026-02-14 23:28:07,742 - werkzeug - INFO -  * Debugger PIN: 500-028-211
+2026-02-14 23:28:13,784 - werkzeug - INFO -  * Detected change in '/Users/giorgi/PycharmProjects/JobBoard/forms.py', reloading
+2026-02-14 23:28:13,945 - werkzeug - INFO -  * Restarting with stat
+2026-02-14 23:28:14,476 - werkzeug - WARNING -  * Debugger is active!
+2026-02-14 23:28:14,489 - werkzeug - INFO -  * Debugger PIN: 500-028-211
+2026-02-14 23:28:14,699 - werkzeug - INFO - 127.0.0.1 - - [14/Feb/2026 23:28:14] "GET /register HTTP/1.1" 200 -
+2026-02-14 23:28:14,712 - werkzeug - INFO - 127.0.0.1 - - [14/Feb/2026 23:28:14] "GET /static/css/style.css HTTP/1.1" 200 -
+2026-02-14 23:28:14,712 - werkzeug - INFO - 127.0.0.1 - - [14/Feb/2026 23:28:14] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+2026-02-14 23:29:10,696 - werkzeug - INFO - 127.0.0.1 - - [14/Feb/2026 23:29:10] "GET /home HTTP/1.1" 200 -
+2026-02-14 23:29:10,703 - werkzeug - INFO - 127.0.0.1 - - [14/Feb/2026 23:29:10] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+2026-02-14 23:29:10,709 - werkzeug - INFO - 127.0.0.1 - - [14/Feb/2026 23:29:10] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+2026-02-14 23:29:10,710 - werkzeug - INFO - 127.0.0.1 - - [14/Feb/2026 23:29:10] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-02-14 23:29:11,575 - werkzeug - INFO - 127.0.0.1 - - [14/Feb/2026 23:29:11] "GET /login HTTP/1.1" 200 -
+2026-02-14 23:29:11,581 - werkzeug - INFO - 127.0.0.1 - - [14/Feb/2026 23:29:11] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-02-14 23:29:11,582 - werkzeug - INFO - 127.0.0.1 - - [14/Feb/2026 23:29:11] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+2026-02-14 23:29:12,050 - werkzeug - INFO - 127.0.0.1 - - [14/Feb/2026 23:29:12] "GET /register HTTP/1.1" 200 -
+2026-02-14 23:29:12,053 - werkzeug - INFO - 127.0.0.1 - - [14/Feb/2026 23:29:12] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+2026-02-14 23:29:12,057 - werkzeug - INFO - 127.0.0.1 - - [14/Feb/2026 23:29:12] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-02-14 23:29:12,057 - werkzeug - INFO - 127.0.0.1 - - [14/Feb/2026 23:29:12] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+2026-02-14 23:29:12,542 - werkzeug - INFO - 127.0.0.1 - - [14/Feb/2026 23:29:12] "GET /login HTTP/1.1" 200 -
+2026-02-14 23:29:12,547 - werkzeug - INFO - 127.0.0.1 - - [14/Feb/2026 23:29:12] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-02-14 23:29:12,549 - werkzeug - INFO - 127.0.0.1 - - [14/Feb/2026 23:29:12] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+2026-02-14 23:29:16,684 - werkzeug - INFO - 127.0.0.1 - - [14/Feb/2026 23:29:16] "GET /register HTTP/1.1" 200 -
+2026-02-14 23:29:16,687 - werkzeug - INFO - 127.0.0.1 - - [14/Feb/2026 23:29:16] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+2026-02-14 23:29:16,691 - werkzeug - INFO - 127.0.0.1 - - [14/Feb/2026 23:29:16] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-02-14 23:29:16,691 - werkzeug - INFO - 127.0.0.1 - - [14/Feb/2026 23:29:16] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+2026-02-14 23:29:17,832 - werkzeug - INFO - 127.0.0.1 - - [14/Feb/2026 23:29:17] "GET /login HTTP/1.1" 200 -
+2026-02-14 23:29:17,838 - werkzeug - INFO - 127.0.0.1 - - [14/Feb/2026 23:29:17] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-02-14 23:29:17,839 - werkzeug - INFO - 127.0.0.1 - - [14/Feb/2026 23:29:17] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+2026-02-14 23:29:20,679 - werkzeug - INFO - 127.0.0.1 - - [14/Feb/2026 23:29:20] "GET /register HTTP/1.1" 200 -
+2026-02-14 23:29:20,681 - werkzeug - INFO - 127.0.0.1 - - [14/Feb/2026 23:29:20] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+2026-02-14 23:29:20,953 - werkzeug - INFO - 127.0.0.1 - - [14/Feb/2026 23:29:20] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-02-14 23:29:20,953 - werkzeug - INFO - 127.0.0.1 - - [14/Feb/2026 23:29:20] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+2026-02-14 23:29:21,566 - werkzeug - INFO - 127.0.0.1 - - [14/Feb/2026 23:29:21] "GET /login HTTP/1.1" 200 -
+2026-02-14 23:29:21,572 - werkzeug - INFO - 127.0.0.1 - - [14/Feb/2026 23:29:21] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-02-14 23:29:21,573 - werkzeug - INFO - 127.0.0.1 - - [14/Feb/2026 23:29:21] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+2026-02-14 23:29:24,909 - werkzeug - INFO - 127.0.0.1 - - [14/Feb/2026 23:29:24] "[35m[1mPOST /login HTTP/1.1[0m" 500 -
+2026-02-14 23:29:24,916 - werkzeug - INFO - 127.0.0.1 - - [14/Feb/2026 23:29:24] "[36mGET /login?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2026-02-14 23:29:24,916 - werkzeug - INFO - 127.0.0.1 - - [14/Feb/2026 23:29:24] "[36mGET /login?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2026-02-14 23:29:24,922 - werkzeug - INFO - 127.0.0.1 - - [14/Feb/2026 23:29:24] "GET /login?__debugger__=yes&cmd=resource&f=console.png&s=8IMkajqxVfsfWi12UWYs HTTP/1.1" 200 -
+2026-02-14 23:29:30,106 - werkzeug - INFO - 127.0.0.1 - - [14/Feb/2026 23:29:30] "GET /register HTTP/1.1" 200 -
+2026-02-14 23:29:30,109 - werkzeug - INFO - 127.0.0.1 - - [14/Feb/2026 23:29:30] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+2026-02-14 23:29:30,114 - werkzeug - INFO - 127.0.0.1 - - [14/Feb/2026 23:29:30] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-02-14 23:29:30,114 - werkzeug - INFO - 127.0.0.1 - - [14/Feb/2026 23:29:30] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+2026-02-14 23:29:42,449 - werkzeug - INFO - 127.0.0.1 - - [14/Feb/2026 23:29:42] "[35m[1mPOST /register HTTP/1.1[0m" 500 -
+2026-02-14 23:29:42,457 - werkzeug - INFO - 127.0.0.1 - - [14/Feb/2026 23:29:42] "[36mGET /register?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2026-02-14 23:29:42,457 - werkzeug - INFO - 127.0.0.1 - - [14/Feb/2026 23:29:42] "[36mGET /register?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2026-02-14 23:29:42,462 - werkzeug - INFO - 127.0.0.1 - - [14/Feb/2026 23:29:42] "GET /register?__debugger__=yes&cmd=resource&f=console.png&s=8IMkajqxVfsfWi12UWYs HTTP/1.1" 200 -
+2026-02-14 23:31:51,023 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2026-02-14 23:31:51,024 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2026-02-14 23:31:51,024 - werkzeug - INFO -  * Restarting with stat
+2026-02-14 23:31:51,302 - werkzeug - WARNING -  * Debugger is active!
+2026-02-14 23:31:51,313 - werkzeug - INFO -  * Debugger PIN: 500-028-211
+2026-02-14 23:31:56,289 - werkzeug - INFO - 127.0.0.1 - - [14/Feb/2026 23:31:56] "[32mPOST /register HTTP/1.1[0m" 302 -
+2026-02-14 23:32:06,096 - werkzeug - INFO - 127.0.0.1 - - [14/Feb/2026 23:32:06] "[35m[1mPOST /register HTTP/1.1[0m" 500 -
+2026-02-14 23:32:06,112 - werkzeug - INFO - 127.0.0.1 - - [14/Feb/2026 23:32:06] "[36mGET /register?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2026-02-14 23:32:06,115 - werkzeug - INFO - 127.0.0.1 - - [14/Feb/2026 23:32:06] "[36mGET /register?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2026-02-14 23:32:06,120 - werkzeug - INFO - 127.0.0.1 - - [14/Feb/2026 23:32:06] "GET /register?__debugger__=yes&cmd=resource&f=console.png&s=8Psuw5OkSmv5FW6kN8qV HTTP/1.1" 200 -
+2026-02-14 23:32:42,894 - werkzeug - INFO - 127.0.0.1 - - [14/Feb/2026 23:32:42] "[35m[1mPOST /register HTTP/1.1[0m" 500 -
+2026-02-14 23:32:42,906 - werkzeug - INFO - 127.0.0.1 - - [14/Feb/2026 23:32:42] "[36mGET /register?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2026-02-14 23:32:42,906 - werkzeug - INFO - 127.0.0.1 - - [14/Feb/2026 23:32:42] "[36mGET /register?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2026-02-14 23:32:42,911 - werkzeug - INFO - 127.0.0.1 - - [14/Feb/2026 23:32:42] "[36mGET /register?__debugger__=yes&cmd=resource&f=console.png&s=8Psuw5OkSmv5FW6kN8qV HTTP/1.1[0m" 304 -
+2026-02-14 23:34:05,351 - werkzeug - INFO -  * Detected change in '/Users/giorgi/PycharmProjects/JobBoard/forms.py', reloading
+2026-02-14 23:34:05,583 - werkzeug - INFO -  * Restarting with stat
+2026-02-14 23:34:06,095 - werkzeug - WARNING -  * Debugger is active!
+2026-02-14 23:34:06,109 - werkzeug - INFO -  * Debugger PIN: 500-028-211
+2026-02-14 23:34:45,506 - werkzeug - INFO -  * Detected change in '/Users/giorgi/PycharmProjects/JobBoard/forms.py', reloading
+2026-02-14 23:34:45,645 - werkzeug - INFO -  * Restarting with stat
+2026-02-14 23:34:46,126 - werkzeug - WARNING -  * Debugger is active!
+2026-02-14 23:34:46,141 - werkzeug - INFO -  * Debugger PIN: 500-028-211
+2026-02-14 23:34:55,215 - werkzeug - INFO -  * Detected change in '/Users/giorgi/PycharmProjects/JobBoard/forms.py', reloading
+2026-02-14 23:34:55,327 - werkzeug - INFO -  * Restarting with stat
+2026-02-14 23:34:55,770 - werkzeug - WARNING -  * Debugger is active!
+2026-02-14 23:34:55,782 - werkzeug - INFO -  * Debugger PIN: 500-028-211
+2026-02-14 23:34:59,710 - werkzeug - INFO - 127.0.0.1 - - [14/Feb/2026 23:34:59] "GET /register HTTP/1.1" 200 -
+2026-02-14 23:36:13,594 - werkzeug - INFO - 127.0.0.1 - - [14/Feb/2026 23:36:13] "[32mPOST /register HTTP/1.1[0m" 302 -
+2026-02-14 23:36:13,608 - werkzeug - INFO - 127.0.0.1 - - [14/Feb/2026 23:36:13] "GET /login HTTP/1.1" 200 -
+2026-02-14 23:36:13,620 - werkzeug - INFO - 127.0.0.1 - - [14/Feb/2026 23:36:13] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+2026-02-14 23:36:13,621 - werkzeug - INFO - 127.0.0.1 - - [14/Feb/2026 23:36:13] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-02-14 23:36:27,764 - root - INFO - testest@gmail.com წარმატებით დალოგინდა
+2026-02-14 23:36:27,765 - werkzeug - INFO - 127.0.0.1 - - [14/Feb/2026 23:36:27] "[32mPOST /login HTTP/1.1[0m" 302 -
+2026-02-14 23:36:27,867 - werkzeug - INFO - 127.0.0.1 - - [14/Feb/2026 23:36:27] "GET /home HTTP/1.1" 200 -
+2026-02-14 23:36:28,279 - werkzeug - INFO - 127.0.0.1 - - [14/Feb/2026 23:36:28] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-02-14 23:36:28,279 - werkzeug - INFO - 127.0.0.1 - - [14/Feb/2026 23:36:28] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+2026-02-14 23:39:13,987 - werkzeug - INFO -  * Detected change in '/Users/giorgi/PycharmProjects/JobBoard/routes.py', reloading
+2026-02-14 23:39:14,118 - werkzeug - INFO -  * Restarting with stat
+2026-02-14 23:39:14,604 - werkzeug - WARNING -  * Debugger is active!
+2026-02-14 23:39:14,617 - werkzeug - INFO -  * Debugger PIN: 500-028-211
+2026-02-14 23:40:30,181 - werkzeug - INFO - 127.0.0.1 - - [14/Feb/2026 23:40:30] "GET /home HTTP/1.1" 200 -
+2026-02-14 23:40:30,653 - werkzeug - INFO - 127.0.0.1 - - [14/Feb/2026 23:40:30] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+2026-02-14 23:40:30,654 - werkzeug - INFO - 127.0.0.1 - - [14/Feb/2026 23:40:30] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-02-14 23:40:45,600 - werkzeug - INFO - 127.0.0.1 - - [14/Feb/2026 23:40:45] "GET /home HTTP/1.1" 200 -
+2026-02-14 23:40:45,606 - werkzeug - INFO - 127.0.0.1 - - [14/Feb/2026 23:40:45] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+2026-02-14 23:40:45,614 - werkzeug - INFO - 127.0.0.1 - - [14/Feb/2026 23:40:45] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+2026-02-14 23:40:45,614 - werkzeug - INFO - 127.0.0.1 - - [14/Feb/2026 23:40:45] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-02-14 23:40:46,509 - werkzeug - INFO - 127.0.0.1 - - [14/Feb/2026 23:40:46] "GET /home HTTP/1.1" 200 -
+2026-02-14 23:40:46,514 - werkzeug - INFO - 127.0.0.1 - - [14/Feb/2026 23:40:46] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+2026-02-14 23:40:46,520 - werkzeug - INFO - 127.0.0.1 - - [14/Feb/2026 23:40:46] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-02-14 23:40:46,520 - werkzeug - INFO - 127.0.0.1 - - [14/Feb/2026 23:40:46] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+2026-02-14 23:40:47,079 - werkzeug - INFO - 127.0.0.1 - - [14/Feb/2026 23:40:47] "GET /home HTTP/1.1" 200 -
+2026-02-14 23:40:47,084 - werkzeug - INFO - 127.0.0.1 - - [14/Feb/2026 23:40:47] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+2026-02-14 23:40:47,092 - werkzeug - INFO - 127.0.0.1 - - [14/Feb/2026 23:40:47] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+2026-02-14 23:40:47,092 - werkzeug - INFO - 127.0.0.1 - - [14/Feb/2026 23:40:47] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-02-14 23:41:52,017 - werkzeug - INFO - 127.0.0.1 - - [14/Feb/2026 23:41:52] "GET /login HTTP/1.1" 200 -
+2026-02-14 23:41:52,304 - werkzeug - INFO - 127.0.0.1 - - [14/Feb/2026 23:41:52] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+2026-02-14 23:41:52,304 - werkzeug - INFO - 127.0.0.1 - - [14/Feb/2026 23:41:52] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-02-14 23:41:52,812 - werkzeug - INFO - 127.0.0.1 - - [14/Feb/2026 23:41:52] "GET /register HTTP/1.1" 200 -
+2026-02-14 23:41:52,816 - werkzeug - INFO - 127.0.0.1 - - [14/Feb/2026 23:41:52] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+2026-02-14 23:41:53,101 - werkzeug - INFO - 127.0.0.1 - - [14/Feb/2026 23:41:53] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-02-14 23:41:53,102 - werkzeug - INFO - 127.0.0.1 - - [14/Feb/2026 23:41:53] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+2026-02-14 23:41:53,596 - werkzeug - INFO - 127.0.0.1 - - [14/Feb/2026 23:41:53] "GET /about HTTP/1.1" 200 -
+2026-02-14 23:41:53,872 - werkzeug - INFO - 127.0.0.1 - - [14/Feb/2026 23:41:53] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-02-14 23:41:53,872 - werkzeug - INFO - 127.0.0.1 - - [14/Feb/2026 23:41:53] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+2026-02-14 23:42:18,341 - werkzeug - INFO - 127.0.0.1 - - [14/Feb/2026 23:42:18] "GET /home HTTP/1.1" 200 -
+2026-02-14 23:42:18,345 - werkzeug - INFO - 127.0.0.1 - - [14/Feb/2026 23:42:18] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+2026-02-14 23:42:18,753 - werkzeug - INFO - 127.0.0.1 - - [14/Feb/2026 23:42:18] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+2026-02-14 23:42:18,753 - werkzeug - INFO - 127.0.0.1 - - [14/Feb/2026 23:42:18] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-02-15 00:18:36,379 - werkzeug - INFO - 127.0.0.1 - - [15/Feb/2026 00:18:36] "[32mGET /job/create HTTP/1.1[0m" 302 -
+2026-02-15 00:18:36,390 - werkzeug - INFO - 127.0.0.1 - - [15/Feb/2026 00:18:36] "GET /login?next=/job/create HTTP/1.1" 200 -
+2026-02-15 00:18:36,393 - werkzeug - INFO - 127.0.0.1 - - [15/Feb/2026 00:18:36] "[36mGET /login?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2026-02-15 00:18:36,394 - werkzeug - INFO - 127.0.0.1 - - [15/Feb/2026 00:18:36] "[36mGET /login?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2026-02-15 00:18:36,396 - werkzeug - INFO - 127.0.0.1 - - [15/Feb/2026 00:18:36] "[36mGET /login?__debugger__=yes&cmd=resource&f=console.png&s=GHBVYKScXzLOcwPEy02A HTTP/1.1[0m" 304 -
+2026-02-15 00:18:36,714 - werkzeug - INFO - 127.0.0.1 - - [15/Feb/2026 00:18:36] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-02-15 00:18:36,716 - werkzeug - INFO - 127.0.0.1 - - [15/Feb/2026 00:18:36] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+2026-02-15 00:19:12,712 - werkzeug - INFO - 127.0.0.1 - - [15/Feb/2026 00:19:12] "GET /login HTTP/1.1" 200 -
+2026-02-15 00:19:12,725 - werkzeug - INFO - 127.0.0.1 - - [15/Feb/2026 00:19:12] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-02-15 00:19:12,729 - werkzeug - INFO - 127.0.0.1 - - [15/Feb/2026 00:19:12] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+2026-02-15 00:20:07,948 - werkzeug - INFO -  * Detected change in '/Users/giorgi/PycharmProjects/JobBoard/forms.py', reloading
+2026-02-15 00:20:08,077 - werkzeug - INFO -  * Restarting with stat
+2026-02-15 00:20:08,560 - werkzeug - WARNING -  * Debugger is active!
+2026-02-15 00:20:08,574 - werkzeug - INFO -  * Debugger PIN: 500-028-211
+2026-02-15 00:20:14,642 - werkzeug - INFO -  * Detected change in '/Users/giorgi/PycharmProjects/JobBoard/forms.py', reloading
+2026-02-15 00:20:14,731 - werkzeug - INFO -  * Restarting with stat
+2026-02-15 00:20:15,069 - werkzeug - WARNING -  * Debugger is active!
+2026-02-15 00:20:15,079 - werkzeug - INFO -  * Debugger PIN: 500-028-211
+2026-02-15 00:20:30,190 - werkzeug - INFO -  * Detected change in '/Users/giorgi/PycharmProjects/JobBoard/forms.py', reloading
+2026-02-15 00:20:30,432 - werkzeug - INFO -  * Restarting with stat
+2026-02-15 00:20:30,834 - werkzeug - WARNING -  * Debugger is active!
+2026-02-15 00:20:30,853 - werkzeug - INFO -  * Debugger PIN: 500-028-211
+2026-02-15 00:20:53,020 - werkzeug - INFO -  * Detected change in '/Users/giorgi/PycharmProjects/JobBoard/routes.py', reloading
+2026-02-15 00:20:53,140 - werkzeug - INFO -  * Restarting with stat
+2026-02-15 00:20:53,563 - werkzeug - WARNING -  * Debugger is active!
+2026-02-15 00:20:53,584 - werkzeug - INFO -  * Debugger PIN: 500-028-211
+2026-02-15 00:21:33,916 - werkzeug - INFO -  * Detected change in '/Users/giorgi/PycharmProjects/JobBoard/models.py', reloading
+2026-02-15 00:21:34,038 - werkzeug - INFO -  * Restarting with stat
+2026-02-15 00:21:34,485 - werkzeug - WARNING -  * Debugger is active!
+2026-02-15 00:21:34,501 - werkzeug - INFO -  * Debugger PIN: 500-028-211
+2026-02-15 00:21:35,692 - werkzeug - INFO - 127.0.0.1 - - [15/Feb/2026 00:21:35] "GET /login HTTP/1.1" 200 -
+2026-02-15 00:21:35,738 - werkzeug - INFO - 127.0.0.1 - - [15/Feb/2026 00:21:35] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+2026-02-15 00:21:35,739 - werkzeug - INFO - 127.0.0.1 - - [15/Feb/2026 00:21:35] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-02-15 00:21:37,199 - werkzeug - INFO - 127.0.0.1 - - [15/Feb/2026 00:21:37] "GET /login HTTP/1.1" 200 -
+2026-02-15 00:21:37,205 - werkzeug - INFO - 127.0.0.1 - - [15/Feb/2026 00:21:37] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+2026-02-15 00:21:37,206 - werkzeug - INFO - 127.0.0.1 - - [15/Feb/2026 00:21:37] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-02-15 00:21:43,745 - werkzeug - INFO - 127.0.0.1 - - [15/Feb/2026 00:21:43] "[35m[1mPOST /login HTTP/1.1[0m" 500 -
+2026-02-15 00:21:43,753 - werkzeug - INFO - 127.0.0.1 - - [15/Feb/2026 00:21:43] "[36mGET /login?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2026-02-15 00:21:43,753 - werkzeug - INFO - 127.0.0.1 - - [15/Feb/2026 00:21:43] "[36mGET /login?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2026-02-15 00:21:43,759 - werkzeug - INFO - 127.0.0.1 - - [15/Feb/2026 00:21:43] "GET /login?__debugger__=yes&cmd=resource&f=console.png&s=9PU8eKUSIrK3u8fPVVId HTTP/1.1" 200 -
+2026-02-15 00:24:23,475 - werkzeug - INFO - 127.0.0.1 - - [15/Feb/2026 00:24:23] "[35m[1mPOST /login HTTP/1.1[0m" 500 -
+2026-02-15 00:24:23,501 - werkzeug - INFO - 127.0.0.1 - - [15/Feb/2026 00:24:23] "[36mGET /login?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2026-02-15 00:24:23,502 - werkzeug - INFO - 127.0.0.1 - - [15/Feb/2026 00:24:23] "[36mGET /login?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2026-02-15 00:24:23,509 - werkzeug - INFO - 127.0.0.1 - - [15/Feb/2026 00:24:23] "[36mGET /login?__debugger__=yes&cmd=resource&f=console.png&s=9PU8eKUSIrK3u8fPVVId HTTP/1.1[0m" 304 -
+2026-02-15 00:26:32,118 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2026-02-15 00:26:32,118 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2026-02-15 00:26:32,119 - werkzeug - INFO -  * Restarting with stat
+2026-02-15 00:26:32,376 - werkzeug - WARNING -  * Debugger is active!
+2026-02-15 00:26:32,388 - werkzeug - INFO -  * Debugger PIN: 500-028-211
+2026-02-15 00:26:37,742 - werkzeug - INFO - 127.0.0.1 - - [15/Feb/2026 00:26:37] "GET / HTTP/1.1" 200 -
+2026-02-15 00:26:37,758 - werkzeug - INFO - 127.0.0.1 - - [15/Feb/2026 00:26:37] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-02-15 00:26:37,759 - werkzeug - INFO - 127.0.0.1 - - [15/Feb/2026 00:26:37] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+2026-02-15 00:26:37,759 - werkzeug - INFO - 127.0.0.1 - - [15/Feb/2026 00:26:37] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+2026-02-15 00:26:37,760 - werkzeug - INFO - 127.0.0.1 - - [15/Feb/2026 00:26:37] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-02-15 00:26:37,772 - werkzeug - INFO - 127.0.0.1 - - [15/Feb/2026 00:26:37] "[33mGET /apple-touch-icon-precomposed.png HTTP/1.1[0m" 404 -
+2026-02-15 00:26:37,774 - werkzeug - INFO - 127.0.0.1 - - [15/Feb/2026 00:26:37] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2026-02-15 00:26:37,773 - werkzeug - INFO - 127.0.0.1 - - [15/Feb/2026 00:26:37] "[33mGET /apple-touch-icon.png HTTP/1.1[0m" 404 -
+2026-02-15 00:26:39,097 - werkzeug - INFO - 127.0.0.1 - - [15/Feb/2026 00:26:39] "GET /home HTTP/1.1" 200 -
+2026-02-15 00:26:39,101 - werkzeug - INFO - 127.0.0.1 - - [15/Feb/2026 00:26:39] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+2026-02-15 00:26:39,516 - werkzeug - INFO - 127.0.0.1 - - [15/Feb/2026 00:26:39] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+2026-02-15 00:26:39,517 - werkzeug - INFO - 127.0.0.1 - - [15/Feb/2026 00:26:39] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-02-15 00:26:40,375 - werkzeug - INFO - 127.0.0.1 - - [15/Feb/2026 00:26:40] "GET /about HTTP/1.1" 200 -
+2026-02-15 00:26:40,654 - werkzeug - INFO - 127.0.0.1 - - [15/Feb/2026 00:26:40] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-02-15 00:26:40,655 - werkzeug - INFO - 127.0.0.1 - - [15/Feb/2026 00:26:40] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+2026-02-15 00:26:41,293 - werkzeug - INFO - 127.0.0.1 - - [15/Feb/2026 00:26:41] "GET /login HTTP/1.1" 200 -
+2026-02-15 00:26:41,299 - werkzeug - INFO - 127.0.0.1 - - [15/Feb/2026 00:26:41] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-02-15 00:26:41,300 - werkzeug - INFO - 127.0.0.1 - - [15/Feb/2026 00:26:41] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+2026-02-15 00:26:44,121 - root - WARNING - testest@gmail.com ვერ დალოგინდა წარმატებით
+2026-02-15 00:26:44,121 - werkzeug - INFO - 127.0.0.1 - - [15/Feb/2026 00:26:44] "POST /login HTTP/1.1" 200 -
+2026-02-15 00:26:44,127 - werkzeug - INFO - 127.0.0.1 - - [15/Feb/2026 00:26:44] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-02-15 00:26:44,128 - werkzeug - INFO - 127.0.0.1 - - [15/Feb/2026 00:26:44] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+2026-02-15 00:26:48,137 - root - WARNING - testest@gmail.com ვერ დალოგინდა წარმატებით
+2026-02-15 00:26:48,139 - werkzeug - INFO - 127.0.0.1 - - [15/Feb/2026 00:26:48] "POST /login HTTP/1.1" 200 -
+2026-02-15 00:26:48,146 - werkzeug - INFO - 127.0.0.1 - - [15/Feb/2026 00:26:48] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-02-15 00:26:48,147 - werkzeug - INFO - 127.0.0.1 - - [15/Feb/2026 00:26:48] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+2026-02-15 00:26:51,382 - werkzeug - INFO - 127.0.0.1 - - [15/Feb/2026 00:26:51] "GET /register HTTP/1.1" 200 -
+2026-02-15 00:26:51,385 - werkzeug - INFO - 127.0.0.1 - - [15/Feb/2026 00:26:51] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+2026-02-15 00:26:51,676 - werkzeug - INFO - 127.0.0.1 - - [15/Feb/2026 00:26:51] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+2026-02-15 00:26:51,677 - werkzeug - INFO - 127.0.0.1 - - [15/Feb/2026 00:26:51] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-02-15 00:27:03,242 - werkzeug - INFO - 127.0.0.1 - - [15/Feb/2026 00:27:03] "[32mPOST /register HTTP/1.1[0m" 302 -
+2026-02-15 00:27:03,252 - werkzeug - INFO - 127.0.0.1 - - [15/Feb/2026 00:27:03] "GET /login HTTP/1.1" 200 -
+2026-02-15 00:27:03,259 - werkzeug - INFO - 127.0.0.1 - - [15/Feb/2026 00:27:03] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-02-15 00:27:03,259 - werkzeug - INFO - 127.0.0.1 - - [15/Feb/2026 00:27:03] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+2026-02-15 00:27:10,520 - root - INFO - vtestav@gmail.com წარმატებით დალოგინდა
+2026-02-15 00:27:10,520 - werkzeug - INFO - 127.0.0.1 - - [15/Feb/2026 00:27:10] "[32mPOST /login HTTP/1.1[0m" 302 -
+2026-02-15 00:27:10,597 - werkzeug - INFO - 127.0.0.1 - - [15/Feb/2026 00:27:10] "GET /home HTTP/1.1" 200 -
+2026-02-15 00:27:10,605 - werkzeug - INFO - 127.0.0.1 - - [15/Feb/2026 00:27:10] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+2026-02-15 00:27:10,605 - werkzeug - INFO - 127.0.0.1 - - [15/Feb/2026 00:27:10] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-02-15 00:27:59,837 - werkzeug - INFO - 127.0.0.1 - - [15/Feb/2026 00:27:59] "GET /home HTTP/1.1" 200 -
+2026-02-15 00:27:59,852 - werkzeug - INFO - 127.0.0.1 - - [15/Feb/2026 00:27:59] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+2026-02-15 00:27:59,853 - werkzeug - INFO - 127.0.0.1 - - [15/Feb/2026 00:27:59] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-02-15 00:28:04,846 - werkzeug - INFO - 127.0.0.1 - - [15/Feb/2026 00:28:04] "GET /home HTTP/1.1" 200 -
+2026-02-15 00:28:04,858 - werkzeug - INFO - 127.0.0.1 - - [15/Feb/2026 00:28:04] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-02-15 00:28:04,859 - werkzeug - INFO - 127.0.0.1 - - [15/Feb/2026 00:28:04] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+2026-02-15 00:28:05,541 - werkzeug - INFO - 127.0.0.1 - - [15/Feb/2026 00:28:05] "[33mGET /profile.html HTTP/1.1[0m" 404 -
+2026-02-15 00:28:43,384 - werkzeug - INFO -  * Detected change in '/Users/giorgi/PycharmProjects/JobBoard/routes.py', reloading
+2026-02-15 00:28:43,516 - werkzeug - INFO -  * Restarting with stat
+2026-02-15 00:28:43,923 - werkzeug - WARNING -  * Debugger is active!
+2026-02-15 00:28:43,937 - werkzeug - INFO -  * Debugger PIN: 500-028-211
+2026-02-15 00:28:44,281 - werkzeug - INFO - 127.0.0.1 - - [15/Feb/2026 00:28:44] "[33mGET /profile.html HTTP/1.1[0m" 404 -
+2026-02-15 00:28:46,940 - werkzeug - INFO - 127.0.0.1 - - [15/Feb/2026 00:28:46] "[33mGET /profile.html HTTP/1.1[0m" 404 -
+2026-02-15 00:30:46,196 - werkzeug - INFO - 127.0.0.1 - - [15/Feb/2026 00:30:46] "[33mGET /profile.html HTTP/1.1[0m" 404 -
+2026-02-15 00:30:48,510 - werkzeug - INFO - 127.0.0.1 - - [15/Feb/2026 00:30:48] "[32mGET /login HTTP/1.1[0m" 302 -
+2026-02-15 00:30:48,608 - werkzeug - INFO - 127.0.0.1 - - [15/Feb/2026 00:30:48] "GET /home HTTP/1.1" 200 -
+2026-02-15 00:30:50,765 - werkzeug - INFO - 127.0.0.1 - - [15/Feb/2026 00:30:50] "GET /profile HTTP/1.1" 200 -
+2026-02-15 00:30:51,053 - werkzeug - INFO - 127.0.0.1 - - [15/Feb/2026 00:30:51] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+2026-02-15 00:30:51,054 - werkzeug - INFO - 127.0.0.1 - - [15/Feb/2026 00:30:51] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-02-15 00:30:55,784 - werkzeug - INFO - 127.0.0.1 - - [15/Feb/2026 00:30:55] "[32mPOST /profile HTTP/1.1[0m" 302 -
+2026-02-15 00:30:55,789 - werkzeug - INFO - 127.0.0.1 - - [15/Feb/2026 00:30:55] "GET /profile HTTP/1.1" 200 -
+2026-02-15 00:30:55,795 - werkzeug - INFO - 127.0.0.1 - - [15/Feb/2026 00:30:55] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-02-15 00:30:55,795 - werkzeug - INFO - 127.0.0.1 - - [15/Feb/2026 00:30:55] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+2026-02-15 00:30:59,212 - werkzeug - INFO - 127.0.0.1 - - [15/Feb/2026 00:30:59] "[32mPOST /profile HTTP/1.1[0m" 302 -
+2026-02-15 00:30:59,219 - werkzeug - INFO - 127.0.0.1 - - [15/Feb/2026 00:30:59] "GET /profile HTTP/1.1" 200 -
+2026-02-15 00:30:59,230 - werkzeug - INFO - 127.0.0.1 - - [15/Feb/2026 00:30:59] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-02-15 00:30:59,230 - werkzeug - INFO - 127.0.0.1 - - [15/Feb/2026 00:30:59] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+2026-02-15 00:31:24,013 - werkzeug - INFO - 127.0.0.1 - - [15/Feb/2026 00:31:24] "[32mPOST /profile HTTP/1.1[0m" 302 -
+2026-02-15 00:31:24,027 - werkzeug - INFO - 127.0.0.1 - - [15/Feb/2026 00:31:24] "GET /profile HTTP/1.1" 200 -
+2026-02-15 00:31:24,037 - werkzeug - INFO - 127.0.0.1 - - [15/Feb/2026 00:31:24] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-02-15 00:31:24,038 - werkzeug - INFO - 127.0.0.1 - - [15/Feb/2026 00:31:24] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+2026-02-15 00:36:57,185 - werkzeug - INFO - 127.0.0.1 - - [15/Feb/2026 00:36:57] "[32mGET /logout HTTP/1.1[0m" 302 -
+2026-02-15 00:36:57,293 - werkzeug - INFO - 127.0.0.1 - - [15/Feb/2026 00:36:57] "GET /home HTTP/1.1" 200 -
+2026-02-15 00:36:57,713 - werkzeug - INFO - 127.0.0.1 - - [15/Feb/2026 00:36:57] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-02-15 00:36:57,715 - werkzeug - INFO - 127.0.0.1 - - [15/Feb/2026 00:36:57] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+2026-02-15 00:36:58,927 - werkzeug - INFO - 127.0.0.1 - - [15/Feb/2026 00:36:58] "GET /login HTTP/1.1" 200 -
+2026-02-15 00:36:59,204 - werkzeug - INFO - 127.0.0.1 - - [15/Feb/2026 00:36:59] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-02-15 00:36:59,206 - werkzeug - INFO - 127.0.0.1 - - [15/Feb/2026 00:36:59] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+2026-02-15 00:37:08,774 - root - INFO - vtestav@gmail.com წარმატებით დალოგინდა
+2026-02-15 00:37:08,775 - werkzeug - INFO - 127.0.0.1 - - [15/Feb/2026 00:37:08] "[32mPOST /login HTTP/1.1[0m" 302 -
+2026-02-15 00:37:08,851 - werkzeug - INFO - 127.0.0.1 - - [15/Feb/2026 00:37:08] "GET /home HTTP/1.1" 200 -
+2026-02-15 00:37:08,859 - werkzeug - INFO - 127.0.0.1 - - [15/Feb/2026 00:37:08] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-02-15 00:37:08,859 - werkzeug - INFO - 127.0.0.1 - - [15/Feb/2026 00:37:08] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+2026-02-15 00:37:11,288 - werkzeug - INFO - 127.0.0.1 - - [15/Feb/2026 00:37:11] "[35m[1mGET /job/create HTTP/1.1[0m" 500 -
+2026-02-15 00:37:11,292 - werkzeug - INFO - 127.0.0.1 - - [15/Feb/2026 00:37:11] "[36mGET /login?__debugger__=yes&cmd=resource&f=console.png&s=GHBVYKScXzLOcwPEy02A HTTP/1.1[0m" 304 -
+2026-02-15 00:37:11,292 - werkzeug - INFO - 127.0.0.1 - - [15/Feb/2026 00:37:11] "[36mGET /login?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2026-02-15 00:37:11,292 - werkzeug - INFO - 127.0.0.1 - - [15/Feb/2026 00:37:11] "[36mGET /login?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2026-02-15 00:37:11,582 - werkzeug - INFO - 127.0.0.1 - - [15/Feb/2026 00:37:11] "GET /job/create?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+2026-02-15 00:37:11,582 - werkzeug - INFO - 127.0.0.1 - - [15/Feb/2026 00:37:11] "GET /job/create?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+2026-02-15 00:37:11,587 - werkzeug - INFO - 127.0.0.1 - - [15/Feb/2026 00:37:11] "GET /job/create?__debugger__=yes&cmd=resource&f=console.png&s=836DsEe3s78dIqZzUzo9 HTTP/1.1" 200 -
+2026-02-15 00:37:11,608 - werkzeug - INFO - 127.0.0.1 - - [15/Feb/2026 00:37:11] "GET /job/create?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2026-02-15 00:38:40,472 - werkzeug - INFO -  * Detected change in '/Users/giorgi/PycharmProjects/JobBoard/forms.py', reloading
+2026-02-15 00:38:40,767 - werkzeug - INFO -  * Restarting with stat
+2026-02-15 00:38:41,554 - werkzeug - WARNING -  * Debugger is active!
+2026-02-15 00:38:41,569 - werkzeug - INFO -  * Debugger PIN: 500-028-211
+2026-02-15 00:38:54,699 - werkzeug - INFO -  * Detected change in '/Users/giorgi/PycharmProjects/JobBoard/forms.py', reloading
+2026-02-15 00:38:54,801 - werkzeug - INFO -  * Restarting with stat
+2026-02-15 00:38:55,161 - werkzeug - WARNING -  * Debugger is active!
+2026-02-15 00:38:55,174 - werkzeug - INFO -  * Debugger PIN: 500-028-211
+2026-02-15 00:39:10,287 - werkzeug - INFO -  * Detected change in '/Users/giorgi/PycharmProjects/JobBoard/models.py', reloading
+2026-02-15 00:39:10,442 - werkzeug - INFO -  * Restarting with stat
+2026-02-15 00:39:10,877 - werkzeug - WARNING -  * Debugger is active!
+2026-02-15 00:39:10,901 - werkzeug - INFO -  * Debugger PIN: 500-028-211
+2026-02-15 00:39:38,123 - werkzeug - INFO -  * Detected change in '/Users/giorgi/PycharmProjects/JobBoard/routes.py', reloading
+2026-02-15 00:39:38,281 - werkzeug - INFO -  * Restarting with stat
+2026-02-15 00:50:47,683 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2026-02-15 00:50:47,683 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2026-02-15 00:50:47,684 - werkzeug - INFO -  * Restarting with stat
+2026-02-15 00:50:47,959 - werkzeug - WARNING -  * Debugger is active!
+2026-02-15 00:50:47,973 - werkzeug - INFO -  * Debugger PIN: 500-028-211
+2026-02-15 00:51:45,948 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2026-02-15 00:51:45,949 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2026-02-15 00:51:45,949 - werkzeug - INFO -  * Restarting with stat
+2026-02-15 00:51:46,250 - werkzeug - WARNING -  * Debugger is active!
+2026-02-15 00:51:46,263 - werkzeug - INFO -  * Debugger PIN: 500-028-211
+2026-02-15 00:51:51,406 - werkzeug - INFO - 127.0.0.1 - - [15/Feb/2026 00:51:51] "[35m[1mGET / HTTP/1.1[0m" 500 -
+2026-02-15 00:51:51,420 - werkzeug - INFO - 127.0.0.1 - - [15/Feb/2026 00:51:51] "GET /?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+2026-02-15 00:51:51,420 - werkzeug - INFO - 127.0.0.1 - - [15/Feb/2026 00:51:51] "GET /?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+2026-02-15 00:51:51,425 - werkzeug - INFO - 127.0.0.1 - - [15/Feb/2026 00:51:51] "GET /?__debugger__=yes&cmd=resource&f=console.png&s=gjHyNEUHAdA0F0aCzEv6 HTTP/1.1" 200 -
+2026-02-15 00:52:42,194 - werkzeug - INFO - 127.0.0.1 - - [15/Feb/2026 00:52:42] "GET / HTTP/1.1" 200 -
+2026-02-15 00:52:42,207 - werkzeug - INFO - 127.0.0.1 - - [15/Feb/2026 00:52:42] "GET /static/js/main.js HTTP/1.1" 200 -
+2026-02-15 00:52:42,208 - werkzeug - INFO - 127.0.0.1 - - [15/Feb/2026 00:52:42] "GET /static/css/style.css HTTP/1.1" 200 -
+2026-02-15 00:52:44,245 - werkzeug - INFO - 127.0.0.1 - - [15/Feb/2026 00:52:44] "GET /profile HTTP/1.1" 200 -
+2026-02-15 00:52:44,537 - werkzeug - INFO - 127.0.0.1 - - [15/Feb/2026 00:52:44] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-02-15 00:52:44,538 - werkzeug - INFO - 127.0.0.1 - - [15/Feb/2026 00:52:44] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+2026-02-15 00:52:45,044 - werkzeug - INFO - 127.0.0.1 - - [15/Feb/2026 00:52:45] "GET /about HTTP/1.1" 200 -
+2026-02-15 00:52:45,334 - werkzeug - INFO - 127.0.0.1 - - [15/Feb/2026 00:52:45] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-02-15 00:52:45,337 - werkzeug - INFO - 127.0.0.1 - - [15/Feb/2026 00:52:45] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+2026-02-15 00:52:45,827 - werkzeug - INFO - 127.0.0.1 - - [15/Feb/2026 00:52:45] "GET /home HTTP/1.1" 200 -
+2026-02-15 00:52:45,837 - werkzeug - INFO - 127.0.0.1 - - [15/Feb/2026 00:52:45] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+2026-02-15 00:52:45,842 - werkzeug - INFO - 127.0.0.1 - - [15/Feb/2026 00:52:45] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-02-15 00:52:45,843 - werkzeug - INFO - 127.0.0.1 - - [15/Feb/2026 00:52:45] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+2026-02-15 00:52:46,827 - werkzeug - INFO - 127.0.0.1 - - [15/Feb/2026 00:52:46] "GET /job/create HTTP/1.1" 200 -
+2026-02-15 00:52:46,837 - werkzeug - INFO - 127.0.0.1 - - [15/Feb/2026 00:52:46] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-02-15 00:52:46,839 - werkzeug - INFO - 127.0.0.1 - - [15/Feb/2026 00:52:46] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+2026-02-15 00:53:08,526 - werkzeug - INFO - 127.0.0.1 - - [15/Feb/2026 00:53:08] "POST /job/create HTTP/1.1" 200 -
+2026-02-15 00:53:08,534 - werkzeug - INFO - 127.0.0.1 - - [15/Feb/2026 00:53:08] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+2026-02-15 00:53:08,535 - werkzeug - INFO - 127.0.0.1 - - [15/Feb/2026 00:53:08] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-02-15 00:53:10,742 - werkzeug - INFO - 127.0.0.1 - - [15/Feb/2026 00:53:10] "POST /job/create HTTP/1.1" 200 -
+2026-02-15 00:53:10,750 - werkzeug - INFO - 127.0.0.1 - - [15/Feb/2026 00:53:10] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+2026-02-15 00:53:10,750 - werkzeug - INFO - 127.0.0.1 - - [15/Feb/2026 00:53:10] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-02-15 00:54:48,875 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2026-02-15 00:54:48,876 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2026-02-15 00:54:48,876 - werkzeug - INFO -  * Restarting with stat
+2026-02-15 00:54:49,205 - werkzeug - WARNING -  * Debugger is active!
+2026-02-15 00:54:49,221 - werkzeug - INFO -  * Debugger PIN: 500-028-211
+2026-02-15 00:54:55,839 - werkzeug - INFO - 127.0.0.1 - - [15/Feb/2026 00:54:55] "GET /home HTTP/1.1" 200 -
+2026-02-15 00:54:55,846 - werkzeug - INFO - 127.0.0.1 - - [15/Feb/2026 00:54:55] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+2026-02-15 00:54:55,850 - werkzeug - INFO - 127.0.0.1 - - [15/Feb/2026 00:54:55] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+2026-02-15 00:54:55,851 - werkzeug - INFO - 127.0.0.1 - - [15/Feb/2026 00:54:55] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-02-15 00:54:56,416 - werkzeug - INFO - 127.0.0.1 - - [15/Feb/2026 00:54:56] "GET /about HTTP/1.1" 200 -
+2026-02-15 00:54:56,422 - werkzeug - INFO - 127.0.0.1 - - [15/Feb/2026 00:54:56] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-02-15 00:54:56,424 - werkzeug - INFO - 127.0.0.1 - - [15/Feb/2026 00:54:56] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+2026-02-15 00:54:57,226 - werkzeug - INFO - 127.0.0.1 - - [15/Feb/2026 00:54:57] "GET /profile HTTP/1.1" 200 -
+2026-02-15 00:54:57,235 - werkzeug - INFO - 127.0.0.1 - - [15/Feb/2026 00:54:57] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-02-15 00:54:57,235 - werkzeug - INFO - 127.0.0.1 - - [15/Feb/2026 00:54:57] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+2026-02-15 00:55:02,559 - werkzeug - INFO - 127.0.0.1 - - [15/Feb/2026 00:55:02] "GET /about HTTP/1.1" 200 -
+2026-02-15 00:55:02,565 - werkzeug - INFO - 127.0.0.1 - - [15/Feb/2026 00:55:02] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-02-15 00:55:02,566 - werkzeug - INFO - 127.0.0.1 - - [15/Feb/2026 00:55:02] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+2026-02-15 00:55:03,426 - werkzeug - INFO - 127.0.0.1 - - [15/Feb/2026 00:55:03] "GET /job/create HTTP/1.1" 200 -
+2026-02-15 00:55:03,435 - werkzeug - INFO - 127.0.0.1 - - [15/Feb/2026 00:55:03] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+2026-02-15 00:55:03,435 - werkzeug - INFO - 127.0.0.1 - - [15/Feb/2026 00:55:03] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-02-15 00:55:12,057 - werkzeug - INFO - 127.0.0.1 - - [15/Feb/2026 00:55:12] "POST /job/create HTTP/1.1" 200 -
+2026-02-15 00:55:12,065 - werkzeug - INFO - 127.0.0.1 - - [15/Feb/2026 00:55:12] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-02-15 00:55:12,065 - werkzeug - INFO - 127.0.0.1 - - [15/Feb/2026 00:55:12] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+2026-02-15 00:55:13,626 - werkzeug - INFO - 127.0.0.1 - - [15/Feb/2026 00:55:13] "GET /home HTTP/1.1" 200 -
+2026-02-15 00:55:13,631 - werkzeug - INFO - 127.0.0.1 - - [15/Feb/2026 00:55:13] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+2026-02-15 00:55:13,640 - werkzeug - INFO - 127.0.0.1 - - [15/Feb/2026 00:55:13] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-02-15 00:55:13,641 - werkzeug - INFO - 127.0.0.1 - - [15/Feb/2026 00:55:13] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+2026-02-15 00:55:15,300 - werkzeug - INFO - 127.0.0.1 - - [15/Feb/2026 00:55:15] "GET /job/create HTTP/1.1" 200 -
+2026-02-15 00:55:15,307 - werkzeug - INFO - 127.0.0.1 - - [15/Feb/2026 00:55:15] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-02-15 00:55:15,307 - werkzeug - INFO - 127.0.0.1 - - [15/Feb/2026 00:55:15] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+2026-02-15 00:55:43,670 - werkzeug - INFO -  * Detected change in '/Users/giorgi/PycharmProjects/JobBoard/routes.py', reloading
+2026-02-15 00:55:43,794 - werkzeug - INFO -  * Restarting with stat
+2026-02-15 00:55:44,195 - werkzeug - WARNING -  * Debugger is active!
+2026-02-15 00:55:44,207 - werkzeug - INFO -  * Debugger PIN: 500-028-211
+2026-02-15 00:55:49,270 - werkzeug - INFO -  * Detected change in '/Users/giorgi/PycharmProjects/JobBoard/routes.py', reloading
+2026-02-15 00:55:49,416 - werkzeug - INFO -  * Restarting with stat
+2026-02-15 00:55:49,990 - werkzeug - WARNING -  * Debugger is active!
+2026-02-15 00:55:50,004 - werkzeug - INFO -  * Debugger PIN: 500-028-211
+2026-02-15 00:56:06,140 - werkzeug - INFO -  * Detected change in '/Users/giorgi/PycharmProjects/JobBoard/routes.py', reloading
+2026-02-15 00:56:06,256 - werkzeug - INFO -  * Restarting with stat
+2026-02-15 00:56:06,658 - werkzeug - WARNING -  * Debugger is active!
+2026-02-15 00:56:06,670 - werkzeug - INFO -  * Debugger PIN: 500-028-211
+2026-02-15 00:56:12,766 - werkzeug - INFO -  * Detected change in '/Users/giorgi/PycharmProjects/JobBoard/routes.py', reloading
+2026-02-15 00:56:12,926 - werkzeug - INFO -  * Restarting with stat
+2026-02-15 00:56:13,360 - werkzeug - WARNING -  * Debugger is active!
+2026-02-15 00:56:13,390 - werkzeug - INFO -  * Debugger PIN: 500-028-211
+2026-02-15 00:56:17,859 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2026-02-15 00:56:17,859 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2026-02-15 00:56:17,859 - werkzeug - INFO -  * Restarting with stat
+2026-02-15 00:56:18,158 - werkzeug - WARNING -  * Debugger is active!
+2026-02-15 00:56:18,170 - werkzeug - INFO -  * Debugger PIN: 500-028-211
+2026-02-15 00:56:21,570 - werkzeug - INFO - 127.0.0.1 - - [15/Feb/2026 00:56:21] "[35m[1mGET /job/create HTTP/1.1[0m" 500 -
+2026-02-15 00:56:21,582 - werkzeug - INFO - 127.0.0.1 - - [15/Feb/2026 00:56:21] "[36mGET /job/create?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2026-02-15 00:56:21,583 - werkzeug - INFO - 127.0.0.1 - - [15/Feb/2026 00:56:21] "[36mGET /job/create?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2026-02-15 00:56:21,589 - werkzeug - INFO - 127.0.0.1 - - [15/Feb/2026 00:56:21] "GET /job/create?__debugger__=yes&cmd=resource&f=console.png&s=YFSN7n7BeWX3Yd8sX3oA HTTP/1.1" 200 -
+2026-02-15 00:57:06,596 - werkzeug - INFO -  * Detected change in '/Users/giorgi/PycharmProjects/JobBoard/routes.py', reloading
+2026-02-15 00:57:06,706 - werkzeug - INFO -  * Restarting with stat
+2026-02-15 00:57:07,103 - werkzeug - WARNING -  * Debugger is active!
+2026-02-15 00:57:07,119 - werkzeug - INFO -  * Debugger PIN: 500-028-211
+2026-02-15 00:57:15,182 - werkzeug - INFO -  * Detected change in '/Users/giorgi/PycharmProjects/JobBoard/routes.py', reloading
+2026-02-15 00:57:15,312 - werkzeug - INFO -  * Restarting with stat
+2026-02-15 00:57:15,981 - werkzeug - WARNING -  * Debugger is active!
+2026-02-15 00:57:16,017 - werkzeug - INFO -  * Debugger PIN: 500-028-211
+2026-02-15 00:57:20,832 - werkzeug - INFO - 127.0.0.1 - - [15/Feb/2026 00:57:20] "[35m[1mGET /job/create HTTP/1.1[0m" 500 -
+2026-02-15 00:57:20,848 - werkzeug - INFO - 127.0.0.1 - - [15/Feb/2026 00:57:20] "[36mGET /job/create?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2026-02-15 00:57:20,850 - werkzeug - INFO - 127.0.0.1 - - [15/Feb/2026 00:57:20] "[36mGET /job/create?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2026-02-15 00:57:20,853 - werkzeug - INFO - 127.0.0.1 - - [15/Feb/2026 00:57:20] "GET /job/create?__debugger__=yes&cmd=resource&f=console.png&s=6wJWjWM1cbeuW7CZWTEr HTTP/1.1" 200 -
+2026-02-15 00:57:23,523 - werkzeug - INFO - 127.0.0.1 - - [15/Feb/2026 00:57:23] "[35m[1mGET /job/create HTTP/1.1[0m" 500 -
+2026-02-15 00:57:23,530 - werkzeug - INFO - 127.0.0.1 - - [15/Feb/2026 00:57:23] "[36mGET /job/create?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2026-02-15 00:57:23,531 - werkzeug - INFO - 127.0.0.1 - - [15/Feb/2026 00:57:23] "[36mGET /job/create?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2026-02-15 00:57:23,535 - werkzeug - INFO - 127.0.0.1 - - [15/Feb/2026 00:57:23] "[36mGET /job/create?__debugger__=yes&cmd=resource&f=console.png&s=6wJWjWM1cbeuW7CZWTEr HTTP/1.1[0m" 304 -
+2026-02-15 00:57:39,099 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2026-02-15 00:57:39,099 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2026-02-15 00:57:39,099 - werkzeug - INFO -  * Restarting with stat
+2026-02-15 00:57:39,368 - werkzeug - WARNING -  * Debugger is active!
+2026-02-15 00:57:39,379 - werkzeug - INFO -  * Debugger PIN: 500-028-211
+2026-02-15 00:58:14,649 - werkzeug - INFO -  * Detected change in '/Users/giorgi/PycharmProjects/JobBoard/models.py', reloading
+2026-02-15 00:58:14,763 - werkzeug - INFO -  * Restarting with stat
+2026-02-15 00:58:15,215 - werkzeug - WARNING -  * Debugger is active!
+2026-02-15 00:58:15,245 - werkzeug - INFO -  * Debugger PIN: 500-028-211
+2026-02-15 00:58:31,371 - werkzeug - INFO -  * Detected change in '/Users/giorgi/PycharmProjects/JobBoard/models.py', reloading
+2026-02-15 00:58:31,489 - werkzeug - INFO -  * Restarting with stat
+2026-02-15 00:58:31,940 - werkzeug - WARNING -  * Debugger is active!
+2026-02-15 00:58:31,955 - werkzeug - INFO -  * Debugger PIN: 500-028-211
+2026-02-15 00:58:32,418 - werkzeug - INFO - 127.0.0.1 - - [15/Feb/2026 00:58:32] "[35m[1mGET /job/create HTTP/1.1[0m" 500 -
+2026-02-15 00:58:32,430 - werkzeug - INFO - 127.0.0.1 - - [15/Feb/2026 00:58:32] "[36mGET /job/create?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2026-02-15 00:58:32,430 - werkzeug - INFO - 127.0.0.1 - - [15/Feb/2026 00:58:32] "[36mGET /job/create?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2026-02-15 00:58:32,435 - werkzeug - INFO - 127.0.0.1 - - [15/Feb/2026 00:58:32] "GET /job/create?__debugger__=yes&cmd=resource&f=console.png&s=R7zbC6pPgieUGA5YBnZT HTTP/1.1" 200 -
+2026-02-15 00:59:23,333 - werkzeug - INFO -  * Detected change in '/Users/giorgi/PycharmProjects/JobBoard/routes.py', reloading
+2026-02-15 00:59:23,562 - werkzeug - INFO -  * Restarting with stat
+2026-02-15 00:59:24,073 - werkzeug - WARNING -  * Debugger is active!
+2026-02-15 00:59:24,093 - werkzeug - INFO -  * Debugger PIN: 500-028-211
+2026-02-15 00:59:29,429 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2026-02-15 00:59:29,429 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2026-02-15 00:59:29,430 - werkzeug - INFO -  * Restarting with stat
+2026-02-15 00:59:29,766 - werkzeug - WARNING -  * Debugger is active!
+2026-02-15 00:59:29,777 - werkzeug - INFO -  * Debugger PIN: 500-028-211
+2026-02-15 00:59:34,501 - werkzeug - INFO - 127.0.0.1 - - [15/Feb/2026 00:59:34] "GET / HTTP/1.1" 200 -
+2026-02-15 00:59:34,518 - werkzeug - INFO - 127.0.0.1 - - [15/Feb/2026 00:59:34] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+2026-02-15 00:59:34,518 - werkzeug - INFO - 127.0.0.1 - - [15/Feb/2026 00:59:34] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-02-15 00:59:36,756 - werkzeug - INFO - 127.0.0.1 - - [15/Feb/2026 00:59:36] "GET /profile HTTP/1.1" 200 -
+2026-02-15 00:59:37,049 - werkzeug - INFO - 127.0.0.1 - - [15/Feb/2026 00:59:37] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-02-15 00:59:37,049 - werkzeug - INFO - 127.0.0.1 - - [15/Feb/2026 00:59:37] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+2026-02-15 00:59:38,583 - werkzeug - INFO - 127.0.0.1 - - [15/Feb/2026 00:59:38] "GET /job/create HTTP/1.1" 200 -
+2026-02-15 00:59:38,591 - werkzeug - INFO - 127.0.0.1 - - [15/Feb/2026 00:59:38] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+2026-02-15 00:59:38,591 - werkzeug - INFO - 127.0.0.1 - - [15/Feb/2026 00:59:38] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-02-15 00:59:43,628 - werkzeug - INFO - 127.0.0.1 - - [15/Feb/2026 00:59:43] "POST /job/create HTTP/1.1" 200 -
+2026-02-15 00:59:43,636 - werkzeug - INFO - 127.0.0.1 - - [15/Feb/2026 00:59:43] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-02-15 00:59:43,636 - werkzeug - INFO - 127.0.0.1 - - [15/Feb/2026 00:59:43] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+2026-02-15 00:59:46,124 - werkzeug - INFO - 127.0.0.1 - - [15/Feb/2026 00:59:46] "GET /home HTTP/1.1" 200 -
+2026-02-15 00:59:46,130 - werkzeug - INFO - 127.0.0.1 - - [15/Feb/2026 00:59:46] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+2026-02-15 00:59:46,136 - werkzeug - INFO - 127.0.0.1 - - [15/Feb/2026 00:59:46] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+2026-02-15 00:59:46,137 - werkzeug - INFO - 127.0.0.1 - - [15/Feb/2026 00:59:46] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-02-15 01:01:40,134 - werkzeug - INFO - 127.0.0.1 - - [15/Feb/2026 01:01:40] "GET /home HTTP/1.1" 200 -
+2026-02-15 01:01:40,144 - werkzeug - INFO - 127.0.0.1 - - [15/Feb/2026 01:01:40] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+2026-02-15 01:01:40,145 - werkzeug - INFO - 127.0.0.1 - - [15/Feb/2026 01:01:40] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-02-15 01:01:40,869 - werkzeug - INFO - 127.0.0.1 - - [15/Feb/2026 01:01:40] "GET /job/create HTTP/1.1" 200 -
+2026-02-15 01:01:41,157 - werkzeug - INFO - 127.0.0.1 - - [15/Feb/2026 01:01:41] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-02-15 01:01:41,158 - werkzeug - INFO - 127.0.0.1 - - [15/Feb/2026 01:01:41] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+2026-02-15 01:01:57,666 - werkzeug - INFO - 127.0.0.1 - - [15/Feb/2026 01:01:57] "GET /job/create HTTP/1.1" 200 -
+2026-02-15 01:01:57,679 - werkzeug - INFO - 127.0.0.1 - - [15/Feb/2026 01:01:57] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-02-15 01:01:57,680 - werkzeug - INFO - 127.0.0.1 - - [15/Feb/2026 01:01:57] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+2026-02-15 01:02:05,493 - werkzeug - INFO - 127.0.0.1 - - [15/Feb/2026 01:02:05] "[32mPOST /job/create HTTP/1.1[0m" 302 -
+2026-02-15 01:02:05,580 - werkzeug - INFO - 127.0.0.1 - - [15/Feb/2026 01:02:05] "GET /home HTTP/1.1" 200 -
+2026-02-15 01:02:05,597 - werkzeug - INFO - 127.0.0.1 - - [15/Feb/2026 01:02:05] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-02-15 01:02:05,598 - werkzeug - INFO - 127.0.0.1 - - [15/Feb/2026 01:02:05] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+2026-02-15 01:02:09,511 - werkzeug - INFO - 127.0.0.1 - - [15/Feb/2026 01:02:09] "[35m[1mGET /job/1 HTTP/1.1[0m" 500 -
+2026-02-15 01:02:09,819 - werkzeug - INFO - 127.0.0.1 - - [15/Feb/2026 01:02:09] "GET /job/1?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+2026-02-15 01:02:09,819 - werkzeug - INFO - 127.0.0.1 - - [15/Feb/2026 01:02:09] "GET /job/1?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+2026-02-15 01:02:09,825 - werkzeug - INFO - 127.0.0.1 - - [15/Feb/2026 01:02:09] "GET /job/1?__debugger__=yes&cmd=resource&f=console.png&s=r0GdPjp9eFc77uEU4Edp HTTP/1.1" 200 -
+2026-02-15 01:02:09,846 - werkzeug - INFO - 127.0.0.1 - - [15/Feb/2026 01:02:09] "GET /job/1?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2026-02-15 01:02:13,110 - werkzeug - INFO - 127.0.0.1 - - [15/Feb/2026 01:02:13] "GET /job/create HTTP/1.1" 200 -
+2026-02-15 01:02:13,118 - werkzeug - INFO - 127.0.0.1 - - [15/Feb/2026 01:02:13] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-02-15 01:02:13,119 - werkzeug - INFO - 127.0.0.1 - - [15/Feb/2026 01:02:13] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+2026-02-15 01:02:38,226 - werkzeug - INFO - 127.0.0.1 - - [15/Feb/2026 01:02:38] "[32mPOST /job/create HTTP/1.1[0m" 302 -
+2026-02-15 01:02:38,309 - werkzeug - INFO - 127.0.0.1 - - [15/Feb/2026 01:02:38] "GET /home HTTP/1.1" 200 -
+2026-02-15 01:02:38,316 - werkzeug - INFO - 127.0.0.1 - - [15/Feb/2026 01:02:38] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-02-15 01:02:38,317 - werkzeug - INFO - 127.0.0.1 - - [15/Feb/2026 01:02:38] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+2026-02-15 01:02:59,741 - werkzeug - INFO - 127.0.0.1 - - [15/Feb/2026 01:02:59] "[35m[1mGET /job/2 HTTP/1.1[0m" 500 -
+2026-02-15 01:03:00,048 - werkzeug - INFO - 127.0.0.1 - - [15/Feb/2026 01:03:00] "GET /job/2?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+2026-02-15 01:03:00,048 - werkzeug - INFO - 127.0.0.1 - - [15/Feb/2026 01:03:00] "GET /job/2?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+2026-02-15 01:03:00,055 - werkzeug - INFO - 127.0.0.1 - - [15/Feb/2026 01:03:00] "GET /job/2?__debugger__=yes&cmd=resource&f=console.png&s=r0GdPjp9eFc77uEU4Edp HTTP/1.1" 200 -
+2026-02-15 01:03:00,103 - werkzeug - INFO - 127.0.0.1 - - [15/Feb/2026 01:03:00] "GET /job/2?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2026-02-15 01:04:13,808 - werkzeug - INFO - 127.0.0.1 - - [15/Feb/2026 01:04:13] "[35m[1mGET /job/2 HTTP/1.1[0m" 500 -
+2026-02-15 01:04:13,811 - werkzeug - INFO - 127.0.0.1 - - [15/Feb/2026 01:04:13] "[36mGET /job/2?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2026-02-15 01:04:13,812 - werkzeug - INFO - 127.0.0.1 - - [15/Feb/2026 01:04:13] "[36mGET /job/2?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2026-02-15 01:04:13,812 - werkzeug - INFO - 127.0.0.1 - - [15/Feb/2026 01:04:13] "[36mGET /job/2?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2026-02-15 01:04:13,812 - werkzeug - INFO - 127.0.0.1 - - [15/Feb/2026 01:04:13] "[36mGET /job/2?__debugger__=yes&cmd=resource&f=console.png&s=r0GdPjp9eFc77uEU4Edp HTTP/1.1[0m" 304 -
+2026-02-15 01:04:13,817 - werkzeug - INFO - 127.0.0.1 - - [15/Feb/2026 01:04:13] "[36mGET /job/2?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2026-02-15 01:04:13,818 - werkzeug - INFO - 127.0.0.1 - - [15/Feb/2026 01:04:13] "[36mGET /job/2?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2026-02-15 01:04:13,825 - werkzeug - INFO - 127.0.0.1 - - [15/Feb/2026 01:04:13] "[36mGET /job/2?__debugger__=yes&cmd=resource&f=console.png&s=r0GdPjp9eFc77uEU4Edp HTTP/1.1[0m" 304 -
+2026-02-15 22:34:00,547 - werkzeug - INFO - 127.0.0.1 - - [15/Feb/2026 22:34:00] "[35m[1mGET /job/2 HTTP/1.1[0m" 500 -
+2026-02-15 22:34:01,887 - werkzeug - INFO - 127.0.0.1 - - [15/Feb/2026 22:34:01] "GET /job/2?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+2026-02-15 22:34:01,888 - werkzeug - INFO - 127.0.0.1 - - [15/Feb/2026 22:34:01] "GET /job/2?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+2026-02-15 22:34:01,900 - werkzeug - INFO - 127.0.0.1 - - [15/Feb/2026 22:34:01] "GET /job/2?__debugger__=yes&cmd=resource&f=console.png&s=r0GdPjp9eFc77uEU4Edp HTTP/1.1" 200 -
+2026-02-15 22:34:03,256 - werkzeug - INFO - 127.0.0.1 - - [15/Feb/2026 22:34:03] "GET / HTTP/1.1" 200 -
+2026-02-15 22:34:03,269 - werkzeug - INFO - 127.0.0.1 - - [15/Feb/2026 22:34:03] "GET /static/js/main.js HTTP/1.1" 200 -
+2026-02-15 22:34:03,269 - werkzeug - INFO - 127.0.0.1 - - [15/Feb/2026 22:34:03] "GET /static/css/style.css HTTP/1.1" 200 -
+2026-02-15 22:34:03,318 - werkzeug - INFO - 127.0.0.1 - - [15/Feb/2026 22:34:03] "[35m[1mGET /apple-touch-icon-precomposed.png HTTP/1.1[0m" 500 -
+2026-02-15 22:34:03,323 - werkzeug - INFO - 127.0.0.1 - - [15/Feb/2026 22:34:03] "[35m[1mGET /favicon.ico HTTP/1.1[0m" 500 -
+2026-02-15 22:34:03,325 - werkzeug - INFO - 127.0.0.1 - - [15/Feb/2026 22:34:03] "[35m[1mGET /apple-touch-icon.png HTTP/1.1[0m" 500 -
+2026-02-15 22:34:05,250 - werkzeug - INFO - 127.0.0.1 - - [15/Feb/2026 22:34:05] "GET /home HTTP/1.1" 200 -
+2026-02-15 22:34:05,666 - werkzeug - INFO - 127.0.0.1 - - [15/Feb/2026 22:34:05] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+2026-02-15 22:34:05,670 - werkzeug - INFO - 127.0.0.1 - - [15/Feb/2026 22:34:05] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-02-15 22:34:07,252 - werkzeug - INFO - 127.0.0.1 - - [15/Feb/2026 22:34:07] "[35m[1mGET /job/2 HTTP/1.1[0m" 500 -
+2026-02-15 22:34:07,258 - werkzeug - INFO - 127.0.0.1 - - [15/Feb/2026 22:34:07] "[36mGET /job/2?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2026-02-15 22:34:07,258 - werkzeug - INFO - 127.0.0.1 - - [15/Feb/2026 22:34:07] "[36mGET /job/2?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2026-02-15 22:34:07,263 - werkzeug - INFO - 127.0.0.1 - - [15/Feb/2026 22:34:07] "[36mGET /job/2?__debugger__=yes&cmd=resource&f=console.png&s=r0GdPjp9eFc77uEU4Edp HTTP/1.1[0m" 304 -
+2026-02-15 22:34:52,106 - werkzeug - INFO -  * Detected change in '/Users/giorgi/PycharmProjects/JobBoard/routes.py', reloading
+2026-02-15 22:34:52,300 - werkzeug - INFO -  * Restarting with stat
+2026-02-15 22:34:52,783 - werkzeug - WARNING -  * Debugger is active!
+2026-02-15 22:34:52,798 - werkzeug - INFO -  * Debugger PIN: 500-028-211
+2026-02-15 22:34:56,299 - werkzeug - INFO - 127.0.0.1 - - [15/Feb/2026 22:34:56] "GET /job/2 HTTP/1.1" 200 -
+2026-02-15 22:34:56,314 - werkzeug - INFO - 127.0.0.1 - - [15/Feb/2026 22:34:56] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+2026-02-15 22:34:56,314 - werkzeug - INFO - 127.0.0.1 - - [15/Feb/2026 22:34:56] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-02-15 22:34:58,482 - werkzeug - INFO - 127.0.0.1 - - [15/Feb/2026 22:34:58] "GET /home HTTP/1.1" 200 -
+2026-02-15 22:34:58,495 - werkzeug - INFO - 127.0.0.1 - - [15/Feb/2026 22:34:58] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-02-15 22:34:58,495 - werkzeug - INFO - 127.0.0.1 - - [15/Feb/2026 22:34:58] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+2026-02-15 22:35:02,626 - werkzeug - INFO - 127.0.0.1 - - [15/Feb/2026 22:35:02] "GET /about HTTP/1.1" 200 -
+2026-02-15 22:35:02,910 - werkzeug - INFO - 127.0.0.1 - - [15/Feb/2026 22:35:02] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-02-15 22:35:02,910 - werkzeug - INFO - 127.0.0.1 - - [15/Feb/2026 22:35:02] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+2026-02-15 22:35:03,608 - werkzeug - INFO - 127.0.0.1 - - [15/Feb/2026 22:35:03] "GET /home HTTP/1.1" 200 -
+2026-02-15 22:35:03,618 - werkzeug - INFO - 127.0.0.1 - - [15/Feb/2026 22:35:03] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-02-15 22:35:03,619 - werkzeug - INFO - 127.0.0.1 - - [15/Feb/2026 22:35:03] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+2026-02-15 22:35:04,517 - werkzeug - INFO - 127.0.0.1 - - [15/Feb/2026 22:35:04] "GET /job/create HTTP/1.1" 200 -
+2026-02-15 22:35:04,814 - werkzeug - INFO - 127.0.0.1 - - [15/Feb/2026 22:35:04] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+2026-02-15 22:35:04,814 - werkzeug - INFO - 127.0.0.1 - - [15/Feb/2026 22:35:04] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-02-15 22:35:05,741 - werkzeug - INFO - 127.0.0.1 - - [15/Feb/2026 22:35:05] "[32mGET /logout HTTP/1.1[0m" 302 -
+2026-02-15 22:35:05,848 - werkzeug - INFO - 127.0.0.1 - - [15/Feb/2026 22:35:05] "GET /home HTTP/1.1" 200 -
+2026-02-15 22:35:06,231 - werkzeug - INFO - 127.0.0.1 - - [15/Feb/2026 22:35:06] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-02-15 22:35:06,231 - werkzeug - INFO - 127.0.0.1 - - [15/Feb/2026 22:35:06] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+2026-02-15 22:35:08,395 - werkzeug - INFO - 127.0.0.1 - - [15/Feb/2026 22:35:08] "GET /register HTTP/1.1" 200 -
+2026-02-15 22:35:08,679 - werkzeug - INFO - 127.0.0.1 - - [15/Feb/2026 22:35:08] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-02-15 22:35:08,681 - werkzeug - INFO - 127.0.0.1 - - [15/Feb/2026 22:35:08] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+2026-02-15 22:35:10,937 - werkzeug - INFO - 127.0.0.1 - - [15/Feb/2026 22:35:10] "GET /home HTTP/1.1" 200 -
+2026-02-15 22:35:10,946 - werkzeug - INFO - 127.0.0.1 - - [15/Feb/2026 22:35:10] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-02-15 22:35:10,947 - werkzeug - INFO - 127.0.0.1 - - [15/Feb/2026 22:35:10] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+2026-02-15 22:35:17,922 - werkzeug - INFO - 127.0.0.1 - - [15/Feb/2026 22:35:17] "GET /about HTTP/1.1" 200 -
+2026-02-15 22:35:17,929 - werkzeug - INFO - 127.0.0.1 - - [15/Feb/2026 22:35:17] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-02-15 22:35:17,930 - werkzeug - INFO - 127.0.0.1 - - [15/Feb/2026 22:35:17] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+2026-02-15 22:35:20,870 - werkzeug - INFO - 127.0.0.1 - - [15/Feb/2026 22:35:20] "GET /home HTTP/1.1" 200 -
+2026-02-15 22:35:20,884 - werkzeug - INFO - 127.0.0.1 - - [15/Feb/2026 22:35:20] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+2026-02-15 22:35:20,887 - werkzeug - INFO - 127.0.0.1 - - [15/Feb/2026 22:35:20] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-02-15 22:35:35,457 - werkzeug - INFO - 127.0.0.1 - - [15/Feb/2026 22:35:35] "GET /home HTTP/1.1" 200 -
+2026-02-15 22:35:35,470 - werkzeug - INFO - 127.0.0.1 - - [15/Feb/2026 22:35:35] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+2026-02-15 22:35:35,470 - werkzeug - INFO - 127.0.0.1 - - [15/Feb/2026 22:35:35] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-02-15 22:35:36,388 - werkzeug - INFO - 127.0.0.1 - - [15/Feb/2026 22:35:36] "GET /about HTTP/1.1" 200 -
+2026-02-15 22:35:36,396 - werkzeug - INFO - 127.0.0.1 - - [15/Feb/2026 22:35:36] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-02-15 22:35:36,397 - werkzeug - INFO - 127.0.0.1 - - [15/Feb/2026 22:35:36] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+2026-02-15 22:35:37,266 - werkzeug - INFO - 127.0.0.1 - - [15/Feb/2026 22:35:37] "GET /home HTTP/1.1" 200 -
+2026-02-15 22:35:37,278 - werkzeug - INFO - 127.0.0.1 - - [15/Feb/2026 22:35:37] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-02-15 22:35:37,279 - werkzeug - INFO - 127.0.0.1 - - [15/Feb/2026 22:35:37] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+2026-02-15 22:36:54,612 - werkzeug - INFO - 127.0.0.1 - - [15/Feb/2026 22:36:54] "GET /home HTTP/1.1" 200 -
+2026-02-15 22:36:54,621 - werkzeug - INFO - 127.0.0.1 - - [15/Feb/2026 22:36:54] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+2026-02-15 22:36:54,622 - werkzeug - INFO - 127.0.0.1 - - [15/Feb/2026 22:36:54] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-02-15 22:36:57,184 - werkzeug - INFO - 127.0.0.1 - - [15/Feb/2026 22:36:57] "GET /home HTTP/1.1" 200 -
+2026-02-15 22:36:57,196 - werkzeug - INFO - 127.0.0.1 - - [15/Feb/2026 22:36:57] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+2026-02-15 22:36:57,197 - werkzeug - INFO - 127.0.0.1 - - [15/Feb/2026 22:36:57] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-02-15 22:36:58,435 - werkzeug - INFO - 127.0.0.1 - - [15/Feb/2026 22:36:58] "GET /about HTTP/1.1" 200 -
+2026-02-15 22:36:58,441 - werkzeug - INFO - 127.0.0.1 - - [15/Feb/2026 22:36:58] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+2026-02-15 22:36:58,441 - werkzeug - INFO - 127.0.0.1 - - [15/Feb/2026 22:36:58] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-02-15 22:37:00,493 - werkzeug - INFO - 127.0.0.1 - - [15/Feb/2026 22:37:00] "GET /login HTTP/1.1" 200 -
+2026-02-15 22:37:00,784 - werkzeug - INFO - 127.0.0.1 - - [15/Feb/2026 22:37:00] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+2026-02-15 22:37:00,784 - werkzeug - INFO - 127.0.0.1 - - [15/Feb/2026 22:37:00] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-02-15 22:37:03,756 - werkzeug - INFO - 127.0.0.1 - - [15/Feb/2026 22:37:03] "POST /login HTTP/1.1" 200 -
+2026-02-15 22:37:03,767 - werkzeug - INFO - 127.0.0.1 - - [15/Feb/2026 22:37:03] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-02-15 22:37:03,767 - werkzeug - INFO - 127.0.0.1 - - [15/Feb/2026 22:37:03] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+2026-02-15 22:37:15,441 - root - INFO - vtestav@gmail.com წარმატებით დალოგინდა
+2026-02-15 22:37:15,442 - werkzeug - INFO - 127.0.0.1 - - [15/Feb/2026 22:37:15] "[32mPOST /login HTTP/1.1[0m" 302 -
+2026-02-15 22:37:15,518 - werkzeug - INFO - 127.0.0.1 - - [15/Feb/2026 22:37:15] "GET /home HTTP/1.1" 200 -
+2026-02-15 22:37:15,527 - werkzeug - INFO - 127.0.0.1 - - [15/Feb/2026 22:37:15] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-02-15 22:37:15,528 - werkzeug - INFO - 127.0.0.1 - - [15/Feb/2026 22:37:15] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+2026-02-15 22:37:17,031 - werkzeug - INFO - 127.0.0.1 - - [15/Feb/2026 22:37:17] "GET /profile HTTP/1.1" 200 -
+2026-02-15 22:37:17,330 - werkzeug - INFO - 127.0.0.1 - - [15/Feb/2026 22:37:17] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-02-15 22:37:17,330 - werkzeug - INFO - 127.0.0.1 - - [15/Feb/2026 22:37:17] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+2026-02-15 22:37:22,554 - werkzeug - INFO - 127.0.0.1 - - [15/Feb/2026 22:37:22] "GET /home HTTP/1.1" 200 -
+2026-02-15 22:37:22,571 - werkzeug - INFO - 127.0.0.1 - - [15/Feb/2026 22:37:22] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+2026-02-15 22:37:22,571 - werkzeug - INFO - 127.0.0.1 - - [15/Feb/2026 22:37:22] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-02-15 22:37:24,483 - werkzeug - INFO - 127.0.0.1 - - [15/Feb/2026 22:37:24] "GET /job/create HTTP/1.1" 200 -
+2026-02-15 22:37:24,491 - werkzeug - INFO - 127.0.0.1 - - [15/Feb/2026 22:37:24] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-02-15 22:37:24,492 - werkzeug - INFO - 127.0.0.1 - - [15/Feb/2026 22:37:24] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+2026-02-15 22:37:31,363 - werkzeug - INFO - 127.0.0.1 - - [15/Feb/2026 22:37:31] "GET /home HTTP/1.1" 200 -
+2026-02-15 22:37:31,375 - werkzeug - INFO - 127.0.0.1 - - [15/Feb/2026 22:37:31] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+2026-02-15 22:37:31,375 - werkzeug - INFO - 127.0.0.1 - - [15/Feb/2026 22:37:31] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-02-15 22:37:36,353 - werkzeug - INFO - 127.0.0.1 - - [15/Feb/2026 22:37:36] "GET /job/1 HTTP/1.1" 200 -
+2026-02-15 22:37:36,632 - werkzeug - INFO - 127.0.0.1 - - [15/Feb/2026 22:37:36] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-02-15 22:37:36,632 - werkzeug - INFO - 127.0.0.1 - - [15/Feb/2026 22:37:36] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+2026-02-15 22:37:39,160 - werkzeug - INFO - 127.0.0.1 - - [15/Feb/2026 22:37:39] "[32mPOST /job/1/delete HTTP/1.1[0m" 302 -
+2026-02-15 22:37:39,256 - werkzeug - INFO - 127.0.0.1 - - [15/Feb/2026 22:37:39] "GET /home HTTP/1.1" 200 -
+2026-02-15 22:37:39,669 - werkzeug - INFO - 127.0.0.1 - - [15/Feb/2026 22:37:39] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-02-15 22:37:39,670 - werkzeug - INFO - 127.0.0.1 - - [15/Feb/2026 22:37:39] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+2026-02-15 22:37:50,045 - werkzeug - INFO - 127.0.0.1 - - [15/Feb/2026 22:37:50] "GET /home HTTP/1.1" 200 -
+2026-02-15 22:37:50,055 - werkzeug - INFO - 127.0.0.1 - - [15/Feb/2026 22:37:50] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-02-15 22:37:50,056 - werkzeug - INFO - 127.0.0.1 - - [15/Feb/2026 22:37:50] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+2026-02-15 22:38:49,040 - werkzeug - INFO - 127.0.0.1 - - [15/Feb/2026 22:38:49] "GET /job/2 HTTP/1.1" 200 -
+2026-02-15 22:38:49,060 - werkzeug - INFO - 127.0.0.1 - - [15/Feb/2026 22:38:49] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-02-15 22:38:49,061 - werkzeug - INFO - 127.0.0.1 - - [15/Feb/2026 22:38:49] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+2026-02-15 22:38:51,317 - werkzeug - INFO - 127.0.0.1 - - [15/Feb/2026 22:38:51] "[32mPOST /job/2/delete HTTP/1.1[0m" 302 -
+2026-02-15 22:38:51,649 - werkzeug - INFO - 127.0.0.1 - - [15/Feb/2026 22:38:51] "GET /home HTTP/1.1" 200 -
+2026-02-15 22:38:52,411 - werkzeug - INFO - 127.0.0.1 - - [15/Feb/2026 22:38:52] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-02-15 22:38:52,412 - werkzeug - INFO - 127.0.0.1 - - [15/Feb/2026 22:38:52] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+2026-02-15 22:38:53,710 - werkzeug - INFO - 127.0.0.1 - - [15/Feb/2026 22:38:53] "GET /job/create HTTP/1.1" 200 -
+2026-02-15 22:38:53,725 - werkzeug - INFO - 127.0.0.1 - - [15/Feb/2026 22:38:53] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+2026-02-15 22:38:53,725 - werkzeug - INFO - 127.0.0.1 - - [15/Feb/2026 22:38:53] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-02-15 22:39:05,939 - werkzeug - INFO - 127.0.0.1 - - [15/Feb/2026 22:39:05] "[32mPOST /job/create HTTP/1.1[0m" 302 -
+2026-02-15 22:39:06,022 - werkzeug - INFO - 127.0.0.1 - - [15/Feb/2026 22:39:06] "GET /home HTTP/1.1" 200 -
+2026-02-15 22:39:06,413 - werkzeug - INFO - 127.0.0.1 - - [15/Feb/2026 22:39:06] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-02-15 22:39:06,414 - werkzeug - INFO - 127.0.0.1 - - [15/Feb/2026 22:39:06] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+2026-02-15 22:39:08,141 - werkzeug - INFO - 127.0.0.1 - - [15/Feb/2026 22:39:08] "GET /job/1 HTTP/1.1" 200 -
+2026-02-15 22:39:08,147 - werkzeug - INFO - 127.0.0.1 - - [15/Feb/2026 22:39:08] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-02-15 22:39:08,148 - werkzeug - INFO - 127.0.0.1 - - [15/Feb/2026 22:39:08] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+2026-02-15 22:39:14,113 - werkzeug - INFO - 127.0.0.1 - - [15/Feb/2026 22:39:14] "GET /home HTTP/1.1" 200 -
+2026-02-15 22:39:14,136 - werkzeug - INFO - 127.0.0.1 - - [15/Feb/2026 22:39:14] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+2026-02-15 22:39:14,138 - werkzeug - INFO - 127.0.0.1 - - [15/Feb/2026 22:39:14] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-02-15 22:39:15,374 - werkzeug - INFO - 127.0.0.1 - - [15/Feb/2026 22:39:15] "GET /profile HTTP/1.1" 200 -
+2026-02-15 22:39:15,384 - werkzeug - INFO - 127.0.0.1 - - [15/Feb/2026 22:39:15] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-02-15 22:39:15,385 - werkzeug - INFO - 127.0.0.1 - - [15/Feb/2026 22:39:15] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+2026-02-15 22:39:38,784 - werkzeug - INFO - 127.0.0.1 - - [15/Feb/2026 22:39:38] "[32mPOST /profile HTTP/1.1[0m" 302 -
+2026-02-15 22:39:38,791 - werkzeug - INFO - 127.0.0.1 - - [15/Feb/2026 22:39:38] "GET /profile HTTP/1.1" 200 -
+2026-02-15 22:39:38,803 - werkzeug - INFO - 127.0.0.1 - - [15/Feb/2026 22:39:38] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-02-15 22:39:38,805 - werkzeug - INFO - 127.0.0.1 - - [15/Feb/2026 22:39:38] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+2026-02-15 22:40:17,847 - werkzeug - INFO - 127.0.0.1 - - [15/Feb/2026 22:40:17] "[32mPOST /profile HTTP/1.1[0m" 302 -
+2026-02-15 22:40:17,856 - werkzeug - INFO - 127.0.0.1 - - [15/Feb/2026 22:40:17] "GET /profile HTTP/1.1" 200 -
+2026-02-15 22:40:17,865 - werkzeug - INFO - 127.0.0.1 - - [15/Feb/2026 22:40:17] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-02-15 22:40:17,865 - werkzeug - INFO - 127.0.0.1 - - [15/Feb/2026 22:40:17] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+2026-02-15 22:40:23,811 - werkzeug - INFO - 127.0.0.1 - - [15/Feb/2026 22:40:23] "[32mPOST /profile HTTP/1.1[0m" 302 -
+2026-02-15 22:40:23,818 - werkzeug - INFO - 127.0.0.1 - - [15/Feb/2026 22:40:23] "GET /profile HTTP/1.1" 200 -
+2026-02-15 22:40:23,827 - werkzeug - INFO - 127.0.0.1 - - [15/Feb/2026 22:40:23] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-02-15 22:40:23,828 - werkzeug - INFO - 127.0.0.1 - - [15/Feb/2026 22:40:23] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+2026-02-15 22:41:02,506 - werkzeug - INFO - 127.0.0.1 - - [15/Feb/2026 22:41:02] "[35m[1mGET /profileდ HTTP/1.1[0m" 500 -
+2026-02-15 22:41:02,847 - werkzeug - INFO - 127.0.0.1 - - [15/Feb/2026 22:41:02] "GET /profileდ?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+2026-02-15 22:41:02,848 - werkzeug - INFO - 127.0.0.1 - - [15/Feb/2026 22:41:02] "GET /profileდ?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+2026-02-15 22:41:02,852 - werkzeug - INFO - 127.0.0.1 - - [15/Feb/2026 22:41:02] "GET /profileდ?__debugger__=yes&cmd=resource&f=console.png&s=Gx4wY4Vx1slBsi2qdgrC HTTP/1.1" 200 -
+2026-02-15 22:41:02,891 - werkzeug - INFO - 127.0.0.1 - - [15/Feb/2026 22:41:02] "GET /profileდ?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2026-02-15 22:41:05,430 - werkzeug - INFO - 127.0.0.1 - - [15/Feb/2026 22:41:05] "[35m[1mGET /profileდ HTTP/1.1[0m" 500 -
+2026-02-15 22:41:05,436 - werkzeug - INFO - 127.0.0.1 - - [15/Feb/2026 22:41:05] "[36mGET /profileდ?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2026-02-15 22:41:05,436 - werkzeug - INFO - 127.0.0.1 - - [15/Feb/2026 22:41:05] "[36mGET /profileდ?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2026-02-15 22:41:05,441 - werkzeug - INFO - 127.0.0.1 - - [15/Feb/2026 22:41:05] "[36mGET /profileდ?__debugger__=yes&cmd=resource&f=console.png&s=Gx4wY4Vx1slBsi2qdgrC HTTP/1.1[0m" 304 -
+2026-02-15 22:41:07,846 - werkzeug - INFO - 127.0.0.1 - - [15/Feb/2026 22:41:07] "[35m[1mGET /profiled HTTP/1.1[0m" 500 -
+2026-02-15 22:41:08,154 - werkzeug - INFO - 127.0.0.1 - - [15/Feb/2026 22:41:08] "GET /profiled?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+2026-02-15 22:41:08,154 - werkzeug - INFO - 127.0.0.1 - - [15/Feb/2026 22:41:08] "GET /profiled?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+2026-02-15 22:41:08,158 - werkzeug - INFO - 127.0.0.1 - - [15/Feb/2026 22:41:08] "GET /profiled?__debugger__=yes&cmd=resource&f=console.png&s=Gx4wY4Vx1slBsi2qdgrC HTTP/1.1" 200 -
+2026-02-15 22:41:08,193 - werkzeug - INFO - 127.0.0.1 - - [15/Feb/2026 22:41:08] "GET /profiled?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2026-02-15 22:41:42,088 - werkzeug - INFO -  * Detected change in '/Users/giorgi/PycharmProjects/JobBoard/routes.py', reloading
+2026-02-15 22:41:42,208 - werkzeug - INFO -  * Restarting with stat
+2026-02-15 22:41:42,755 - werkzeug - WARNING -  * Debugger is active!
+2026-02-15 22:41:42,770 - werkzeug - INFO -  * Debugger PIN: 500-028-211
+2026-02-15 22:41:46,624 - werkzeug - INFO - 127.0.0.1 - - [15/Feb/2026 22:41:46] "[33mGET /profileდ HTTP/1.1[0m" 404 -
+2026-02-15 22:42:07,911 - werkzeug - INFO - 127.0.0.1 - - [15/Feb/2026 22:42:07] "[33mGET /profileდ HTTP/1.1[0m" 404 -
+2026-02-15 22:42:07,932 - werkzeug - INFO - 127.0.0.1 - - [15/Feb/2026 22:42:07] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-02-15 22:42:07,933 - werkzeug - INFO - 127.0.0.1 - - [15/Feb/2026 22:42:07] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+2026-02-15 22:42:09,863 - werkzeug - INFO - 127.0.0.1 - - [15/Feb/2026 22:42:09] "GET /home HTTP/1.1" 200 -
+2026-02-15 22:42:09,879 - werkzeug - INFO - 127.0.0.1 - - [15/Feb/2026 22:42:09] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+2026-02-15 22:42:09,879 - werkzeug - INFO - 127.0.0.1 - - [15/Feb/2026 22:42:09] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-02-15 22:43:21,546 - werkzeug - INFO -  * Detected change in '/Users/giorgi/PycharmProjects/JobBoard/utils.py', reloading
+2026-02-15 22:43:21,746 - werkzeug - INFO -  * Restarting with stat
+2026-02-15 22:43:22,202 - werkzeug - WARNING -  * Debugger is active!
+2026-02-15 22:43:22,216 - werkzeug - INFO -  * Debugger PIN: 500-028-211
+2026-02-15 22:43:57,498 - werkzeug - INFO -  * Detected change in '/Users/giorgi/PycharmProjects/JobBoard/utils.py', reloading
+2026-02-15 22:43:57,623 - werkzeug - INFO -  * Restarting with stat
+2026-02-15 22:43:58,029 - werkzeug - WARNING -  * Debugger is active!
+2026-02-15 22:43:58,042 - werkzeug - INFO -  * Debugger PIN: 500-028-211
+2026-02-15 22:44:36,342 - werkzeug - INFO -  * Detected change in '/Users/giorgi/PycharmProjects/JobBoard/models.py', reloading
+2026-02-15 22:44:36,458 - werkzeug - INFO -  * Restarting with stat
+2026-02-15 22:44:36,881 - werkzeug - WARNING -  * Debugger is active!
+2026-02-15 22:44:36,894 - werkzeug - INFO -  * Debugger PIN: 500-028-211
+2026-02-15 22:44:47,338 - werkzeug - INFO - 127.0.0.1 - - [15/Feb/2026 22:44:47] "GET /home HTTP/1.1" 200 -
+2026-02-15 22:44:47,801 - werkzeug - INFO - 127.0.0.1 - - [15/Feb/2026 22:44:47] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+2026-02-15 22:44:47,802 - werkzeug - INFO - 127.0.0.1 - - [15/Feb/2026 22:44:47] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-02-15 22:45:08,171 - werkzeug - INFO -  * Detected change in '/Users/giorgi/PycharmProjects/JobBoard/utils.py', reloading
+2026-02-15 22:45:08,434 - werkzeug - INFO -  * Restarting with stat
+2026-02-15 22:45:09,054 - werkzeug - WARNING -  * Debugger is active!
+2026-02-15 22:45:09,069 - werkzeug - INFO -  * Debugger PIN: 500-028-211
+2026-02-15 22:45:09,923 - werkzeug - INFO - 127.0.0.1 - - [15/Feb/2026 22:45:09] "GET /home HTTP/1.1" 200 -
+2026-02-15 22:45:09,938 - werkzeug - INFO - 127.0.0.1 - - [15/Feb/2026 22:45:09] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+2026-02-15 22:45:09,939 - werkzeug - INFO - 127.0.0.1 - - [15/Feb/2026 22:45:09] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-02-15 22:45:29,239 - werkzeug - INFO -  * Detected change in '/Users/giorgi/PycharmProjects/JobBoard/utils.py', reloading
+2026-02-15 22:45:29,351 - werkzeug - INFO -  * Restarting with stat
+2026-02-15 22:45:29,741 - werkzeug - WARNING -  * Debugger is active!
+2026-02-15 22:45:29,753 - werkzeug - INFO -  * Debugger PIN: 500-028-211
+2026-02-15 22:45:30,307 - werkzeug - INFO - 127.0.0.1 - - [15/Feb/2026 22:45:30] "GET /home HTTP/1.1" 200 -
+2026-02-15 22:45:30,321 - werkzeug - INFO - 127.0.0.1 - - [15/Feb/2026 22:45:30] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-02-15 22:45:30,321 - werkzeug - INFO - 127.0.0.1 - - [15/Feb/2026 22:45:30] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+2026-02-15 22:48:34,395 - werkzeug - INFO -  * Detected change in '/Users/giorgi/PycharmProjects/JobBoard/routes.py', reloading
+2026-02-15 22:48:34,592 - werkzeug - INFO -  * Restarting with stat
+2026-02-15 22:48:35,123 - werkzeug - WARNING -  * Debugger is active!
+2026-02-15 22:48:35,136 - werkzeug - INFO -  * Debugger PIN: 500-028-211
+2026-02-15 22:49:36,671 - werkzeug - INFO -  * Detected change in '/Users/giorgi/PycharmProjects/JobBoard/forms.py', reloading
+2026-02-15 22:49:36,871 - werkzeug - INFO -  * Restarting with stat
+2026-02-15 22:49:37,411 - werkzeug - WARNING -  * Debugger is active!
+2026-02-15 22:49:37,430 - werkzeug - INFO -  * Debugger PIN: 500-028-211
+2026-02-15 22:49:59,619 - werkzeug - INFO -  * Detected change in '/Users/giorgi/PycharmProjects/JobBoard/forms.py', reloading
+2026-02-15 22:49:59,816 - werkzeug - INFO -  * Restarting with stat
+2026-02-15 22:50:00,339 - werkzeug - WARNING -  * Debugger is active!
+2026-02-15 22:50:00,353 - werkzeug - INFO -  * Debugger PIN: 500-028-211
+2026-02-15 22:50:22,549 - werkzeug - INFO -  * Detected change in '/Users/giorgi/PycharmProjects/JobBoard/forms.py', reloading
+2026-02-15 22:50:22,676 - werkzeug - INFO -  * Restarting with stat
+2026-02-15 22:50:23,148 - werkzeug - WARNING -  * Debugger is active!
+2026-02-15 22:50:23,164 - werkzeug - INFO -  * Debugger PIN: 500-028-211
+2026-02-15 22:50:38,301 - werkzeug - INFO -  * Detected change in '/Users/giorgi/PycharmProjects/JobBoard/forms.py', reloading
+2026-02-15 22:50:38,409 - werkzeug - INFO -  * Restarting with stat
+2026-02-15 22:50:38,857 - werkzeug - WARNING -  * Debugger is active!
+2026-02-15 22:50:38,871 - werkzeug - INFO -  * Debugger PIN: 500-028-211
+2026-02-15 22:50:55,997 - werkzeug - INFO -  * Detected change in '/Users/giorgi/PycharmProjects/JobBoard/forms.py', reloading
+2026-02-15 22:50:56,113 - werkzeug - INFO -  * Restarting with stat
+2026-02-15 22:50:56,530 - werkzeug - WARNING -  * Debugger is active!
+2026-02-15 22:50:56,546 - werkzeug - INFO -  * Debugger PIN: 500-028-211
+2026-02-15 22:51:15,706 - werkzeug - INFO -  * Detected change in '/Users/giorgi/PycharmProjects/JobBoard/forms.py', reloading
+2026-02-15 22:51:15,810 - werkzeug - INFO -  * Restarting with stat
+2026-02-15 22:51:16,205 - werkzeug - WARNING -  * Debugger is active!
+2026-02-15 22:51:16,218 - werkzeug - INFO -  * Debugger PIN: 500-028-211
+2026-02-15 22:51:21,264 - werkzeug - INFO -  * Detected change in '/Users/giorgi/PycharmProjects/JobBoard/forms.py', reloading
+2026-02-15 22:51:21,388 - werkzeug - INFO -  * Restarting with stat
+2026-02-15 22:51:21,721 - werkzeug - WARNING -  * Debugger is active!
+2026-02-15 22:51:21,733 - werkzeug - INFO -  * Debugger PIN: 500-028-211
+2026-02-15 22:51:31,818 - werkzeug - INFO -  * Detected change in '/Users/giorgi/PycharmProjects/JobBoard/forms.py', reloading
+2026-02-15 22:51:31,941 - werkzeug - INFO -  * Restarting with stat
+2026-02-15 22:51:32,473 - werkzeug - WARNING -  * Debugger is active!
+2026-02-15 22:51:32,490 - werkzeug - INFO -  * Debugger PIN: 500-028-211
+2026-02-15 22:51:47,623 - werkzeug - INFO -  * Detected change in '/Users/giorgi/PycharmProjects/JobBoard/forms.py', reloading
+2026-02-15 22:51:47,732 - werkzeug - INFO -  * Restarting with stat
+2026-02-15 22:51:48,119 - werkzeug - WARNING -  * Debugger is active!
+2026-02-15 22:51:48,137 - werkzeug - INFO -  * Debugger PIN: 500-028-211
+2026-02-15 22:52:21,446 - werkzeug - INFO -  * Detected change in '/Users/giorgi/PycharmProjects/JobBoard/forms.py', reloading
+2026-02-15 22:52:21,577 - werkzeug - INFO -  * Restarting with stat
+2026-02-15 22:52:22,068 - werkzeug - WARNING -  * Debugger is active!
+2026-02-15 22:52:22,084 - werkzeug - INFO -  * Debugger PIN: 500-028-211
+2026-02-15 22:52:23,504 - werkzeug - INFO - 127.0.0.1 - - [15/Feb/2026 22:52:23] "GET /home HTTP/1.1" 200 -
+2026-02-15 22:52:24,017 - werkzeug - INFO - 127.0.0.1 - - [15/Feb/2026 22:52:24] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+2026-02-15 22:52:24,018 - werkzeug - INFO - 127.0.0.1 - - [15/Feb/2026 22:52:24] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-02-15 22:52:24,480 - werkzeug - INFO - 127.0.0.1 - - [15/Feb/2026 22:52:24] "GET /job/create HTTP/1.1" 200 -
+2026-02-15 22:52:24,768 - werkzeug - INFO - 127.0.0.1 - - [15/Feb/2026 22:52:24] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-02-15 22:52:24,769 - werkzeug - INFO - 127.0.0.1 - - [15/Feb/2026 22:52:24] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+2026-02-15 22:52:51,587 - werkzeug - INFO - 127.0.0.1 - - [15/Feb/2026 22:52:51] "GET /job/create HTTP/1.1" 200 -
+2026-02-15 22:52:51,601 - werkzeug - INFO - 127.0.0.1 - - [15/Feb/2026 22:52:51] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-02-15 22:52:51,601 - werkzeug - INFO - 127.0.0.1 - - [15/Feb/2026 22:52:51] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+2026-02-15 22:53:42,730 - werkzeug - INFO -  * Detected change in '/Users/giorgi/PycharmProjects/JobBoard/forms.py', reloading
+2026-02-15 22:53:42,874 - werkzeug - INFO -  * Restarting with stat
+2026-02-15 22:53:43,319 - werkzeug - WARNING -  * Debugger is active!
+2026-02-15 22:53:43,332 - werkzeug - INFO -  * Debugger PIN: 500-028-211
+2026-02-15 22:54:00,457 - werkzeug - INFO -  * Detected change in '/Users/giorgi/PycharmProjects/JobBoard/forms.py', reloading
+2026-02-15 22:54:00,566 - werkzeug - INFO -  * Restarting with stat
+2026-02-15 22:54:00,969 - werkzeug - WARNING -  * Debugger is active!
+2026-02-15 22:54:00,982 - werkzeug - INFO -  * Debugger PIN: 500-028-211
+2026-02-15 22:54:25,161 - werkzeug - INFO -  * Detected change in '/Users/giorgi/PycharmProjects/JobBoard/forms.py', reloading
+2026-02-15 22:54:25,260 - werkzeug - INFO -  * Restarting with stat
+2026-02-15 22:54:25,652 - werkzeug - WARNING -  * Debugger is active!
+2026-02-15 22:54:25,665 - werkzeug - INFO -  * Debugger PIN: 500-028-211
+2026-02-15 22:54:38,767 - werkzeug - INFO -  * Detected change in '/Users/giorgi/PycharmProjects/JobBoard/forms.py', reloading
+2026-02-15 22:54:39,013 - werkzeug - INFO -  * Restarting with stat
+2026-02-15 22:54:39,603 - werkzeug - WARNING -  * Debugger is active!
+2026-02-15 22:54:39,621 - werkzeug - INFO -  * Debugger PIN: 500-028-211
+2026-02-15 22:54:51,706 - werkzeug - INFO -  * Detected change in '/Users/giorgi/PycharmProjects/JobBoard/forms.py', reloading
+2026-02-15 22:54:51,879 - werkzeug - INFO -  * Restarting with stat
+2026-02-15 22:54:52,285 - werkzeug - WARNING -  * Debugger is active!
+2026-02-15 22:54:52,298 - werkzeug - INFO -  * Debugger PIN: 500-028-211
+2026-02-15 22:54:55,463 - werkzeug - INFO - 127.0.0.1 - - [15/Feb/2026 22:54:55] "GET /job/create HTTP/1.1" 200 -
+2026-02-15 22:54:55,477 - werkzeug - INFO - 127.0.0.1 - - [15/Feb/2026 22:54:55] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+2026-02-15 22:54:55,478 - werkzeug - INFO - 127.0.0.1 - - [15/Feb/2026 22:54:55] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-02-15 22:55:53,352 - werkzeug - INFO - 127.0.0.1 - - [15/Feb/2026 22:55:53] "GET /job/create HTTP/1.1" 200 -
+2026-02-15 22:55:53,392 - werkzeug - INFO - 127.0.0.1 - - [15/Feb/2026 22:55:53] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-02-15 22:55:53,393 - werkzeug - INFO - 127.0.0.1 - - [15/Feb/2026 22:55:53] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+2026-02-15 22:56:29,820 - werkzeug - INFO - 127.0.0.1 - - [15/Feb/2026 22:56:29] "GET /job/create HTTP/1.1" 200 -
+2026-02-15 22:56:29,831 - werkzeug - INFO - 127.0.0.1 - - [15/Feb/2026 22:56:29] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-02-15 22:56:29,832 - werkzeug - INFO - 127.0.0.1 - - [15/Feb/2026 22:56:29] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+2026-02-15 22:56:35,873 - werkzeug - INFO - 127.0.0.1 - - [15/Feb/2026 22:56:35] "GET /job/create HTTP/1.1" 200 -
+2026-02-15 22:56:35,881 - werkzeug - INFO - 127.0.0.1 - - [15/Feb/2026 22:56:35] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-02-15 22:56:35,881 - werkzeug - INFO - 127.0.0.1 - - [15/Feb/2026 22:56:35] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+2026-02-15 22:56:42,237 - werkzeug - INFO - 127.0.0.1 - - [15/Feb/2026 22:56:42] "GET /job/create HTTP/1.1" 200 -
+2026-02-15 22:56:42,246 - werkzeug - INFO - 127.0.0.1 - - [15/Feb/2026 22:56:42] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+2026-02-15 22:56:42,247 - werkzeug - INFO - 127.0.0.1 - - [15/Feb/2026 22:56:42] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-02-15 22:56:42,995 - werkzeug - INFO - 127.0.0.1 - - [15/Feb/2026 22:56:42] "GET /job/create HTTP/1.1" 200 -
+2026-02-15 22:56:43,002 - werkzeug - INFO - 127.0.0.1 - - [15/Feb/2026 22:56:43] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+2026-02-15 22:56:43,003 - werkzeug - INFO - 127.0.0.1 - - [15/Feb/2026 22:56:43] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-02-15 22:56:49,951 - werkzeug - INFO - 127.0.0.1 - - [15/Feb/2026 22:56:49] "GET /job/create HTTP/1.1" 200 -
+2026-02-15 22:56:49,959 - werkzeug - INFO - 127.0.0.1 - - [15/Feb/2026 22:56:49] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-02-15 22:56:49,960 - werkzeug - INFO - 127.0.0.1 - - [15/Feb/2026 22:56:49] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+2026-02-15 22:56:54,379 - werkzeug - INFO - 127.0.0.1 - - [15/Feb/2026 22:56:54] "GET /job/create HTTP/1.1" 200 -
+2026-02-15 22:56:54,390 - werkzeug - INFO - 127.0.0.1 - - [15/Feb/2026 22:56:54] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-02-15 22:56:54,390 - werkzeug - INFO - 127.0.0.1 - - [15/Feb/2026 22:56:54] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+2026-02-15 22:56:57,855 - werkzeug - INFO - 127.0.0.1 - - [15/Feb/2026 22:56:57] "GET /job/create HTTP/1.1" 200 -
+2026-02-15 22:56:57,864 - werkzeug - INFO - 127.0.0.1 - - [15/Feb/2026 22:56:57] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-02-15 22:56:57,865 - werkzeug - INFO - 127.0.0.1 - - [15/Feb/2026 22:56:57] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+2026-02-15 22:57:01,555 - werkzeug - INFO - 127.0.0.1 - - [15/Feb/2026 22:57:01] "GET /job/create HTTP/1.1" 200 -
+2026-02-15 22:57:01,562 - werkzeug - INFO - 127.0.0.1 - - [15/Feb/2026 22:57:01] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-02-15 22:57:01,563 - werkzeug - INFO - 127.0.0.1 - - [15/Feb/2026 22:57:01] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+2026-02-15 22:57:12,450 - werkzeug - INFO - 127.0.0.1 - - [15/Feb/2026 22:57:12] "GET /job/create HTTP/1.1" 200 -
+2026-02-15 22:57:12,458 - werkzeug - INFO - 127.0.0.1 - - [15/Feb/2026 22:57:12] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+2026-02-15 22:57:12,459 - werkzeug - INFO - 127.0.0.1 - - [15/Feb/2026 22:57:12] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-02-15 22:57:52,000 - werkzeug - INFO - 127.0.0.1 - - [15/Feb/2026 22:57:52] "[32mPOST /job/create HTTP/1.1[0m" 302 -
+2026-02-15 22:57:52,121 - werkzeug - INFO - 127.0.0.1 - - [15/Feb/2026 22:57:52] "GET /home HTTP/1.1" 200 -
+2026-02-15 22:57:52,567 - werkzeug - INFO - 127.0.0.1 - - [15/Feb/2026 22:57:52] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-02-15 22:57:52,567 - werkzeug - INFO - 127.0.0.1 - - [15/Feb/2026 22:57:52] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+2026-02-15 22:57:56,359 - werkzeug - INFO - 127.0.0.1 - - [15/Feb/2026 22:57:56] "GET /job/1 HTTP/1.1" 200 -
+2026-02-15 22:57:56,652 - werkzeug - INFO - 127.0.0.1 - - [15/Feb/2026 22:57:56] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-02-15 22:57:56,653 - werkzeug - INFO - 127.0.0.1 - - [15/Feb/2026 22:57:56] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+2026-02-15 22:57:59,759 - werkzeug - INFO - 127.0.0.1 - - [15/Feb/2026 22:57:59] "[32mPOST /job/1/delete HTTP/1.1[0m" 302 -
+2026-02-15 22:57:59,850 - werkzeug - INFO - 127.0.0.1 - - [15/Feb/2026 22:57:59] "GET /home HTTP/1.1" 200 -
+2026-02-15 22:58:00,251 - werkzeug - INFO - 127.0.0.1 - - [15/Feb/2026 22:58:00] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-02-15 22:58:00,252 - werkzeug - INFO - 127.0.0.1 - - [15/Feb/2026 22:58:00] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+2026-02-15 23:00:06,879 - werkzeug - INFO -  * Detected change in '/Users/giorgi/PycharmProjects/JobBoard/routes.py', reloading
+2026-02-15 23:00:06,998 - werkzeug - INFO -  * Restarting with stat
+2026-02-15 23:00:07,459 - werkzeug - WARNING -  * Debugger is active!
+2026-02-15 23:00:07,472 - werkzeug - INFO -  * Debugger PIN: 500-028-211
+2026-02-15 23:00:48,637 - werkzeug - INFO - 127.0.0.1 - - [15/Feb/2026 23:00:48] "[35m[1mGET /home HTTP/1.1[0m" 500 -
+2026-02-15 23:00:48,665 - werkzeug - INFO - 127.0.0.1 - - [15/Feb/2026 23:00:48] "GET /home?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+2026-02-15 23:00:48,667 - werkzeug - INFO - 127.0.0.1 - - [15/Feb/2026 23:00:48] "GET /home?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+2026-02-15 23:00:48,673 - werkzeug - INFO - 127.0.0.1 - - [15/Feb/2026 23:00:48] "GET /home?__debugger__=yes&cmd=resource&f=console.png&s=3nqRYQMCkXPCfH4N613O HTTP/1.1" 200 -
+2026-02-15 23:00:48,995 - werkzeug - INFO - 127.0.0.1 - - [15/Feb/2026 23:00:48] "GET /home?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2026-02-15 23:01:27,952 - werkzeug - INFO - 127.0.0.1 - - [15/Feb/2026 23:01:27] "[33mGET /job/1 HTTP/1.1[0m" 404 -
+2026-02-15 23:01:30,757 - werkzeug - INFO - 127.0.0.1 - - [15/Feb/2026 23:01:30] "GET /home HTTP/1.1" 200 -
+2026-02-15 23:01:30,771 - werkzeug - INFO - 127.0.0.1 - - [15/Feb/2026 23:01:30] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-02-15 23:01:30,772 - werkzeug - INFO - 127.0.0.1 - - [15/Feb/2026 23:01:30] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+2026-02-15 23:02:06,405 - werkzeug - INFO - 127.0.0.1 - - [15/Feb/2026 23:02:06] "GET /home HTTP/1.1" 200 -
+2026-02-15 23:02:06,418 - werkzeug - INFO - 127.0.0.1 - - [15/Feb/2026 23:02:06] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-02-15 23:02:06,419 - werkzeug - INFO - 127.0.0.1 - - [15/Feb/2026 23:02:06] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+2026-02-15 23:02:26,337 - werkzeug - INFO - 127.0.0.1 - - [15/Feb/2026 23:02:26] "GET /job/2 HTTP/1.1" 200 -
+2026-02-15 23:02:26,625 - werkzeug - INFO - 127.0.0.1 - - [15/Feb/2026 23:02:26] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-02-15 23:02:26,626 - werkzeug - INFO - 127.0.0.1 - - [15/Feb/2026 23:02:26] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+2026-02-15 23:02:43,618 - werkzeug - INFO - 127.0.0.1 - - [15/Feb/2026 23:02:43] "GET /job/2 HTTP/1.1" 200 -
+2026-02-15 23:02:43,627 - werkzeug - INFO - 127.0.0.1 - - [15/Feb/2026 23:02:43] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-02-15 23:02:43,628 - werkzeug - INFO - 127.0.0.1 - - [15/Feb/2026 23:02:43] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+2026-02-15 23:03:55,267 - werkzeug - INFO - 127.0.0.1 - - [15/Feb/2026 23:03:55] "GET /home HTTP/1.1" 200 -
+2026-02-15 23:03:55,282 - werkzeug - INFO - 127.0.0.1 - - [15/Feb/2026 23:03:55] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+2026-02-15 23:03:55,282 - werkzeug - INFO - 127.0.0.1 - - [15/Feb/2026 23:03:55] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-02-15 23:04:10,734 - werkzeug - INFO - 127.0.0.1 - - [15/Feb/2026 23:04:10] "GET /home HTTP/1.1" 200 -
+2026-02-15 23:04:10,745 - werkzeug - INFO - 127.0.0.1 - - [15/Feb/2026 23:04:10] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-02-15 23:04:10,745 - werkzeug - INFO - 127.0.0.1 - - [15/Feb/2026 23:04:10] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+2026-02-15 23:04:17,123 - werkzeug - INFO - 127.0.0.1 - - [15/Feb/2026 23:04:17] "GET /home HTTP/1.1" 200 -
+2026-02-15 23:04:17,136 - werkzeug - INFO - 127.0.0.1 - - [15/Feb/2026 23:04:17] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-02-15 23:04:17,137 - werkzeug - INFO - 127.0.0.1 - - [15/Feb/2026 23:04:17] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+2026-02-15 23:04:22,543 - werkzeug - INFO - 127.0.0.1 - - [15/Feb/2026 23:04:22] "GET /job/2 HTTP/1.1" 200 -
+2026-02-15 23:04:22,827 - werkzeug - INFO - 127.0.0.1 - - [15/Feb/2026 23:04:22] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-02-15 23:04:22,828 - werkzeug - INFO - 127.0.0.1 - - [15/Feb/2026 23:04:22] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+2026-02-15 23:04:23,977 - werkzeug - INFO - 127.0.0.1 - - [15/Feb/2026 23:04:23] "GET /home HTTP/1.1" 200 -
+2026-02-15 23:04:23,984 - werkzeug - INFO - 127.0.0.1 - - [15/Feb/2026 23:04:23] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-02-15 23:04:23,985 - werkzeug - INFO - 127.0.0.1 - - [15/Feb/2026 23:04:23] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+2026-02-15 23:04:30,543 - werkzeug - INFO - 127.0.0.1 - - [15/Feb/2026 23:04:30] "GET /job/2 HTTP/1.1" 200 -
+2026-02-15 23:04:30,551 - werkzeug - INFO - 127.0.0.1 - - [15/Feb/2026 23:04:30] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-02-15 23:04:30,553 - werkzeug - INFO - 127.0.0.1 - - [15/Feb/2026 23:04:30] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+2026-02-15 23:05:08,958 - werkzeug - INFO -  * Detected change in '/Users/giorgi/PycharmProjects/JobBoard/routes.py', reloading
+2026-02-15 23:05:09,249 - werkzeug - INFO -  * Restarting with stat
+2026-02-15 23:05:09,825 - werkzeug - WARNING -  * Debugger is active!
+2026-02-15 23:05:09,846 - werkzeug - INFO -  * Debugger PIN: 500-028-211
+2026-02-15 23:05:35,063 - werkzeug - INFO -  * Detected change in '/Users/giorgi/PycharmProjects/JobBoard/routes.py', reloading
+2026-02-15 23:05:35,191 - werkzeug - INFO -  * Restarting with stat
+2026-02-15 23:05:35,696 - werkzeug - WARNING -  * Debugger is active!
+2026-02-15 23:05:35,710 - werkzeug - INFO -  * Debugger PIN: 500-028-211
+2026-02-15 23:05:35,965 - werkzeug - INFO - 127.0.0.1 - - [15/Feb/2026 23:05:35] "GET /job/2 HTTP/1.1" 200 -
+2026-02-15 23:05:35,979 - werkzeug - INFO - 127.0.0.1 - - [15/Feb/2026 23:05:35] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-02-15 23:05:35,979 - werkzeug - INFO - 127.0.0.1 - - [15/Feb/2026 23:05:35] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+2026-02-15 23:06:14,021 - werkzeug - INFO -  * Detected change in '/Users/giorgi/PycharmProjects/JobBoard/routes.py', reloading
+2026-02-15 23:06:14,143 - werkzeug - INFO -  * Restarting with stat
+2026-02-15 23:06:14,896 - werkzeug - WARNING -  * Debugger is active!
+2026-02-15 23:06:14,921 - werkzeug - INFO -  * Debugger PIN: 500-028-211
+2026-02-15 23:06:15,064 - werkzeug - INFO - 127.0.0.1 - - [15/Feb/2026 23:06:15] "GET /job/2 HTTP/1.1" 200 -
+2026-02-15 23:06:15,083 - werkzeug - INFO - 127.0.0.1 - - [15/Feb/2026 23:06:15] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-02-15 23:06:15,084 - werkzeug - INFO - 127.0.0.1 - - [15/Feb/2026 23:06:15] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+2026-02-15 23:06:23,425 - werkzeug - INFO - 127.0.0.1 - - [15/Feb/2026 23:06:23] "GET /job/2 HTTP/1.1" 200 -
+2026-02-15 23:06:23,436 - werkzeug - INFO - 127.0.0.1 - - [15/Feb/2026 23:06:23] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-02-15 23:06:23,437 - werkzeug - INFO - 127.0.0.1 - - [15/Feb/2026 23:06:23] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+2026-02-15 23:06:54,502 - werkzeug - INFO - 127.0.0.1 - - [15/Feb/2026 23:06:54] "GET /job/2 HTTP/1.1" 200 -
+2026-02-15 23:06:54,513 - werkzeug - INFO - 127.0.0.1 - - [15/Feb/2026 23:06:54] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-02-15 23:06:54,513 - werkzeug - INFO - 127.0.0.1 - - [15/Feb/2026 23:06:54] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+2026-02-15 23:07:11,994 - werkzeug - INFO - 127.0.0.1 - - [15/Feb/2026 23:07:11] "GET /job/2/update HTTP/1.1" 200 -
+2026-02-15 23:07:12,296 - werkzeug - INFO - 127.0.0.1 - - [15/Feb/2026 23:07:12] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-02-15 23:07:12,296 - werkzeug - INFO - 127.0.0.1 - - [15/Feb/2026 23:07:12] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+2026-02-15 23:07:42,523 - werkzeug - INFO - 127.0.0.1 - - [15/Feb/2026 23:07:42] "GET /job/2 HTTP/1.1" 200 -
+2026-02-15 23:07:42,852 - werkzeug - INFO - 127.0.0.1 - - [15/Feb/2026 23:07:42] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+2026-02-15 23:07:42,853 - werkzeug - INFO - 127.0.0.1 - - [15/Feb/2026 23:07:42] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-02-15 23:08:03,022 - werkzeug - INFO - 127.0.0.1 - - [15/Feb/2026 23:08:03] "GET /job/2 HTTP/1.1" 200 -
+2026-02-15 23:08:03,031 - werkzeug - INFO - 127.0.0.1 - - [15/Feb/2026 23:08:03] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-02-15 23:08:03,032 - werkzeug - INFO - 127.0.0.1 - - [15/Feb/2026 23:08:03] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+2026-02-15 23:08:10,789 - werkzeug - INFO - 127.0.0.1 - - [15/Feb/2026 23:08:10] "GET /job/2 HTTP/1.1" 200 -
+2026-02-15 23:08:10,797 - werkzeug - INFO - 127.0.0.1 - - [15/Feb/2026 23:08:10] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+2026-02-15 23:08:10,798 - werkzeug - INFO - 127.0.0.1 - - [15/Feb/2026 23:08:10] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-02-15 23:08:20,723 - werkzeug - INFO - 127.0.0.1 - - [15/Feb/2026 23:08:20] "GET /home HTTP/1.1" 200 -
+2026-02-15 23:08:20,736 - werkzeug - INFO - 127.0.0.1 - - [15/Feb/2026 23:08:20] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-02-15 23:08:20,737 - werkzeug - INFO - 127.0.0.1 - - [15/Feb/2026 23:08:20] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+2026-02-15 23:08:23,840 - werkzeug - INFO - 127.0.0.1 - - [15/Feb/2026 23:08:23] "[32mGET /logout HTTP/1.1[0m" 302 -
+2026-02-15 23:08:23,933 - werkzeug - INFO - 127.0.0.1 - - [15/Feb/2026 23:08:23] "GET /home HTTP/1.1" 200 -
+2026-02-15 23:08:24,338 - werkzeug - INFO - 127.0.0.1 - - [15/Feb/2026 23:08:24] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-02-15 23:08:24,340 - werkzeug - INFO - 127.0.0.1 - - [15/Feb/2026 23:08:24] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+2026-02-15 23:08:26,601 - werkzeug - INFO - 127.0.0.1 - - [15/Feb/2026 23:08:26] "GET /register HTTP/1.1" 200 -
+2026-02-15 23:08:26,896 - werkzeug - INFO - 127.0.0.1 - - [15/Feb/2026 23:08:26] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-02-15 23:08:26,896 - werkzeug - INFO - 127.0.0.1 - - [15/Feb/2026 23:08:26] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+2026-02-15 23:08:39,730 - werkzeug - INFO - 127.0.0.1 - - [15/Feb/2026 23:08:39] "[32mPOST /register HTTP/1.1[0m" 302 -
+2026-02-15 23:08:39,739 - werkzeug - INFO - 127.0.0.1 - - [15/Feb/2026 23:08:39] "GET /login HTTP/1.1" 200 -
+2026-02-15 23:08:40,019 - werkzeug - INFO - 127.0.0.1 - - [15/Feb/2026 23:08:40] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-02-15 23:08:40,020 - werkzeug - INFO - 127.0.0.1 - - [15/Feb/2026 23:08:40] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+2026-02-15 23:08:45,045 - root - INFO - username@gmail.com წარმატებით დალოგინდა
+2026-02-15 23:08:45,046 - werkzeug - INFO - 127.0.0.1 - - [15/Feb/2026 23:08:45] "[32mPOST /login HTTP/1.1[0m" 302 -
+2026-02-15 23:08:45,117 - werkzeug - INFO - 127.0.0.1 - - [15/Feb/2026 23:08:45] "GET /home HTTP/1.1" 200 -
+2026-02-15 23:08:45,490 - werkzeug - INFO - 127.0.0.1 - - [15/Feb/2026 23:08:45] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-02-15 23:08:45,492 - werkzeug - INFO - 127.0.0.1 - - [15/Feb/2026 23:08:45] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+2026-02-15 23:08:47,970 - werkzeug - INFO - 127.0.0.1 - - [15/Feb/2026 23:08:47] "GET /job/2 HTTP/1.1" 200 -
+2026-02-15 23:08:47,978 - werkzeug - INFO - 127.0.0.1 - - [15/Feb/2026 23:08:47] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-02-15 23:08:47,978 - werkzeug - INFO - 127.0.0.1 - - [15/Feb/2026 23:08:47] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+2026-02-15 23:08:49,791 - werkzeug - INFO - 127.0.0.1 - - [15/Feb/2026 23:08:49] "GET /home HTTP/1.1" 200 -
+2026-02-15 23:08:49,805 - werkzeug - INFO - 127.0.0.1 - - [15/Feb/2026 23:08:49] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-02-15 23:08:49,805 - werkzeug - INFO - 127.0.0.1 - - [15/Feb/2026 23:08:49] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+2026-02-15 23:08:50,806 - werkzeug - INFO - 127.0.0.1 - - [15/Feb/2026 23:08:50] "GET /job/create HTTP/1.1" 200 -
+2026-02-15 23:08:51,087 - werkzeug - INFO - 127.0.0.1 - - [15/Feb/2026 23:08:51] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+2026-02-15 23:08:51,088 - werkzeug - INFO - 127.0.0.1 - - [15/Feb/2026 23:08:51] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-02-15 23:09:20,997 - werkzeug - INFO - 127.0.0.1 - - [15/Feb/2026 23:09:20] "[32mPOST /job/create HTTP/1.1[0m" 302 -
+2026-02-15 23:09:21,077 - werkzeug - INFO - 127.0.0.1 - - [15/Feb/2026 23:09:21] "GET /home HTTP/1.1" 200 -
+2026-02-15 23:09:21,090 - werkzeug - INFO - 127.0.0.1 - - [15/Feb/2026 23:09:21] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+2026-02-15 23:09:21,093 - werkzeug - INFO - 127.0.0.1 - - [15/Feb/2026 23:09:21] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-02-15 23:09:28,156 - werkzeug - INFO - 127.0.0.1 - - [15/Feb/2026 23:09:28] "GET /job/3 HTTP/1.1" 200 -
+2026-02-15 23:09:28,436 - werkzeug - INFO - 127.0.0.1 - - [15/Feb/2026 23:09:28] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+2026-02-15 23:09:28,437 - werkzeug - INFO - 127.0.0.1 - - [15/Feb/2026 23:09:28] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-02-15 23:09:30,520 - werkzeug - INFO - 127.0.0.1 - - [15/Feb/2026 23:09:30] "GET /job/2 HTTP/1.1" 200 -
+2026-02-15 23:09:30,527 - werkzeug - INFO - 127.0.0.1 - - [15/Feb/2026 23:09:30] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-02-15 23:09:30,528 - werkzeug - INFO - 127.0.0.1 - - [15/Feb/2026 23:09:30] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+2026-02-15 23:09:36,102 - werkzeug - INFO - 127.0.0.1 - - [15/Feb/2026 23:09:36] "[32mGET /logout HTTP/1.1[0m" 302 -
+2026-02-15 23:09:36,218 - werkzeug - INFO - 127.0.0.1 - - [15/Feb/2026 23:09:36] "GET /home HTTP/1.1" 200 -
+2026-02-15 23:09:36,231 - werkzeug - INFO - 127.0.0.1 - - [15/Feb/2026 23:09:36] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-02-15 23:09:36,232 - werkzeug - INFO - 127.0.0.1 - - [15/Feb/2026 23:09:36] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+2026-02-15 23:09:37,902 - werkzeug - INFO - 127.0.0.1 - - [15/Feb/2026 23:09:37] "GET /job/3 HTTP/1.1" 200 -
+2026-02-15 23:09:37,909 - werkzeug - INFO - 127.0.0.1 - - [15/Feb/2026 23:09:37] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-02-15 23:09:37,910 - werkzeug - INFO - 127.0.0.1 - - [15/Feb/2026 23:09:37] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+2026-02-15 23:09:39,886 - werkzeug - INFO - 127.0.0.1 - - [15/Feb/2026 23:09:39] "GET /job/2 HTTP/1.1" 200 -
+2026-02-15 23:09:39,894 - werkzeug - INFO - 127.0.0.1 - - [15/Feb/2026 23:09:39] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+2026-02-15 23:09:39,895 - werkzeug - INFO - 127.0.0.1 - - [15/Feb/2026 23:09:39] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-02-15 23:10:57,175 - werkzeug - INFO -  * Detected change in '/Users/giorgi/PycharmProjects/JobBoard/main.py', reloading
+2026-02-15 23:10:57,304 - werkzeug - INFO -  * Restarting with stat
+2026-02-15 23:12:23,648 - werkzeug - INFO -  * Restarting with stat
+2026-02-15 23:13:08,007 - werkzeug - INFO -  * Restarting with stat
+2026-02-15 23:13:48,108 - werkzeug - INFO -  * Restarting with stat
+2026-02-15 23:15:37,598 - werkzeug - INFO -  * Restarting with stat
+2026-02-15 23:15:47,438 - werkzeug - INFO -  * Restarting with stat
+2026-02-15 23:17:01,750 - werkzeug - INFO -  * Restarting with stat
