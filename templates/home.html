@@ -24,11 +24,17 @@
                 {{ job.description[:150] }}{% if job.description|length > 150 %}...{% endif %}
             </p>
 
-            <div style="margin-top: 15px; font-size: 0.9rem; color: #64748b; padding-top: 10px; border-top: 1px solid #f1f5f9;">
-                <span style="margin-right: 15px;">📍 {{ job.location }}</span>
-                <span style="margin-right: 15px;">💰 {{ job.salary }}₾</span>
-                <span>👤 გამოაქვეყნა: <strong>{{ job.author.username }}-მ</strong></span>
-            </div>
+<div style="margin-top: 15px; font-size: 0.9rem; color: #64748b; padding-top: 10px; border-top: 1px solid #f1f5f9;">
+    <span style="margin-right: 15px;">📍 {{ job.location }}</span>
+    <span style="margin-right: 15px;">💰 {{ job.salary }}₾</span>
+
+    <span>👤 ავტორი:
+        <a href="{{ url_for('user_jobs', username=job.author.username) }}"
+           style="color: var(--secondary-blue); text-decoration: none; font-weight: 600;">
+            {{ job.author.username }}
+        </a>
+    </span>
+</div>
 
             <a href="{{ url_for('job_detail', job_id=job.id) }}" style="display: inline-block; margin-top: 15px; color: #2563eb; text-decoration: none; font-weight: bold; font-size: 0.95rem;">ნახვა →</a>
         </div>

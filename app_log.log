@@ -877,3 +877,7 @@
 2026-02-17 15:45:30,612:INFO: * Restarting with stat
 2026-02-17 15:45:31,122:WARNING: * Debugger is active!
 2026-02-17 15:45:31,137:INFO: * Debugger PIN: 500-028-211
+2026-02-17 15:55:16,058:INFO: * Detected change in '/Users/giorgi/PycharmProjects/JobBoard/routes.py', reloading
+2026-02-17 15:55:16,446:INFO: * Restarting with stat
+2026-02-17 15:55:17,165:WARNING: * Debugger is active!
+2026-02-17 15:55:17,209:INFO: * Debugger PIN: 500-028-211

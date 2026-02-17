@@ -145,6 +145,14 @@ def profile():
     image_file = current_user.image_file if current_user.image_file else 'default.jpg'
     return render_template('profile.html', title='Profile', image_file=image_file, form=form)
 
+@app.route("/user/<string:username>")
+def user_jobs(username):
+    user = User.query.filter_by(username=username).first_or_404()
+    jobs = Job.query.filter_by(author=user)\
+        .order_by(Job.date_posted.desc())\
+        .all()
+    return render_template('user_jobs.html', jobs=jobs, user=user)
+
 @app.errorhandler(404)
 def error_404(error):
     return render_template('404.html'), 404
