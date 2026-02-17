@@ -10,6 +10,7 @@ class LoginForm(FlaskForm):
     remember = BooleanField('დამახსოვრება')
     submit = SubmitField('Login')
 
+
 class RegisterForm(FlaskForm):
     username = StringField('Username', validators=[
         DataRequired(),
@@ -39,20 +40,25 @@ class RegisterForm(FlaskForm):
         if user:
             raise ValidationError('ეს მეილი უკვე გამოყენებულია.')
 
+
 class JobForm(FlaskForm):
     title = StringField('Title', validators=[DataRequired()])
     company = StringField('Company', validators=[DataRequired()])
     location = StringField('Location', validators=[DataRequired()])
     description = TextAreaField('Description', validators=[DataRequired()])
     salary = StringField('Salary', validators=[DataRequired()])
-    category = SelectField('Category',choices = [('IT & Tech', 'IT & Tech'), ('Marketing', 'Marketing'), ('Customer Service', 'Customer Service'), ('Graphic Design', 'Graphic Design')], validators=[DataRequired()])
+    category = SelectField('Category', choices=[('IT & Tech', 'IT & Tech'), ('Marketing', 'Marketing'),
+                                                ('Customer Service', 'Customer Service'),
+                                                ('Graphic Design', 'Graphic Design')], validators=[DataRequired()])
     submit = SubmitField('Post Job')
+
 
 class UpdateAccountForm(FlaskForm):
     username = StringField('Username', validators=[DataRequired(), Length(min=5, max=20)])
     email = StringField('Email', validators=[DataRequired(), Email()])
     image_file = StringField('Profile Picture URL')
     submit = SubmitField('განახლება')
+
 
 class PostForm(FlaskForm):
     title = StringField('სათაური', validators=[DataRequired(), Length(min=2, max=100)])
@@ -66,7 +72,7 @@ class PostForm(FlaskForm):
         ('Finance', 'ფინანსები'),
         ('Management', 'ადმინისტრაცია, მენეჯმენტი'),
         ('Sales', 'გაყიდვები'),
-        ('Technical','ზოგადი ტექნიკური პერსონალი'),
+        ('Technical', 'ზოგადი ტექნიკური პერსონალი'),
         ('Construction', 'მშენებლობა, რემონტი'),
         ('Distribution', 'დისტრიბუცია'),
         ('Medicine', 'მედიცინა'),

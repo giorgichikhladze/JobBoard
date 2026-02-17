@@ -869,3 +869,11 @@
 2026-02-17 15:26:11,888:INFO:127.0.0.1 - - [17/Feb/2026 15:26:11] "[31m[1m\x16\x03\x01\x05å\x01\x00\x05á\x03\x03\x9cªËÖU#(þíVm\x11Û¦û\x9a\x84\x08õ\\g^½Ã\x07pÜ\x8dàÊ·y JC[.yRÀÜÇ\x81|\x9cqOaÚ£>F\x86|gX¢E\x1däÃ¡¾\x17\x87\x00*ZZ\x13\x02\x13\x03\x13\x01À,À+Ì©À0À/Ì¨À[0m" 400 -
 2026-02-17 15:26:11,890:ERROR:127.0.0.1 - - [17/Feb/2026 15:26:11] code 400, message Bad HTTP/0.9 request type ('\x16\x03\x01\x05ç\x01\x00\x05ã\x03\x03¦ÏmÖ')
 2026-02-17 15:26:11,890:INFO:127.0.0.1 - - [17/Feb/2026 15:26:11] "[31m[1m\x16\x03\x01\x05ç\x01\x00\x05ã\x03\x03¦ÏmÖ\x1e¢4©ÆÏ#\x96\x7fÒ$nf»[0m" 400 -
+2026-02-17 15:44:37,390:INFO: * Detected change in '/Users/giorgi/PycharmProjects/JobBoard/main.py', reloading
+2026-02-17 15:44:37,533:INFO: * Restarting with stat
+2026-02-17 15:44:38,043:WARNING: * Debugger is active!
+2026-02-17 15:44:38,060:INFO: * Debugger PIN: 500-028-211
+2026-02-17 15:45:30,499:INFO: * Detected change in '/Users/giorgi/PycharmProjects/JobBoard/forms.py', reloading
+2026-02-17 15:45:30,612:INFO: * Restarting with stat
+2026-02-17 15:45:31,122:WARNING: * Debugger is active!
+2026-02-17 15:45:31,137:INFO: * Debugger PIN: 500-028-211

@@ -23,9 +23,9 @@ logging.basicConfig(
     format='%(asctime)s:%(levelname)s:%(message)s'
 )
 
-from routes import * # Routes.py-დან იძახებს ყველაფერს
+from routes import *  # Routes.py-დან იძახებს ყველაფერს
 
-with app.app_context(): # ბაზის წასაკითხად
+with app.app_context():  # ბაზის წასაკითხად
     db.create_all()
 
 if __name__ == "__main__":
