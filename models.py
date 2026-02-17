@@ -33,6 +33,7 @@ class Job(db.Model):
     location = db.Column(db.String(100), nullable=False)
     category = db.Column(db.String(100), nullable=False)
     date_posted = db.Column(db.DateTime, nullable=False, default=get_georgian_time)
+    user_id = db.Column(db.Integer, db.ForeignKey('user.id'), nullable=False)
 
     def __repr__(self):
         return f"Job('{self.title}', '{self.date_posted}')"

@@ -881,3 +881,114 @@
 2026-02-17 15:55:16,446:INFO: * Restarting with stat
 2026-02-17 15:55:17,165:WARNING: * Debugger is active!
 2026-02-17 15:55:17,209:INFO: * Debugger PIN: 500-028-211
+2026-02-17 15:57:49,075:INFO:127.0.0.1 - - [17/Feb/2026 15:57:49] "GET /home HTTP/1.1" 200 -
+2026-02-17 15:57:49,112:INFO:127.0.0.1 - - [17/Feb/2026 15:57:49] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-02-17 15:57:49,113:INFO:127.0.0.1 - - [17/Feb/2026 15:57:49] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+2026-02-17 15:57:52,077:INFO:127.0.0.1 - - [17/Feb/2026 15:57:52] "[35m[1mGET /user/Giorgi HTTP/1.1[0m" 500 -
+2026-02-17 15:57:52,386:INFO:127.0.0.1 - - [17/Feb/2026 15:57:52] "GET /user/Giorgi?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+2026-02-17 15:57:52,386:INFO:127.0.0.1 - - [17/Feb/2026 15:57:52] "GET /user/Giorgi?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+2026-02-17 15:57:52,394:INFO:127.0.0.1 - - [17/Feb/2026 15:57:52] "GET /user/Giorgi?__debugger__=yes&cmd=resource&f=console.png&s=AbWZQAnexBucdOwVqjyk HTTP/1.1" 200 -
+2026-02-17 15:57:52,430:INFO:127.0.0.1 - - [17/Feb/2026 15:57:52] "GET /user/Giorgi?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2026-02-17 15:58:36,633:INFO:127.0.0.1 - - [17/Feb/2026 15:58:36] "GET /user/Giorgi HTTP/1.1" 200 -
+2026-02-17 15:58:36,669:INFO:127.0.0.1 - - [17/Feb/2026 15:58:36] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-02-17 15:58:36,669:INFO:127.0.0.1 - - [17/Feb/2026 15:58:36] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+2026-02-17 15:58:42,178:INFO:127.0.0.1 - - [17/Feb/2026 15:58:42] "GET /job/5 HTTP/1.1" 200 -
+2026-02-17 15:58:42,471:INFO:127.0.0.1 - - [17/Feb/2026 15:58:42] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+2026-02-17 15:58:42,472:INFO:127.0.0.1 - - [17/Feb/2026 15:58:42] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-02-17 15:58:48,011:INFO:127.0.0.1 - - [17/Feb/2026 15:58:48] "GET /home HTTP/1.1" 200 -
+2026-02-17 15:58:48,028:INFO:127.0.0.1 - - [17/Feb/2026 15:58:48] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+2026-02-17 15:58:48,029:INFO:127.0.0.1 - - [17/Feb/2026 15:58:48] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-02-17 15:58:50,222:INFO:127.0.0.1 - - [17/Feb/2026 15:58:50] "GET /job/5 HTTP/1.1" 200 -
+2026-02-17 15:58:50,229:INFO:127.0.0.1 - - [17/Feb/2026 15:58:50] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-02-17 15:58:50,230:INFO:127.0.0.1 - - [17/Feb/2026 15:58:50] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+2026-02-17 15:59:47,149:INFO:127.0.0.1 - - [17/Feb/2026 15:59:47] "GET /user/Giorgi HTTP/1.1" 200 -
+2026-02-17 15:59:47,154:INFO:127.0.0.1 - - [17/Feb/2026 15:59:47] "[36mGET /user/Giorgi?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2026-02-17 15:59:47,156:INFO:127.0.0.1 - - [17/Feb/2026 15:59:47] "[36mGET /user/Giorgi?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2026-02-17 15:59:47,157:INFO:127.0.0.1 - - [17/Feb/2026 15:59:47] "[36mGET /user/Giorgi?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2026-02-17 15:59:47,157:INFO:127.0.0.1 - - [17/Feb/2026 15:59:47] "[36mGET /user/Giorgi?__debugger__=yes&cmd=resource&f=console.png&s=AbWZQAnexBucdOwVqjyk HTTP/1.1[0m" 304 -
+2026-02-17 15:59:47,161:INFO:127.0.0.1 - - [17/Feb/2026 15:59:47] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-02-17 15:59:47,162:INFO:127.0.0.1 - - [17/Feb/2026 15:59:47] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+2026-02-17 15:59:48,540:INFO:127.0.0.1 - - [17/Feb/2026 15:59:48] "GET /job/5 HTTP/1.1" 200 -
+2026-02-17 15:59:48,547:INFO:127.0.0.1 - - [17/Feb/2026 15:59:48] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-02-17 15:59:48,549:INFO:127.0.0.1 - - [17/Feb/2026 15:59:48] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+2026-02-17 15:59:50,979:INFO:127.0.0.1 - - [17/Feb/2026 15:59:50] "GET /home HTTP/1.1" 200 -
+2026-02-17 15:59:50,992:INFO:127.0.0.1 - - [17/Feb/2026 15:59:50] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-02-17 15:59:50,992:INFO:127.0.0.1 - - [17/Feb/2026 15:59:50] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+2026-02-17 15:59:52,427:INFO:127.0.0.1 - - [17/Feb/2026 15:59:52] "GET /job/5 HTTP/1.1" 200 -
+2026-02-17 15:59:52,433:INFO:127.0.0.1 - - [17/Feb/2026 15:59:52] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-02-17 15:59:52,433:INFO:127.0.0.1 - - [17/Feb/2026 15:59:52] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+2026-02-17 15:59:57,376:INFO:127.0.0.1 - - [17/Feb/2026 15:59:57] "GET /job/create HTTP/1.1" 200 -
+2026-02-17 15:59:57,662:INFO:127.0.0.1 - - [17/Feb/2026 15:59:57] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-02-17 15:59:57,664:INFO:127.0.0.1 - - [17/Feb/2026 15:59:57] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+2026-02-17 16:01:26,215:INFO:დაემატა ვაკანსია: HR Manager მომხმარებლის მიერ: username@gmail.com
+2026-02-17 16:01:26,216:INFO:127.0.0.1 - - [17/Feb/2026 16:01:26] "[32mPOST /job/create HTTP/1.1[0m" 302 -
+2026-02-17 16:01:26,327:INFO:127.0.0.1 - - [17/Feb/2026 16:01:26] "GET /home HTTP/1.1" 200 -
+2026-02-17 16:01:26,353:INFO:127.0.0.1 - - [17/Feb/2026 16:01:26] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-02-17 16:01:26,354:INFO:127.0.0.1 - - [17/Feb/2026 16:01:26] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+2026-02-17 16:01:30,562:INFO:127.0.0.1 - - [17/Feb/2026 16:01:30] "GET /user/Username HTTP/1.1" 200 -
+2026-02-17 16:01:30,842:INFO:127.0.0.1 - - [17/Feb/2026 16:01:30] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+2026-02-17 16:01:30,842:INFO:127.0.0.1 - - [17/Feb/2026 16:01:30] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-02-17 16:01:34,448:INFO:127.0.0.1 - - [17/Feb/2026 16:01:34] "GET /job/6 HTTP/1.1" 200 -
+2026-02-17 16:01:34,723:INFO:127.0.0.1 - - [17/Feb/2026 16:01:34] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-02-17 16:01:34,726:INFO:127.0.0.1 - - [17/Feb/2026 16:01:34] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+2026-02-17 16:01:39,846:INFO:127.0.0.1 - - [17/Feb/2026 16:01:39] "GET /job/6/update HTTP/1.1" 200 -
+2026-02-17 16:01:40,123:INFO:127.0.0.1 - - [17/Feb/2026 16:01:40] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-02-17 16:01:40,124:INFO:127.0.0.1 - - [17/Feb/2026 16:01:40] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+2026-02-17 16:01:42,739:INFO:127.0.0.1 - - [17/Feb/2026 16:01:42] "[32mPOST /job/6/update HTTP/1.1[0m" 302 -
+2026-02-17 16:01:42,746:INFO:127.0.0.1 - - [17/Feb/2026 16:01:42] "GET /job/6 HTTP/1.1" 200 -
+2026-02-17 16:01:42,755:INFO:127.0.0.1 - - [17/Feb/2026 16:01:42] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-02-17 16:01:42,756:INFO:127.0.0.1 - - [17/Feb/2026 16:01:42] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+2026-02-17 16:01:44,867:INFO:127.0.0.1 - - [17/Feb/2026 16:01:44] "GET /home HTTP/1.1" 200 -
+2026-02-17 16:01:44,876:INFO:127.0.0.1 - - [17/Feb/2026 16:01:44] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+2026-02-17 16:01:44,876:INFO:127.0.0.1 - - [17/Feb/2026 16:01:44] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-02-17 16:07:44,553:INFO: * Detected change in '/Users/giorgi/PycharmProjects/JobBoard/routes.py', reloading
+2026-02-17 16:07:44,708:INFO: * Restarting with stat
+2026-02-17 16:09:27,087:INFO:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2026-02-17 16:09:27,087:INFO:[33mPress CTRL+C to quit[0m
+2026-02-17 16:09:27,088:INFO: * Restarting with stat
+2026-02-17 16:09:27,448:WARNING: * Debugger is active!
+2026-02-17 16:09:27,470:INFO: * Debugger PIN: 500-028-211
+2026-02-17 16:16:10,189:INFO:127.0.0.1 - - [17/Feb/2026 16:16:10] "GET /home HTTP/1.1" 200 -
+2026-02-17 16:16:10,779:INFO:127.0.0.1 - - [17/Feb/2026 16:16:10] "GET /static/js/main.js HTTP/1.1" 200 -
+2026-02-17 16:16:10,780:INFO:127.0.0.1 - - [17/Feb/2026 16:16:10] "GET /static/css/style.css HTTP/1.1" 200 -
+2026-02-17 16:16:10,919:INFO:127.0.0.1 - - [17/Feb/2026 16:16:10] "[33mGET /apple-touch-icon-precomposed.png HTTP/1.1[0m" 404 -
+2026-02-17 16:16:10,921:INFO:127.0.0.1 - - [17/Feb/2026 16:16:10] "[33mGET /apple-touch-icon.png HTTP/1.1[0m" 404 -
+2026-02-17 16:16:10,926:INFO:127.0.0.1 - - [17/Feb/2026 16:16:10] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2026-02-17 16:16:13,195:INFO:127.0.0.1 - - [17/Feb/2026 16:16:13] "GET /user/Username HTTP/1.1" 200 -
+2026-02-17 16:16:13,501:INFO:127.0.0.1 - - [17/Feb/2026 16:16:13] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+2026-02-17 16:16:13,504:INFO:127.0.0.1 - - [17/Feb/2026 16:16:13] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-02-17 16:16:19,015:INFO:127.0.0.1 - - [17/Feb/2026 16:16:19] "GET /home HTTP/1.1" 200 -
+2026-02-17 16:16:19,022:INFO:127.0.0.1 - - [17/Feb/2026 16:16:19] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-02-17 16:16:19,022:INFO:127.0.0.1 - - [17/Feb/2026 16:16:19] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+2026-02-17 16:16:24,096:INFO:127.0.0.1 - - [17/Feb/2026 16:16:24] "[32mGET /logout HTTP/1.1[0m" 302 -
+2026-02-17 16:16:24,274:INFO:127.0.0.1 - - [17/Feb/2026 16:16:24] "GET /home HTTP/1.1" 200 -
+2026-02-17 16:16:24,282:INFO:127.0.0.1 - - [17/Feb/2026 16:16:24] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-02-17 16:16:24,282:INFO:127.0.0.1 - - [17/Feb/2026 16:16:24] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+2026-02-17 16:16:28,591:INFO:127.0.0.1 - - [17/Feb/2026 16:16:28] "GET /login HTTP/1.1" 200 -
+2026-02-17 16:16:28,878:INFO:127.0.0.1 - - [17/Feb/2026 16:16:28] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-02-17 16:16:28,881:INFO:127.0.0.1 - - [17/Feb/2026 16:16:28] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+2026-02-17 16:16:35,322:INFO:წარმატებული ავტორიზაცია: username@gmail.com
+2026-02-17 16:16:35,323:INFO:127.0.0.1 - - [17/Feb/2026 16:16:35] "[32mPOST /login HTTP/1.1[0m" 302 -
+2026-02-17 16:16:35,418:INFO:127.0.0.1 - - [17/Feb/2026 16:16:35] "GET /home HTTP/1.1" 200 -
+2026-02-17 16:16:35,430:INFO:127.0.0.1 - - [17/Feb/2026 16:16:35] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+2026-02-17 16:16:35,431:INFO:127.0.0.1 - - [17/Feb/2026 16:16:35] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-02-17 16:16:37,700:INFO:127.0.0.1 - - [17/Feb/2026 16:16:37] "GET /user/Username HTTP/1.1" 200 -
+2026-02-17 16:16:37,708:INFO:127.0.0.1 - - [17/Feb/2026 16:16:37] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-02-17 16:16:37,708:INFO:127.0.0.1 - - [17/Feb/2026 16:16:37] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+2026-02-17 16:16:38,958:INFO:127.0.0.1 - - [17/Feb/2026 16:16:38] "GET /job/6 HTTP/1.1" 200 -
+2026-02-17 16:16:39,257:INFO:127.0.0.1 - - [17/Feb/2026 16:16:39] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+2026-02-17 16:16:39,257:INFO:127.0.0.1 - - [17/Feb/2026 16:16:39] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-02-17 16:16:44,167:INFO:127.0.0.1 - - [17/Feb/2026 16:16:44] "GET /user/Giorgi HTTP/1.1" 200 -
+2026-02-17 16:16:44,170:INFO:127.0.0.1 - - [17/Feb/2026 16:16:44] "[36mGET /user/Giorgi?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2026-02-17 16:16:44,170:INFO:127.0.0.1 - - [17/Feb/2026 16:16:44] "[36mGET /user/Giorgi?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2026-02-17 16:16:44,171:INFO:127.0.0.1 - - [17/Feb/2026 16:16:44] "[36mGET /user/Giorgi?__debugger__=yes&cmd=resource&f=console.png&s=AbWZQAnexBucdOwVqjyk HTTP/1.1[0m" 304 -
+2026-02-17 16:16:44,172:INFO:127.0.0.1 - - [17/Feb/2026 16:16:44] "[36mGET /user/Giorgi?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2026-02-17 16:16:44,453:INFO:127.0.0.1 - - [17/Feb/2026 16:16:44] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+2026-02-17 16:16:44,453:INFO:127.0.0.1 - - [17/Feb/2026 16:16:44] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-02-17 16:16:45,345:INFO:127.0.0.1 - - [17/Feb/2026 16:16:45] "GET /job/5 HTTP/1.1" 200 -
+2026-02-17 16:16:45,627:INFO:127.0.0.1 - - [17/Feb/2026 16:16:45] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-02-17 16:16:45,628:INFO:127.0.0.1 - - [17/Feb/2026 16:16:45] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+2026-02-17 16:16:51,175:INFO:127.0.0.1 - - [17/Feb/2026 16:16:51] "GET /profile HTTP/1.1" 200 -
+2026-02-17 16:16:51,467:INFO:127.0.0.1 - - [17/Feb/2026 16:16:51] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-02-17 16:16:51,467:INFO:127.0.0.1 - - [17/Feb/2026 16:16:51] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -

@@ -148,7 +148,7 @@ def profile():
 @app.route("/user/<string:username>")
 def user_jobs(username):
     user = User.query.filter_by(username=username).first_or_404()
-    jobs = Job.query.filter_by(author=user)\
+    jobs = Job.query.filter_by(user_id=user.id)\
         .order_by(Job.date_posted.desc())\
         .all()
     return render_template('user_jobs.html', jobs=jobs, user=user)
