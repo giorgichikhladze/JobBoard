@@ -13,3 +13,4 @@ email-validator==2.3.0
 gunicorn==25.1.0
 requests
 rich
+pillow
