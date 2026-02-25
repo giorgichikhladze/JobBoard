@@ -1,17 +1,30 @@
 from flask import render_template, url_for, flash, redirect, request
 from main import app, db, bcrypt
 from models import User, Job
-from forms import RegisterForm, LoginForm, JobForm, UpdateAccountForm, PostForm
+from forms import RegisterForm, LoginForm, UpdateAccountForm, PostForm
 from flask_login import login_user, current_user, logout_user, login_required
 from utils import log_event, get_exchange_rates
 import logging
+import os
+import secrets
+from PIL import Image
+
 
 @app.route("/")
 @app.route("/home")
 def home():
-    jobs = Job.query.order_by(Job.date_posted.desc()).all()
+    page = request.args.get('page', 1, type=int)
+    search = request.args.get('search', '', type=str)
     rates = get_exchange_rates()
-    return render_template('home.html', jobs=jobs, rates=rates)
+
+    if search:
+        jobs = Job.query.filter(Job.title.ilike(f'%{search}%')) \
+            .order_by(Job.date_posted.desc()) \
+            .paginate(page=page, per_page=5)
+    else:
+        jobs = Job.query.order_by(Job.date_posted.desc()).paginate(page=page, per_page=5)
+
+    return render_template('home.html', jobs=jobs, rates=rates, search=search)
 
 @app.route('/register', methods=['GET', 'POST'])
 def register():
@@ -135,7 +148,8 @@ def profile():
         current_user.username = form.username.data
         current_user.email = form.email.data
         if form.image_file.data:
-            current_user.image_file = form.image_file.data
+            picture_file = save_picture(form.image_file.data)
+            current_user.image_file = picture_file
         db.session.commit()
         flash('მონაცემები განახლდა!', 'success')
         return redirect(url_for('profile'))
@@ -152,6 +166,22 @@ def user_jobs(username):
         .order_by(Job.date_posted.desc())\
         .all()
     return render_template('user_jobs.html', jobs=jobs, user=user)
+
+def save_picture(form_picture):
+    if current_user.image_file and not current_user.image_file.startswith('http'):
+        picture_path = os.path.join(app.root_path, 'static/profile_pics', current_user.image_file)
+        os.remove(picture_path)
+    random_hex = secrets.token_hex(8)
+    _, file_ext = os.path.splitext(form_picture.filename)
+    picture_filename = random_hex + file_ext
+    picture_path = os.path.join(app.root_path, 'static/profile_pics', picture_filename)
+
+    output_size = (125, 125)
+    img = Image.open(form_picture)
+    img.thumbnail(output_size)
+    img.save(picture_path)
+
+    return picture_filename
 
 @app.errorhandler(404)
 def error_404(error):

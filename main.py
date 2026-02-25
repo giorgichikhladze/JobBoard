@@ -2,6 +2,7 @@ from flask import Flask, render_template, request
 from flask_login import LoginManager
 from flask_sqlalchemy import SQLAlchemy
 from flask_bcrypt import Bcrypt
+from rich.logging import RichHandler
 import logging
 
 app = Flask(__name__)
@@ -18,10 +19,18 @@ login_manager.login_view = 'login'
 
 # ლოგირება
 logging.basicConfig(
-    filename='app_log.log',
     level=logging.INFO,
-    format='%(asctime)s:%(levelname)s:%(message)s'
+    format="%(message)s",
+    datefmt="[%X]",
+    handlers=[
+        RichHandler(rich_tracebacks=True),
+        logging.FileHandler("app_log.log")
+    ]
 )
+
+log = logging.getLogger("rich")
+logging.getLogger('werkzeug').setLevel(logging.ERROR)
+log.setLevel(logging.ERROR)
 
 from routes import *  # Routes.py-დან იძახებს ყველაფერს
 

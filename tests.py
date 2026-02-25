@@ -12,7 +12,7 @@ class JobBoardTestCase(unittest.TestCase):
         app.config['SQLALCHEMY_DATABASE_URI'] = 'sqlite:///:memory:'
         self.app = app.test_client()
 
-        with app.app_context(): # ვქმნი სატესტო იუზერი
+        with app.app_context(): # ვქმნი სატესტო იუზერს
             db.create_all()
             hashed_pw = bcrypt.generate_password_hash('password123').decode('utf-8')
             user = User(username='TestUser', email='test@test.com', password=hashed_pw)

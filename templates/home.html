@@ -1,11 +1,11 @@
 {% extends "base.html" %}
 {% block content %}
 
-<div class="search-container" style="margin-bottom: 2rem;">
-    <input type="text" id="jobSearch" placeholder="მოძებნე ვაკანსია დასახელების მიხედვით..."
-           style="width: 100%; padding: 12px 20px; border-radius: 8px; border: 1px solid #cbd5e1; font-family: 'Inter', sans-serif; outline: none; transition: border 0.3s;"
-           onkeyup="filterJobs()">
-</div>
+<form method="GET" action="{{ url_for('home') }}" style="margin-bottom: 2rem;">
+    <input type="text" name="search" value="{{ search }}"
+           placeholder="მოძებნე ვაკანსია დასახელების მიხედვით..."
+           style="width: 100%; padding: 12px 20px; border-radius: 8px; border: 1px solid #cbd5e1; font-family: 'Inter', sans-serif; outline: none; transition: border 0.3s;">
+</form>
 
 <div class="job-list" id="jobList">
     {% for job in jobs %}
@@ -43,44 +43,121 @@
     {% endfor %}
 </div>
 
+<div style="display: flex; justify-content: center; align-items: center; gap: 8px; margin: 30px 0;">
+
+    {% if jobs.has_prev %}
+        <a href="{{ url_for('home', page=jobs.prev_num, search=search) }}"
+           style="padding: 8px 16px; background: white; color: #2563eb; border: 1px solid #2563eb; border-radius: 6px; text-decoration: none; font-weight: bold; transition: all 0.2s;">← წინა</a>
+    {% else %}
+        <span style="padding: 8px 16px; background: #f1f5f9; color: #94a3b8; border: 1px solid #e2e8f0; border-radius: 6px; cursor: not-allowed;">← წინა</span>
+    {% endif %}
+
+    {% for page_num in jobs.iter_pages(left_edge=1, right_edge=1, left_current=2, right_current=2) %}
+        {% if page_num %}
+            {% if jobs.page == page_num %}
+                <span style="padding: 8px 14px; background: #2563eb; color: white; border-radius: 6px; font-weight: bold;">{{ page_num }}</span>
+            {% else %}
+                <a href="{{ url_for('home', page=page_num, search=search) }}"
+                   style="padding: 8px 14px; background: white; color: #2563eb; border: 1px solid #e2e8f0; border-radius: 6px; text-decoration: none;">{{ page_num }}</a>
+            {% endif %}
+        {% else %}
+            <span style="color: #94a3b8; padding: 0 4px;">…</span>
+        {% endif %}
+    {% endfor %}
+
+    {% if jobs.has_next %}
+        <a href="{{ url_for('home', page=jobs.next_num, search=search) }}"
+           style="padding: 8px 16px; background: white; color: #2563eb; border: 1px solid #2563eb; border-radius: 6px; text-decoration: none; font-weight: bold;">შემდეგი →</a>
+    {% else %}
+        <span style="padding: 8px 16px; background: #f1f5f9; color: #94a3b8; border: 1px solid #e2e8f0; border-radius: 6px; cursor: not-allowed;">შემდეგი →</span>
+    {% endif %}
+
+</div>
+
+<p style="text-align: center; color: #94a3b8; font-size: 0.85rem; margin-top: -15px;">
+    &nbsp;·&nbsp; სულ {{ jobs.total }} ვაკანსია  &nbsp;·&nbsp;
+</p>
+
 <div style="background: #f8fafc; padding: 20px; border-radius: 10px; margin-top: 40px; border: 1px solid #e2e8f0;">
     <h4 style="margin-top: 0; color: #334155; display: flex; align-items: center; gap: 10px;">
-        <span style="font-size: 1.2rem;">💱</span> ვალუტის კურსი (GEL)
+        <span style="font-size: 1.2rem;">💱</span> ვალუტის კურსი და კონვერტერი (GEL)
     </h4>
-    <div style="display: flex; gap: 30px; font-family: 'Inter', sans-serif;">
+
+    <div style="display: flex; gap: 30px; font-family: 'Inter', sans-serif; margin-bottom: 20px;">
         {% if rates %}
             <div style="display: flex; flex-direction: column;">
                 <span style="color: #94a3b8; font-size: 0.8rem; text-transform: uppercase;">USD</span>
-                <span style="font-weight: bold; color: #1e293b;">{{ rates.get('USD') }}</span>
+                <span class="rate-value" style="font-weight: bold;">{{ rates.get('USD') }}</span>
             </div>
             <div style="display: flex; flex-direction: column;">
                 <span style="color: #94a3b8; font-size: 0.8rem; text-transform: uppercase;">EUR</span>
-                <span style="font-weight: bold; color: #1e293b;">{{ rates.get('EUR') }}</span>
+                <span class="rate-value" style="font-weight: bold;">{{ rates.get('EUR') }}</span>
             </div>
             <div style="display: flex; flex-direction: column;">
                 <span style="color: #94a3b8; font-size: 0.8rem; text-transform: uppercase;">GBP</span>
-                <span style="font-weight: bold; color: #1e293b;">{{ rates.get('GBP') }}</span>
+                <span class="rate-value" style="font-weight: bold;">{{ rates.get('GBP') }}</span>
             </div>
         {% else %}
             <p style="color: #ef4444; font-size: 0.9rem;">კურსების ჩატვირთვა ვერ მოხერხდა.</p>
         {% endif %}
     </div>
-</div>
 
-<script>
-function filterJobs() {
-    let input = document.getElementById('jobSearch').value.toLowerCase();
-    let jobCards = document.getElementsByClassName('job-card');
+    {% if rates %}
+    <div style="display: flex; align-items: center; gap: 10px; flex-wrap: wrap;">
+        <input type="number" id="converterInput" placeholder="თანხა"
+               oninput="convertCurrency()"
+               style="padding: 8px 12px; border-radius: 6px; border: 1px solid #cbd5e1; width: 120px; font-size: 1rem; outline: none;">
 
-    for (let i = 0; i < jobCards.length; i++) {
-        let title = jobCards[i].getElementsByClassName('job-title')[0].innerText.toLowerCase();
-        if (title.includes(input)) {
-            jobCards[i].style.display = "";
-        } else {
-            jobCards[i].style.display = "none";
+        <select id="fromCurrency" onchange="convertCurrency()"
+                style="padding: 8px 12px; border-radius: 6px; border: 1px solid #cbd5e1; font-size: 1rem; outline: none;">
+            <option value="GEL">GEL</option>
+            <option value="USD">USD</option>
+            <option value="EUR">EUR</option>
+            <option value="GBP">GBP</option>
+        </select>
+
+        <span style="color: #64748b; font-size: 1.2rem;">→</span>
+
+        <select id="toCurrency" onchange="convertCurrency()"
+                style="padding: 8px 12px; border-radius: 6px; border: 1px solid #cbd5e1; font-size: 1rem; outline: none;">
+            <option value="USD">USD</option>
+            <option value="EUR">EUR</option>
+            <option value="GBP">GBP</option>
+            <option value="GEL">GEL</option>
+        </select>
+
+        <span id="converterResult"
+              style="font-weight: bold; color: #2563eb; font-size: 1.1rem; min-width: 120px;">
+            = ...
+        </span>
+    </div>
+
+    <script>
+        // Rates from Flask — GEL per 1 foreign currency unit
+        const rates = {
+            GEL: 1,
+            USD: {{ rates.get('USD') }},
+            EUR: {{ rates.get('EUR') }},
+            GBP: {{ rates.get('GBP') }}
+        };
+
+        function convertCurrency() {
+            const amount = parseFloat(document.getElementById('converterInput').value);
+            const from = document.getElementById('fromCurrency').value;
+            const to = document.getElementById('toCurrency').value;
+
+            if (isNaN(amount) || amount === '') {
+                document.getElementById('converterResult').innerText = '= ...';
+                return;
+            }
+
+            // Convert to GEL first, then to target currency
+            const inGEL = from === 'GEL' ? amount : amount * rates[from];
+            const result = to === 'GEL' ? inGEL : inGEL / rates[to];
+
+            document.getElementById('converterResult').innerText = '= ' + result.toFixed(2) + ' ' + to;
         }
-    }
-}
-</script>
-
+    </script>
+    {% endif %}
+</div>
 {% endblock %}

@@ -9,7 +9,6 @@ def get_georgian_time():
 
 
 @login_manager.user_loader
-@login_manager.user_loader
 def load_user(user_id):
     return db.session.get(User, int(user_id))
 
@@ -21,8 +20,7 @@ class User(db.Model, UserMixin):
     password = db.Column(db.String(200), nullable=False)
     jobs = db.relationship('Job', backref='author', lazy=True)
     image_file = db.Column(db.String(200), nullable=False,
-                           default='https://upload.wikimedia.org/wikipedia/commons/thumb/c/c3/Python-logo-notext.svg/1280px-Python-logo-notext.svg.png')
-
+    default='https://upload.wikimedia.org/wikipedia/commons/thumb/c/c3/Python-logo-notext.svg/1280px-Python-logo-notext.svg.png')
 
 class Job(db.Model):
     id = db.Column(db.Integer, primary_key=True)
@@ -38,4 +36,3 @@ class Job(db.Model):
     def __repr__(self):
         return f"Job('{self.title}', '{self.date_posted}')"
 
-    user_id = db.Column(db.Integer, db.ForeignKey('user.id'), nullable=False)

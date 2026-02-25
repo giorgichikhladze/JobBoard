@@ -29,28 +29,125 @@
         padding: 40px 0;
         width: 100%;
     }
+    body.dark {
+        background-color: #0f172a;
+        color: #e2e8f0;
+    }
+    body.dark .job-card {
+        background: #1e293b !important;
+        border-color: #334155 !important;
+        color: #e2e8f0 !important;
+    }
+
+    body.dark .job-card h2 {
+        color: #60a5fa !important;
+    }
+
+    body.dark .job-card h4 {
+        color: #94a3b8 !important;
+    }
+
+    body.dark .job-card p {
+        color: #cbd5e1 !important;
+    }
+
+    body.dark input, body.dark select {
+        background: #1e293b !important;
+        color: #e2e8f0 !important;
+        border-color: #475569 !important;
+    }
+
+    body.dark .search-container input {
+        background: #1e293b !important;
+        color: #e2e8f0 !important;
+        border-color: #475569 !important;
+    }
+
+    body.dark nav, body.dark header {
+        background: #1e293b !important;
+        border-color: #334155 !important;
+    }
+
+    body.dark div[style*="background: #f8fafc"] {
+        background: #1e293b !important;
+        border-color: #334155 !important;
+    }
+
+    body.dark div[style*="background: white"] {
+        background: #1e293b !important;
+    }
+
+    body.dark .form-container {
+    background: #1e293b !important;
+    color: #e2e8f0 !important;
+    border-color: #334155 !important;
+    }
+
+    body.dark .form-container h2 {
+    color: #60a5fa !important;
+    }
+
+    body.dark .form-container label {
+    color: #cbd5e1 !important;
+    }
+
+    body.dark .form-container .btn-primary {
+    background: #2563eb !important;
+    }
+
+    body.dark div[style*="color: #94a3b8"] {
+    color: #64748b !important;
+    }
+
+    body.dark .currency-rates span {
+    color: #e2e8f0 !important;
+    }
+
+    body.dark div[style*="color: #1e293b"] {
+    color: #e2e8f0 !important;
+    }
+
+    body.dark .rate-value {
+    color: #e2e8f0 !important;
+    }
+
+    body.dark .rate-value {
+    color: #e2e8f0 !important;
+    }
+
+    .rate-value {
+    color: #1e293b;
+    }
 </style>
 </head>
 <body>
     <header class="navbar">
-        <div class="container">
+    <div class="container" style="display: flex; justify-content: space-between; align-items: center;">
+
+        <div style="display: flex; align-items: center; gap: 15px;">
+            <button onclick="toggleDarkMode()" id="darkModeBtn"
+                    style="background: none; border: none; padding: 0; cursor: pointer; font-size: 1.2rem; line-height: 1;">
+                🌙
+            </button>
             <a href="{{ url_for('home') }}" class="logo">JobBoard</a>
-            <nav>
-                <ul class="nav-links">
-                    <li><a href="{{ url_for('home') }}">Jobs</a></li>
-                    <li><a href="{{ url_for('about') }}">About</a></li>
-                    {% if current_user.is_authenticated %}
-                        <li><a href="{{ url_for('post_job') }}">Add Job</a></li>
-                        <li><a href="/logout">Logout</a></li>
-                        <li><a href="{{ url_for('profile') }}">Profile</a></li>
-                    {% else %}
-                        <li><a href="{{ url_for('login') }}">Login</a></li>
-                        <li><a href="{{ url_for('register') }}">Register</a></li>
-                    {% endif %}
-                </ul>
-            </nav>
         </div>
-    </header>
+
+        <nav>
+            <ul class="nav-links">
+                <li><a href="{{ url_for('home') }}">Jobs</a></li>
+                <li><a href="{{ url_for('about') }}">About</a></li>
+                {% if current_user.is_authenticated %}
+                    <li><a href="{{ url_for('post_job') }}">Add Job</a></li>
+                    <li><a href="{{ url_for('profile') }}">Profile</a></li>
+                    <li><a href="/logout">Logout</a></li>
+                {% else %}
+                    <li><a href="{{ url_for('login') }}">Login</a></li>
+                    <li><a href="{{ url_for('register') }}">Register</a></li>
+                {% endif %}
+            </ul>
+        </nav>
+    </div>
+</header>
 
     <main class="container">
         {% with messages = get_flashed_messages(with_categories=true) %}
@@ -99,5 +196,20 @@
     </footer>
 
     <script src="{{ url_for('static', filename='js/main.js') }}"></script>
+
+<script>
+    // Apply saved preference on page load
+    if (localStorage.getItem('darkMode') === 'true') {
+        document.body.classList.add('dark');
+        document.getElementById('darkModeBtn').innerText = '☀️';
+    }
+
+    function toggleDarkMode() {
+        document.body.classList.toggle('dark');
+        const isDark = document.body.classList.contains('dark');
+        localStorage.setItem('darkMode', isDark);
+        document.getElementById('darkModeBtn').innerText = isDark ? '☀️' : '🌙';
+    }
+</script>
 </body>
 </html>
